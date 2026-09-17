@@ -13,12 +13,10 @@
     "format": "oxfmt",
     "docs": "typedoc",
     "docs:check": "typedoc && git diff --exit-code --stat -- docs",
-    "prepublishOnly": "bun run build",
-    "prepack": "bun scripts/prepublish.ts",
-    "postpack": "bun scripts/prepublish.ts restore"
+    "prepublishOnly": "bun run build"
   },
   "dependencies": {
-    "@dipakparmar/zoho-billing": "workspace:*"
+    "@dipakparmar/zoho-billing": "^0.1.0"
   },
   "peerDependencies": {
     "react": ">=18",
@@ -92,7 +90,6 @@
   "sideEffects": false,
   "files": [
     "dist",
-    "src",
     "README.md",
     "LICENSE"
   ],

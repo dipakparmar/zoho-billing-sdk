@@ -11,6 +11,12 @@
       }
     ],
     [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "bun scripts/sync-internal-deps.ts ${nextRelease.version}"
+      }
+    ],
+    [
       "@semantic-release/npm",
       {
         "pkgRoot": "packages/zoho-billing"

@@ -4,7 +4,7 @@
 
 ### ZohoBillingInputError
 
-Defined in: packages/zoho-billing/src/security.ts:38
+Defined in: [packages/zoho-billing/src/security.ts:38](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L38)
 
 Raised when client input is rejected at the trust boundary.
 
@@ -24,7 +24,7 @@ have to pattern-match on messages.
 new ZohoBillingInputError(message, httpStatus?): ZohoBillingInputError;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:41
+Defined in: [packages/zoho-billing/src/security.ts:41](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L41)
 
 ###### Parameters
 
@@ -49,7 +49,7 @@ Defined in: packages/zoho-billing/src/security.ts:41
 readonly optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:25
+Defined in: [packages/zoho-billing/src/errors.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L25)
 
 ###### Inherited from
 
@@ -75,7 +75,7 @@ The cause of the error.
 readonly optional code?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:23
+Defined in: [packages/zoho-billing/src/errors.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L23)
 
 ###### Inherited from
 
@@ -87,7 +87,7 @@ Defined in: packages/zoho-billing/src/errors.ts:23
 readonly httpStatus: number;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:39
+Defined in: [packages/zoho-billing/src/security.ts:39](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L39)
 
 ##### message
 
@@ -119,7 +119,7 @@ Defined in: node\_modules/.bun/typescript@5.9.3/node\_modules/typescript/lib/lib
 readonly optional request?: string;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:26
+Defined in: [packages/zoho-billing/src/errors.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L26)
 
 ###### Inherited from
 
@@ -165,7 +165,7 @@ not capture any frames.
 readonly optional status?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:24
+Defined in: [packages/zoho-billing/src/errors.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L24)
 
 ###### Inherited from
 
@@ -324,7 +324,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 ### CatalogAllowlist
 
-Defined in: packages/zoho-billing/src/security.ts:144
+Defined in: [packages/zoho-billing/src/security.ts:144](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L144)
 
 #### Extended by
 
@@ -338,7 +338,7 @@ Defined in: packages/zoho-billing/src/security.ts:144
 optional allowedAddonCodes?: string[];
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:148
+Defined in: [packages/zoho-billing/src/security.ts:148](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L148)
 
 Addon codes a caller may select. Omit to allow all addons.
 
@@ -348,7 +348,7 @@ Addon codes a caller may select. Omit to allow all addons.
 optional allowedPlanCodes?: string[];
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:146
+Defined in: [packages/zoho-billing/src/security.ts:146](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L146)
 
 Plan codes a caller may select. Omit to allow the whole catalogue.
 
@@ -356,7 +356,7 @@ Plan codes a caller may select. Omit to allow the whole catalogue.
 
 ### RedirectUrlOptions
 
-Defined in: packages/zoho-billing/src/security.ts:221
+Defined in: [packages/zoho-billing/src/security.ts:221](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L221)
 
 #### Properties
 
@@ -366,7 +366,7 @@ Defined in: packages/zoho-billing/src/security.ts:221
 optional allowedOrigins?: string[];
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:226
+Defined in: [packages/zoho-billing/src/security.ts:226](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L226)
 
 Origins a redirect may point at. When omitted, only the origin the request
 itself arrived on is accepted.
@@ -377,7 +377,7 @@ itself arrived on is accepted.
 requestOrigin: string;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:228
+Defined in: [packages/zoho-billing/src/security.ts:228](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L228)
 
 Origin of the incoming request, used as the default allowlist.
 
@@ -385,7 +385,7 @@ Origin of the incoming request, used as the default allowlist.
 
 ### SafeAddonInput
 
-Defined in: packages/zoho-billing/src/security.ts:62
+Defined in: [packages/zoho-billing/src/security.ts:62](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L62)
 
 #### Properties
 
@@ -395,7 +395,7 @@ Defined in: packages/zoho-billing/src/security.ts:62
 addon_code: string;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:63
+Defined in: [packages/zoho-billing/src/security.ts:63](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L63)
 
 ##### quantity?
 
@@ -403,13 +403,13 @@ Defined in: packages/zoho-billing/src/security.ts:63
 optional quantity?: number;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:64
+Defined in: [packages/zoho-billing/src/security.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L64)
 
 ***
 
 ### SafePlanInput
 
-Defined in: packages/zoho-billing/src/security.ts:57
+Defined in: [packages/zoho-billing/src/security.ts:57](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L57)
 
 #### Properties
 
@@ -419,7 +419,7 @@ Defined in: packages/zoho-billing/src/security.ts:57
 plan_code: string;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:58
+Defined in: [packages/zoho-billing/src/security.ts:58](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L58)
 
 ##### quantity?
 
@@ -427,13 +427,13 @@ Defined in: packages/zoho-billing/src/security.ts:58
 optional quantity?: number;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:59
+Defined in: [packages/zoho-billing/src/security.ts:59](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L59)
 
 ***
 
 ### SafeSubscriptionUpdate
 
-Defined in: packages/zoho-billing/src/security.ts:182
+Defined in: [packages/zoho-billing/src/security.ts:182](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L182)
 
 Fields of an update a caller is trusted to set.
 
@@ -455,7 +455,7 @@ constructing these objects field by field, never from the type.
 optional addons?: SafeAddonInput[];
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:184
+Defined in: [packages/zoho-billing/src/security.ts:184](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L184)
 
 ##### coupon\_code?
 
@@ -463,7 +463,7 @@ Defined in: packages/zoho-billing/src/security.ts:184
 optional coupon_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:185
+Defined in: [packages/zoho-billing/src/security.ts:185](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L185)
 
 ##### end\_of\_term?
 
@@ -471,7 +471,7 @@ Defined in: packages/zoho-billing/src/security.ts:185
 optional end_of_term?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:186
+Defined in: [packages/zoho-billing/src/security.ts:186](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L186)
 
 ##### plan?
 
@@ -479,7 +479,7 @@ Defined in: packages/zoho-billing/src/security.ts:186
 optional plan?: SafePlanInput;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:183
+Defined in: [packages/zoho-billing/src/security.ts:183](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L183)
 
 ## Variables
 
@@ -489,7 +489,7 @@ Defined in: packages/zoho-billing/src/security.ts:183
 const MAX_QUANTITY: 1000 = 1000;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:52
+Defined in: [packages/zoho-billing/src/security.ts:52](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L52)
 
 Upper bound on `quantity`. Zoho accepts enormous integers, which lets a
 caller raise an absurd invoice or push a large payload through your account.
@@ -502,7 +502,7 @@ caller raise an absurd invoice or push a large payload through your account.
 function assertCatalogAllowed(__namedParameters, allowlist): void;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:158
+Defined in: [packages/zoho-billing/src/security.ts:158](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L158)
 
 Enforce catalogue allowlists.
 
@@ -531,7 +531,7 @@ self-serve.
 function isOwnedByCustomer(subscription, customerId): boolean;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:289
+Defined in: [packages/zoho-billing/src/security.ts:289](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L289)
 
 Confirm a subscription belongs to a customer.
 
@@ -563,7 +563,7 @@ required to be a non-empty string.
 function resolveRedirectUrl(candidate, __namedParameters): string | undefined;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:243
+Defined in: [packages/zoho-billing/src/security.ts:243](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L243)
 
 Validate a post-checkout redirect target.
 
@@ -595,7 +595,7 @@ redirect was requested.
 function sanitizeAddonsInput(input): SafeAddonInput[];
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:116
+Defined in: [packages/zoho-billing/src/security.ts:116](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L116)
 
 Same treatment for addons, which carry their own `price` override.
 
@@ -617,7 +617,7 @@ Same treatment for addons, which carry their own `price` override.
 function sanitizeCouponCode(input): string | undefined;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:139
+Defined in: [packages/zoho-billing/src/security.ts:139](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L139)
 
 Coupon codes are validated by Zoho; we only bound the shape.
 
@@ -639,7 +639,7 @@ Coupon codes are validated by Zoho; we only bound the shape.
 function sanitizePlanInput(input): SafePlanInput;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:102
+Defined in: [packages/zoho-billing/src/security.ts:102](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L102)
 
 Reduce a client-supplied plan object to `plan_code` plus an optional
 `quantity`.
@@ -666,7 +666,7 @@ is exactly what we want.
 function sanitizeSubscriptionUpdate(input): SafeSubscriptionUpdate;
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:197
+Defined in: [packages/zoho-billing/src/security.ts:197](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L197)
 
 Reduce a client-supplied subscription update to the safe subset.
 

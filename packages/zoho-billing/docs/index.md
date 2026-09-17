@@ -4,7 +4,7 @@
 
 ### Addons
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:161
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:161](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L161)
 
 #### Extends
 
@@ -18,7 +18,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:161
 new Addons(client): Addons;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -44,7 +44,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -60,7 +60,7 @@ ZohoResource.client
 create(params): Promise<ZohoAddon>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:162
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:162](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L162)
 
 ###### Parameters
 
@@ -78,7 +78,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:162
 delete(addonCode): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:191
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:191](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L191)
 
 ###### Parameters
 
@@ -96,7 +96,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:191
 list(params?): Promise<ZohoAddon[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:197
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:197](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L197)
 
 ###### Parameters
 
@@ -114,7 +114,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:197
 listAll(params?): Promise<ZohoAddon[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:205
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:205](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L205)
 
 ###### Parameters
 
@@ -132,7 +132,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:205
 markAsActive(addonCode): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:211
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:211](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L211)
 
 ###### Parameters
 
@@ -150,7 +150,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:211
 markAsInactive(addonCode): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:218
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:218](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L218)
 
 ###### Parameters
 
@@ -168,7 +168,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:218
 retrieve(addonCode): Promise<ZohoAddon>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:173
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:173](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L173)
 
 ###### Parameters
 
@@ -186,7 +186,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:173
 update(addonCode, params): Promise<ZohoAddon>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:180
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:180](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L180)
 
 ###### Parameters
 
@@ -203,7 +203,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:180
 
 ### Coupons
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:226
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:226](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L226)
 
 #### Extends
 
@@ -217,7 +217,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:226
 new Coupons(client): Coupons;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -243,7 +243,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -259,7 +259,7 @@ ZohoResource.client
 create(params): Promise<ZohoCoupon>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:227
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:227](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L227)
 
 ###### Parameters
 
@@ -277,7 +277,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:227
 delete(couponCode): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:253
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:253](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L253)
 
 ###### Parameters
 
@@ -295,7 +295,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:253
 list(params?): Promise<ZohoCoupon[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:259
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:259](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L259)
 
 ###### Parameters
 
@@ -313,7 +313,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:259
 listAll(params?): Promise<ZohoCoupon[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:267
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:267](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L267)
 
 ###### Parameters
 
@@ -331,7 +331,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:267
 markAsActive(couponCode): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:273
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:273](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L273)
 
 ###### Parameters
 
@@ -349,7 +349,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:273
 markAsInactive(couponCode): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:280
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:280](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L280)
 
 ###### Parameters
 
@@ -367,7 +367,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:280
 retrieve(couponCode): Promise<ZohoCoupon>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:235
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:235](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L235)
 
 ###### Parameters
 
@@ -385,7 +385,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:235
 update(couponCode, params): Promise<ZohoCoupon>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:242
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:242](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L242)
 
 ###### Parameters
 
@@ -402,7 +402,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:242
 
 ### CreditNotes
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:208
+Defined in: [packages/zoho-billing/src/resources/billing.ts:208](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L208)
 
 #### Extends
 
@@ -416,7 +416,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:208
 new CreditNotes(client): CreditNotes;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -442,7 +442,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -458,7 +458,7 @@ ZohoResource.client
 applyToInvoices(creditNoteId, params): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:256
+Defined in: [packages/zoho-billing/src/resources/billing.ts:256](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L256)
 
 Offset open invoices with this credit note's balance.
 
@@ -479,7 +479,7 @@ Offset open invoices with this credit note's balance.
 convertToOpen(creditNoteId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:238
+Defined in: [packages/zoho-billing/src/resources/billing.ts:238](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L238)
 
 ###### Parameters
 
@@ -497,7 +497,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:238
 create(params): Promise<ZohoCreditNote>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:209
+Defined in: [packages/zoho-billing/src/resources/billing.ts:209](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L209)
 
 ###### Parameters
 
@@ -515,7 +515,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:209
 delete(creditNoteId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:224
+Defined in: [packages/zoho-billing/src/resources/billing.ts:224](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L224)
 
 ###### Parameters
 
@@ -533,7 +533,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:224
 email(creditNoteId, params?): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:245
+Defined in: [packages/zoho-billing/src/resources/billing.ts:245](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L245)
 
 ###### Parameters
 
@@ -552,7 +552,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:245
 refund(creditNoteId, params): Promise<ZohoRefund>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:267
+Defined in: [packages/zoho-billing/src/resources/billing.ts:267](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L267)
 
 Refund a credit note's balance back to the customer.
 
@@ -573,7 +573,7 @@ Refund a credit note's balance back to the customer.
 retrieve(creditNoteId): Promise<ZohoCreditNote>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:217
+Defined in: [packages/zoho-billing/src/resources/billing.ts:217](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L217)
 
 ###### Parameters
 
@@ -591,7 +591,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:217
 void(creditNoteId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:231
+Defined in: [packages/zoho-billing/src/resources/billing.ts:231](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L231)
 
 ###### Parameters
 
@@ -607,7 +607,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:231
 
 ### Customers
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:15
+Defined in: [packages/zoho-billing/src/resources/customers.ts:15](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L15)
 
 #### Extends
 
@@ -621,7 +621,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:15
 new Customers(client): Customers;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -647,7 +647,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -663,7 +663,7 @@ ZohoResource.client
 create(params): Promise<ZohoCustomer>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:16
+Defined in: [packages/zoho-billing/src/resources/customers.ts:16](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L16)
 
 ###### Parameters
 
@@ -681,7 +681,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:16
 createContactPerson(customerId, params): Promise<ZohoContactPerson>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:132
+Defined in: [packages/zoho-billing/src/resources/customers.ts:132](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L132)
 
 ###### Parameters
 
@@ -700,7 +700,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:132
 delete(customerId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:55
+Defined in: [packages/zoho-billing/src/resources/customers.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L55)
 
 ###### Parameters
 
@@ -718,7 +718,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:55
 deleteCard(customerId, cardId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:118
+Defined in: [packages/zoho-billing/src/resources/customers.ts:118](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L118)
 
 ###### Parameters
 
@@ -737,7 +737,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:118
 deleteContactPerson(customerId, contactPersonId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:159
+Defined in: [packages/zoho-billing/src/resources/customers.ts:159](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L159)
 
 ###### Parameters
 
@@ -756,7 +756,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:159
 getByReference(referenceId): Promise<ZohoCustomer>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:37
+Defined in: [packages/zoho-billing/src/resources/customers.ts:37](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L37)
 
 Look up a customer by the `reference_id` you assigned.
 
@@ -779,7 +779,7 @@ Zoho's own IDs on your side.
 iterate(params?): AsyncGenerator<ZohoCustomer, void, undefined>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:74
+Defined in: [packages/zoho-billing/src/resources/customers.ts:74](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L74)
 
 ###### Parameters
 
@@ -797,7 +797,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:74
 list(params?): Promise<ZohoCustomer[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:61
+Defined in: [packages/zoho-billing/src/resources/customers.ts:61](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L61)
 
 ###### Parameters
 
@@ -815,7 +815,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:61
 listAll(params?): Promise<ZohoCustomer[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:68
+Defined in: [packages/zoho-billing/src/resources/customers.ts:68](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L68)
 
 ###### Parameters
 
@@ -833,7 +833,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:68
 listCards(customerId): Promise<ZohoCard[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:104
+Defined in: [packages/zoho-billing/src/resources/customers.ts:104](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L104)
 
 ###### Parameters
 
@@ -851,7 +851,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:104
 listContactPersons(customerId): Promise<ZohoContactPerson[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:125
+Defined in: [packages/zoho-billing/src/resources/customers.ts:125](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L125)
 
 ###### Parameters
 
@@ -869,7 +869,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:125
 listTransactions(customerId): Promise<ZohoTransaction[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:97
+Defined in: [packages/zoho-billing/src/resources/customers.ts:97](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L97)
 
 Invoices, payments, and credits for a customer, newest first.
 
@@ -889,7 +889,7 @@ Invoices, payments, and credits for a customer, newest first.
 markAsActive(customerId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:82
+Defined in: [packages/zoho-billing/src/resources/customers.ts:82](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L82)
 
 ###### Parameters
 
@@ -907,7 +907,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:82
 markAsInactive(customerId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:89
+Defined in: [packages/zoho-billing/src/resources/customers.ts:89](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L89)
 
 ###### Parameters
 
@@ -925,7 +925,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:89
 retrieve(customerId): Promise<ZohoCustomer>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:24
+Defined in: [packages/zoho-billing/src/resources/customers.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L24)
 
 ###### Parameters
 
@@ -943,7 +943,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:24
 retrieveCard(customerId, cardId): Promise<ZohoCard>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:111
+Defined in: [packages/zoho-billing/src/resources/customers.ts:111](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L111)
 
 ###### Parameters
 
@@ -962,7 +962,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:111
 update(customerId, params): Promise<ZohoCustomer>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:44
+Defined in: [packages/zoho-billing/src/resources/customers.ts:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L44)
 
 ###### Parameters
 
@@ -985,7 +985,7 @@ updateContactPerson(
 ): Promise<ZohoContactPerson>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/customers.ts:145
+Defined in: [packages/zoho-billing/src/resources/customers.ts:145](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/customers.ts#L145)
 
 ###### Parameters
 
@@ -1003,7 +1003,7 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:145
 
 ### Events
 
-Defined in: packages/zoho-billing/src/resources/events.ts:11
+Defined in: [packages/zoho-billing/src/resources/events.ts:11](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/events.ts#L11)
 
 The events feed backing Zoho's webhooks.
 
@@ -1023,7 +1023,7 @@ not get a replay. Polling this feed on a schedule, keyed by the last
 new Events(client): Events;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -1049,7 +1049,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -1065,7 +1065,7 @@ ZohoResource.client
 iterate(params?): AsyncGenerator<ZohoEvent, void, undefined>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/events.ts:33
+Defined in: [packages/zoho-billing/src/resources/events.ts:33](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/events.ts#L33)
 
 ###### Parameters
 
@@ -1083,7 +1083,7 @@ Defined in: packages/zoho-billing/src/resources/events.ts:33
 list(params?): Promise<ZohoEvent[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/events.ts:19
+Defined in: [packages/zoho-billing/src/resources/events.ts:19](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/events.ts#L19)
 
 ###### Parameters
 
@@ -1101,7 +1101,7 @@ Defined in: packages/zoho-billing/src/resources/events.ts:19
 listAll(params?): Promise<ZohoEvent[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/events.ts:27
+Defined in: [packages/zoho-billing/src/resources/events.ts:27](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/events.ts#L27)
 
 ###### Parameters
 
@@ -1119,7 +1119,7 @@ Defined in: packages/zoho-billing/src/resources/events.ts:27
 retrieve(eventId): Promise<ZohoEvent>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/events.ts:12
+Defined in: [packages/zoho-billing/src/resources/events.ts:12](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/events.ts#L12)
 
 ###### Parameters
 
@@ -1135,7 +1135,7 @@ Defined in: packages/zoho-billing/src/resources/events.ts:12
 
 ### HostedPages
 
-Defined in: packages/zoho-billing/src/resources/hostedpages.ts:22
+Defined in: [packages/zoho-billing/src/resources/hostedpages.ts:22](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/hostedpages.ts#L22)
 
 Hosted pages: Zoho-hosted checkout flows, the closest analogue to Stripe
 Checkout.
@@ -1157,7 +1157,7 @@ customer can hit the return URL directly.
 new HostedPages(client): HostedPages;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -1183,7 +1183,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -1199,7 +1199,7 @@ ZohoResource.client
 createAddPaymentMethodPage(params): Promise<ZohoHostedPage>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/hostedpages.ts:65
+Defined in: [packages/zoho-billing/src/resources/hostedpages.ts:65](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/hostedpages.ts#L65)
 
 ###### Parameters
 
@@ -1217,7 +1217,7 @@ Defined in: packages/zoho-billing/src/resources/hostedpages.ts:65
 createBuyOneTimeAddonPage(params): Promise<ZohoHostedPage>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/hostedpages.ts:55
+Defined in: [packages/zoho-billing/src/resources/hostedpages.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/hostedpages.ts#L55)
 
 ###### Parameters
 
@@ -1235,7 +1235,7 @@ Defined in: packages/zoho-billing/src/resources/hostedpages.ts:55
 createInvoicePaymentPage(params): Promise<ZohoHostedPage>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/hostedpages.ts:85
+Defined in: [packages/zoho-billing/src/resources/hostedpages.ts:85](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/hostedpages.ts#L85)
 
 ###### Parameters
 
@@ -1253,7 +1253,7 @@ Defined in: packages/zoho-billing/src/resources/hostedpages.ts:85
 createSubscriptionPage(params): Promise<ZohoHostedPage>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/hostedpages.ts:24
+Defined in: [packages/zoho-billing/src/resources/hostedpages.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/hostedpages.ts#L24)
 
 New subscription, optionally creating the customer at the same time.
 
@@ -1273,7 +1273,7 @@ New subscription, optionally creating the customer at the same time.
 createUpdateCardPage(params): Promise<ZohoHostedPage>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/hostedpages.ts:45
+Defined in: [packages/zoho-billing/src/resources/hostedpages.ts:45](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/hostedpages.ts#L45)
 
 ###### Parameters
 
@@ -1291,7 +1291,7 @@ Defined in: packages/zoho-billing/src/resources/hostedpages.ts:45
 createUpdatePaymentMethodPage(params): Promise<ZohoHostedPage>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/hostedpages.ts:75
+Defined in: [packages/zoho-billing/src/resources/hostedpages.ts:75](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/hostedpages.ts#L75)
 
 ###### Parameters
 
@@ -1309,7 +1309,7 @@ Defined in: packages/zoho-billing/src/resources/hostedpages.ts:75
 createUpdateSubscriptionPage(params): Promise<ZohoHostedPage>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/hostedpages.ts:35
+Defined in: [packages/zoho-billing/src/resources/hostedpages.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/hostedpages.ts#L35)
 
 Upgrade/downgrade flow hosted by Zoho.
 
@@ -1329,7 +1329,7 @@ Upgrade/downgrade flow hosted by Zoho.
 list(params?): Promise<ZohoHostedPage[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/hostedpages.ts:106
+Defined in: [packages/zoho-billing/src/resources/hostedpages.ts:106](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/hostedpages.ts#L106)
 
 ###### Parameters
 
@@ -1347,7 +1347,7 @@ Defined in: packages/zoho-billing/src/resources/hostedpages.ts:106
 retrieve(hostedPageId): Promise<ZohoHostedPage>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/hostedpages.ts:99
+Defined in: [packages/zoho-billing/src/resources/hostedpages.ts:99](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/hostedpages.ts#L99)
 
 Fetch a hosted page's outcome. Call this when the customer returns, and
 treat anything other than `status === "success"` as not-yet-paid.
@@ -1366,7 +1366,7 @@ treat anything other than `status === "success"` as not-yet-paid.
 
 ### Invoices
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:20
+Defined in: [packages/zoho-billing/src/resources/billing.ts:20](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L20)
 
 #### Extends
 
@@ -1380,7 +1380,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:20
 new Invoices(client): Invoices;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -1406,7 +1406,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -1422,7 +1422,7 @@ ZohoResource.client
 addLineItems(invoiceId, params): Promise<ZohoInvoice>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:126
+Defined in: [packages/zoho-billing/src/resources/billing.ts:126](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L126)
 
 Add usage charges to a pending metered-billing invoice.
 
@@ -1443,7 +1443,7 @@ Add usage charges to a pending metered-billing invoice.
 applyCredits(invoiceId, params): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:115
+Defined in: [packages/zoho-billing/src/resources/billing.ts:115](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L115)
 
 Apply available customer credits against an invoice.
 
@@ -1464,7 +1464,7 @@ Apply available customer credits against an invoice.
 cancelWriteOff(invoiceId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:86
+Defined in: [packages/zoho-billing/src/resources/billing.ts:86](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L86)
 
 ###### Parameters
 
@@ -1484,7 +1484,7 @@ collect(invoiceId, params?): Promise<{
 }>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:94
+Defined in: [packages/zoho-billing/src/resources/billing.ts:94](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L94)
 
 Charge the customer's stored payment method for an outstanding invoice.
 
@@ -1507,7 +1507,7 @@ Charge the customer's stored payment method for an outstanding invoice.
 convertToOpen(invoiceId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:72
+Defined in: [packages/zoho-billing/src/resources/billing.ts:72](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L72)
 
 Reverse a void, returning the invoice to `open`.
 
@@ -1527,7 +1527,7 @@ Reverse a void, returning the invoice to `open`.
 delete(invoiceId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:50
+Defined in: [packages/zoho-billing/src/resources/billing.ts:50](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L50)
 
 ###### Parameters
 
@@ -1545,7 +1545,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:50
 deleteLineItem(invoiceId, itemId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:137
+Defined in: [packages/zoho-billing/src/resources/billing.ts:137](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L137)
 
 ###### Parameters
 
@@ -1564,7 +1564,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:137
 email(invoiceId, params?): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:104
+Defined in: [packages/zoho-billing/src/resources/billing.ts:104](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L104)
 
 ###### Parameters
 
@@ -1583,7 +1583,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:104
 iterate(params?): AsyncGenerator<ZohoInvoice, void, undefined>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:42
+Defined in: [packages/zoho-billing/src/resources/billing.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L42)
 
 ###### Parameters
 
@@ -1601,7 +1601,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:42
 list(params?): Promise<ZohoInvoice[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:28
+Defined in: [packages/zoho-billing/src/resources/billing.ts:28](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L28)
 
 ###### Parameters
 
@@ -1619,7 +1619,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:28
 listAll(params?): Promise<ZohoInvoice[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:36
+Defined in: [packages/zoho-billing/src/resources/billing.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L36)
 
 ###### Parameters
 
@@ -1637,7 +1637,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:36
 markAsSent(invoiceId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:57
+Defined in: [packages/zoho-billing/src/resources/billing.ts:57](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L57)
 
 Move a draft invoice to `sent` without emailing it.
 
@@ -1657,7 +1657,7 @@ Move a draft invoice to `sent` without emailing it.
 retrieve(invoiceId): Promise<ZohoInvoice>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:21
+Defined in: [packages/zoho-billing/src/resources/billing.ts:21](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L21)
 
 ###### Parameters
 
@@ -1675,7 +1675,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:21
 void(invoiceId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:64
+Defined in: [packages/zoho-billing/src/resources/billing.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L64)
 
 ###### Parameters
 
@@ -1693,7 +1693,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:64
 writeOff(invoiceId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:79
+Defined in: [packages/zoho-billing/src/resources/billing.ts:79](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L79)
 
 ###### Parameters
 
@@ -1709,7 +1709,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:79
 
 ### MemoryTokenStore
 
-Defined in: packages/zoho-billing/src/auth.ts:31
+Defined in: [packages/zoho-billing/src/auth.ts:31](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L31)
 
 Persistence for access tokens. The default is per-process memory, which is
 fine for a long-lived server but wasteful on serverless, where every cold
@@ -1739,7 +1739,7 @@ new MemoryTokenStore(): MemoryTokenStore;
 delete(key): void;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:42
+Defined in: [packages/zoho-billing/src/auth.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L42)
 
 ###### Parameters
 
@@ -1761,7 +1761,7 @@ Defined in: packages/zoho-billing/src/auth.ts:42
 get(key): ZohoAccessToken | null;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:34
+Defined in: [packages/zoho-billing/src/auth.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L34)
 
 ###### Parameters
 
@@ -1783,7 +1783,7 @@ Defined in: packages/zoho-billing/src/auth.ts:34
 set(key, token): void;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:38
+Defined in: [packages/zoho-billing/src/auth.ts:38](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L38)
 
 ###### Parameters
 
@@ -1804,7 +1804,7 @@ Defined in: packages/zoho-billing/src/auth.ts:38
 
 ### Organizations
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:22
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:22](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L22)
 
 Organizations are Zoho's tenant boundary. Every other call is scoped to one
 via the organization header, so this is the first endpoint to hit when
@@ -1822,7 +1822,7 @@ setting up: it tells you which `organizationId` to configure.
 new Organizations(client): Organizations;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -1848,7 +1848,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -1864,7 +1864,7 @@ ZohoResource.client
 list(): Promise<ZohoOrganization[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:23
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L23)
 
 ###### Returns
 
@@ -1876,7 +1876,7 @@ Defined in: packages/zoho-billing/src/resources/organizations.ts:23
 retrieve(organizationId): Promise<ZohoOrganization>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:30
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L30)
 
 ###### Parameters
 
@@ -1892,7 +1892,7 @@ Defined in: packages/zoho-billing/src/resources/organizations.ts:30
 
 ### Payments
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:148
+Defined in: [packages/zoho-billing/src/resources/billing.ts:148](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L148)
 
 #### Extends
 
@@ -1906,7 +1906,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:148
 new Payments(client): Payments;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -1932,7 +1932,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -1948,7 +1948,7 @@ ZohoResource.client
 create(params): Promise<ZohoPayment>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:150
+Defined in: [packages/zoho-billing/src/resources/billing.ts:150](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L150)
 
 Record an offline payment (cash, cheque, bank transfer).
 
@@ -1968,7 +1968,7 @@ Record an offline payment (cash, cheque, bank transfer).
 delete(paymentId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:176
+Defined in: [packages/zoho-billing/src/resources/billing.ts:176](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L176)
 
 ###### Parameters
 
@@ -1986,7 +1986,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:176
 list(params?): Promise<ZohoPayment[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:182
+Defined in: [packages/zoho-billing/src/resources/billing.ts:182](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L182)
 
 ###### Parameters
 
@@ -2004,7 +2004,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:182
 listAll(params?): Promise<ZohoPayment[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:190
+Defined in: [packages/zoho-billing/src/resources/billing.ts:190](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L190)
 
 ###### Parameters
 
@@ -2022,7 +2022,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:190
 refund(paymentId, params): Promise<ZohoRefund>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:196
+Defined in: [packages/zoho-billing/src/resources/billing.ts:196](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L196)
 
 ###### Parameters
 
@@ -2041,7 +2041,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:196
 retrieve(paymentId): Promise<ZohoPayment>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:158
+Defined in: [packages/zoho-billing/src/resources/billing.ts:158](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L158)
 
 ###### Parameters
 
@@ -2059,7 +2059,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:158
 update(paymentId, params): Promise<ZohoPayment>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:165
+Defined in: [packages/zoho-billing/src/resources/billing.ts:165](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L165)
 
 ###### Parameters
 
@@ -2076,7 +2076,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:165
 
 ### Plans
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:84
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:84](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L84)
 
 #### Extends
 
@@ -2090,7 +2090,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:84
 new Plans(client): Plans;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -2116,7 +2116,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -2132,7 +2132,7 @@ ZohoResource.client
 create(params): Promise<ZohoPlan>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:85
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:85](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L85)
 
 ###### Parameters
 
@@ -2150,7 +2150,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:85
 delete(planCode): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:108
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:108](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L108)
 
 ###### Parameters
 
@@ -2168,7 +2168,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:108
 iterate(params?): AsyncGenerator<ZohoPlan, void, undefined>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:126
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:126](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L126)
 
 ###### Parameters
 
@@ -2186,7 +2186,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:126
 list(params?): Promise<ZohoPlan[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:114
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:114](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L114)
 
 ###### Parameters
 
@@ -2204,7 +2204,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:114
 listAll(params?): Promise<ZohoPlan[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:122
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:122](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L122)
 
 ###### Parameters
 
@@ -2222,7 +2222,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:122
 markAsActive(planCode): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:132
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:132](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L132)
 
 ###### Parameters
 
@@ -2240,7 +2240,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:132
 markAsFree(planCode): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:146
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:146](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L146)
 
 ###### Parameters
 
@@ -2258,7 +2258,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:146
 markAsInactive(planCode): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:139
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:139](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L139)
 
 ###### Parameters
 
@@ -2276,7 +2276,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:139
 markAsNonFree(planCode): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:153
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:153](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L153)
 
 ###### Parameters
 
@@ -2294,7 +2294,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:153
 retrieve(planCode): Promise<ZohoPlan>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:93
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:93](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L93)
 
 ###### Parameters
 
@@ -2312,7 +2312,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:93
 update(planCode, params): Promise<ZohoPlan>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:100
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:100](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L100)
 
 ###### Parameters
 
@@ -2329,7 +2329,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:100
 
 ### Pricebooks
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:288
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:288](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L288)
 
 #### Extends
 
@@ -2343,7 +2343,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:288
 new Pricebooks(client): Pricebooks;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -2369,7 +2369,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -2385,7 +2385,7 @@ ZohoResource.client
 create(params): Promise<ZohoPricebook>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:303
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:303](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L303)
 
 ###### Parameters
 
@@ -2403,7 +2403,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:303
 delete(pricebookId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:311
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:311](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L311)
 
 ###### Parameters
 
@@ -2421,7 +2421,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:311
 list(params?): Promise<ZohoPricebook[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:289
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:289](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L289)
 
 ###### Parameters
 
@@ -2439,7 +2439,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:289
 retrieve(pricebookId): Promise<ZohoPricebook>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:296
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:296](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L296)
 
 ###### Parameters
 
@@ -2455,7 +2455,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:296
 
 ### Products
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:22
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:22](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L22)
 
 #### Extends
 
@@ -2469,7 +2469,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:22
 new Products(client): Products;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -2495,7 +2495,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -2511,7 +2511,7 @@ ZohoResource.client
 create(params): Promise<ZohoProduct>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:23
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L23)
 
 ###### Parameters
 
@@ -2529,7 +2529,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:23
 delete(productId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:49
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:49](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L49)
 
 ###### Parameters
 
@@ -2547,7 +2547,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:49
 list(params?): Promise<ZohoProduct[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:55
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L55)
 
 ###### Parameters
 
@@ -2565,7 +2565,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:55
 listAll(params?): Promise<ZohoProduct[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:63
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:63](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L63)
 
 ###### Parameters
 
@@ -2583,7 +2583,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:63
 markAsActive(productId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:69
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:69](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L69)
 
 ###### Parameters
 
@@ -2601,7 +2601,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:69
 markAsInactive(productId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:76
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:76](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L76)
 
 ###### Parameters
 
@@ -2619,7 +2619,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:76
 retrieve(productId): Promise<ZohoProduct>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:31
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:31](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L31)
 
 ###### Parameters
 
@@ -2637,7 +2637,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:31
 update(productId, params): Promise<ZohoProduct>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/catalog.ts:38
+Defined in: [packages/zoho-billing/src/resources/catalog.ts:38](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/catalog.ts#L38)
 
 ###### Parameters
 
@@ -2654,7 +2654,7 @@ Defined in: packages/zoho-billing/src/resources/catalog.ts:38
 
 ### Refunds
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:281
+Defined in: [packages/zoho-billing/src/resources/billing.ts:281](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L281)
 
 #### Extends
 
@@ -2668,7 +2668,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:281
 new Refunds(client): Refunds;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -2694,7 +2694,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -2710,7 +2710,7 @@ ZohoResource.client
 retrieve(refundId): Promise<ZohoRefund>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/billing.ts:282
+Defined in: [packages/zoho-billing/src/resources/billing.ts:282](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/billing.ts#L282)
 
 ###### Parameters
 
@@ -2726,7 +2726,7 @@ Defined in: packages/zoho-billing/src/resources/billing.ts:282
 
 ### Subscriptions
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:34
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L34)
 
 The subscription lifecycle: the core of the Zoho Billing API.
 
@@ -2742,7 +2742,7 @@ The subscription lifecycle: the core of the Zoho Billing API.
 new Subscriptions(client): Subscriptions;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:7
+Defined in: [packages/zoho-billing/src/resources/base.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L7)
 
 ###### Parameters
 
@@ -2768,7 +2768,7 @@ ZohoResource.constructor
 protected readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/resources/base.ts:5
+Defined in: [packages/zoho-billing/src/resources/base.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/base.ts#L5)
 
 ###### Inherited from
 
@@ -2786,7 +2786,7 @@ addCharge(subscriptionId, params): Promise<{
 }>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:201
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:201](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L201)
 
 Add an ad-hoc charge, raising an invoice immediately.
 
@@ -2809,7 +2809,7 @@ Add an ad-hoc charge, raising an invoice immediately.
 addContactPersons(subscriptionId, contactPersonIds): Promise<ZohoContactPerson[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:326
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:326](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L326)
 
 ###### Parameters
 
@@ -2828,7 +2828,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:326
 addNote(subscriptionId, description): Promise<ZohoNote | undefined>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:367
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:367](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L367)
 
 ###### Parameters
 
@@ -2847,7 +2847,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:367
 applyCoupon(subscriptionId, couponCode): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:211
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:211](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L211)
 
 ###### Parameters
 
@@ -2869,7 +2869,7 @@ buyOneTimeAddon(subscriptionId, params): Promise<{
 }>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:187
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:187](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L187)
 
 Charge for a one-time addon outside the normal renewal cycle.
 
@@ -2893,7 +2893,7 @@ Charge for a one-time addon outside the normal renewal cycle.
 cancel(subscriptionId, params?): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:119
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:119](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L119)
 
 Cancel a subscription.
 
@@ -2918,7 +2918,7 @@ customer with the access they already paid for. Pass
 create(params): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:39
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:39](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L39)
 
 Create a subscription. Pass `customer_id` for an existing customer, or a
 `customer` object to create one in the same call.
@@ -2939,7 +2939,7 @@ Create a subscription. Pass `customer_id` for an existing customer, or a
 delete(subscriptionId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:73
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:73](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L73)
 
 Permanently delete a subscription and its history. Rarely what you want.
 
@@ -2959,7 +2959,7 @@ Permanently delete a subscription and its history. Rarely what you want.
 deleteNote(subscriptionId, noteId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:378
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:378](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L378)
 
 ###### Parameters
 
@@ -2978,7 +2978,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:378
 deleteScheduledChanges(subscriptionId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:274
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:274](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L274)
 
 ###### Parameters
 
@@ -2996,7 +2996,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:274
 disableMeteredBilling(subscriptionId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:399
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:399](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L399)
 
 ###### Parameters
 
@@ -3014,7 +3014,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:399
 enableMeteredBilling(subscriptionId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:392
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:392](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L392)
 
 Hold renewal invoices in `pending` until usage line items are added.
 Required for usage-based billing.
@@ -3035,7 +3035,7 @@ Required for usage-based billing.
 extend(subscriptionId, params): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:175
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:175](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L175)
 
 Lengthen the current term, e.g. to hand out goodwill time.
 
@@ -3056,7 +3056,7 @@ Lengthen the current term, e.g. to hand out goodwill time.
 getCustomFields(subscriptionId): Promise<ZohoCustomField[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:343
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:343](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L343)
 
 ###### Parameters
 
@@ -3074,7 +3074,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:343
 iterate(params?): AsyncGenerator<ZohoSubscription, void, undefined>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:102
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:102](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L102)
 
 Stream subscriptions page by page without buffering them all.
 
@@ -3097,7 +3097,7 @@ list(params?): Promise<{
 }>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:81
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:81](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L81)
 
 One page of subscriptions. Use `listAll`/`iterate` to walk every page.
 
@@ -3120,7 +3120,7 @@ One page of subscriptions. Use `listAll`/`iterate` to walk every page.
 listAll(params?): Promise<ZohoSubscription[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:93
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:93](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L93)
 
 Every subscription across all pages.
 
@@ -3140,7 +3140,7 @@ Every subscription across all pages.
 listNotes(subscriptionId): Promise<ZohoNote[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:360
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:360](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L360)
 
 ###### Parameters
 
@@ -3158,7 +3158,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:360
 listRecentActivities(subscriptionId): Promise<SubscriptionActivity[]>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:282
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:282](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L282)
 
 Audit trail for this subscription.
 
@@ -3178,7 +3178,7 @@ Audit trail for this subscription.
 listScheduledChanges(subscriptionId): Promise<ScheduledChange | undefined>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:265
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:265](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L265)
 
 Changes queued to apply at the next renewal.
 
@@ -3198,7 +3198,7 @@ Changes queued to apply at the next renewal.
 pause(subscriptionId, params?): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:140
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:140](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L140)
 
 Pause billing and access, optionally scheduling the pause and resume.
 
@@ -3219,7 +3219,7 @@ Pause billing and access, optionally scheduling the pause and resume.
 postpone(subscriptionId, params): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:163
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:163](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L163)
 
 Push the next renewal date out without changing anything else.
 
@@ -3240,7 +3240,7 @@ Push the next renewal date out without changing anything else.
 reactivate(subscriptionId): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:131
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:131](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L131)
 
 Bring a cancelled or expired subscription back to `live`.
 
@@ -3260,7 +3260,7 @@ Bring a cancelled or expired subscription back to `live`.
 removeCard(subscriptionId): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:242
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:242](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L242)
 
 ###### Parameters
 
@@ -3278,7 +3278,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:242
 removeCoupon(subscriptionId): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:222
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:222](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L222)
 
 ###### Parameters
 
@@ -3296,7 +3296,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:222
 resume(subscriptionId, params?): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:151
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:151](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L151)
 
 ###### Parameters
 
@@ -3315,7 +3315,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:151
 retrieve(subscriptionId): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:47
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:47](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L47)
 
 ###### Parameters
 
@@ -3333,7 +3333,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:47
 setAutoCollect(subscriptionId, autoCollect): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:253
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:253](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L253)
 
 Switch between online (auto-charge the card) and offline (invoice the
 customer) collection.
@@ -3355,7 +3355,7 @@ customer) collection.
 update(subscriptionId, params): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:61
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:61](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L61)
 
 Change the plan, addons, or coupon on a subscription.
 
@@ -3380,7 +3380,7 @@ set it explicitly when the timing matters.
 updateCard(subscriptionId, cardId): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:231
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:231](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L231)
 
 Point the subscription at a different stored card.
 
@@ -3401,7 +3401,7 @@ Point the subscription at a different stored card.
 updateCustomFields(subscriptionId, customFields): Promise<ZohoResponse>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:350
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:350](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L350)
 
 ###### Parameters
 
@@ -3424,7 +3424,7 @@ updateLineItemDescription(
 ): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:314
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:314](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L314)
 
 Override the invoice-facing description of a plan or addon line.
 
@@ -3446,7 +3446,7 @@ Override the invoice-facing description of a plan or addon line.
 updateReference(subscriptionId, referenceId): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:291
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:291](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L291)
 
 ###### Parameters
 
@@ -3465,7 +3465,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:291
 updateSalesperson(subscriptionId, salespersonName): Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:302
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:302](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L302)
 
 ###### Parameters
 
@@ -3482,7 +3482,7 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:302
 
 ### ZohoBilling
 
-Defined in: packages/zoho-billing/src/index.ts:40
+Defined in: [packages/zoho-billing/src/index.ts:40](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L40)
 
 Entry point. One instance per Zoho organization.
 
@@ -3494,7 +3494,7 @@ Entry point. One instance per Zoho organization.
 new ZohoBilling(options): ZohoBilling;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:59
+Defined in: [packages/zoho-billing/src/index.ts:59](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L59)
 
 ###### Parameters
 
@@ -3514,7 +3514,7 @@ Defined in: packages/zoho-billing/src/index.ts:59
 readonly addons: Addons;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:48
+Defined in: [packages/zoho-billing/src/index.ts:48](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L48)
 
 ##### client
 
@@ -3522,7 +3522,7 @@ Defined in: packages/zoho-billing/src/index.ts:48
 readonly client: ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:42
+Defined in: [packages/zoho-billing/src/index.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L42)
 
 Escape hatch for endpoints this SDK does not wrap yet.
 
@@ -3532,7 +3532,7 @@ Escape hatch for endpoints this SDK does not wrap yet.
 readonly coupons: Coupons;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:49
+Defined in: [packages/zoho-billing/src/index.ts:49](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L49)
 
 ##### creditNotes
 
@@ -3540,7 +3540,7 @@ Defined in: packages/zoho-billing/src/index.ts:49
 readonly creditNotes: CreditNotes;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:53
+Defined in: [packages/zoho-billing/src/index.ts:53](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L53)
 
 ##### customers
 
@@ -3548,7 +3548,7 @@ Defined in: packages/zoho-billing/src/index.ts:53
 readonly customers: Customers;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:45
+Defined in: [packages/zoho-billing/src/index.ts:45](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L45)
 
 ##### events
 
@@ -3556,7 +3556,7 @@ Defined in: packages/zoho-billing/src/index.ts:45
 readonly events: Events;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:56
+Defined in: [packages/zoho-billing/src/index.ts:56](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L56)
 
 ##### hostedPages
 
@@ -3564,7 +3564,7 @@ Defined in: packages/zoho-billing/src/index.ts:56
 readonly hostedPages: HostedPages;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:55
+Defined in: [packages/zoho-billing/src/index.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L55)
 
 ##### invoices
 
@@ -3572,7 +3572,7 @@ Defined in: packages/zoho-billing/src/index.ts:55
 readonly invoices: Invoices;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:51
+Defined in: [packages/zoho-billing/src/index.ts:51](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L51)
 
 ##### organizations
 
@@ -3580,7 +3580,7 @@ Defined in: packages/zoho-billing/src/index.ts:51
 readonly organizations: Organizations;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:57
+Defined in: [packages/zoho-billing/src/index.ts:57](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L57)
 
 ##### payments
 
@@ -3588,7 +3588,7 @@ Defined in: packages/zoho-billing/src/index.ts:57
 readonly payments: Payments;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:52
+Defined in: [packages/zoho-billing/src/index.ts:52](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L52)
 
 ##### plans
 
@@ -3596,7 +3596,7 @@ Defined in: packages/zoho-billing/src/index.ts:52
 readonly plans: Plans;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:47
+Defined in: [packages/zoho-billing/src/index.ts:47](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L47)
 
 ##### pricebooks
 
@@ -3604,7 +3604,7 @@ Defined in: packages/zoho-billing/src/index.ts:47
 readonly pricebooks: Pricebooks;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:50
+Defined in: [packages/zoho-billing/src/index.ts:50](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L50)
 
 ##### products
 
@@ -3612,7 +3612,7 @@ Defined in: packages/zoho-billing/src/index.ts:50
 readonly products: Products;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:46
+Defined in: [packages/zoho-billing/src/index.ts:46](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L46)
 
 ##### refunds
 
@@ -3620,7 +3620,7 @@ Defined in: packages/zoho-billing/src/index.ts:46
 readonly refunds: Refunds;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:54
+Defined in: [packages/zoho-billing/src/index.ts:54](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L54)
 
 ##### subscriptions
 
@@ -3628,13 +3628,13 @@ Defined in: packages/zoho-billing/src/index.ts:54
 readonly subscriptions: Subscriptions;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:44
+Defined in: [packages/zoho-billing/src/index.ts:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L44)
 
 ***
 
 ### ZohoBillingClient
 
-Defined in: packages/zoho-billing/src/client.ts:71
+Defined in: [packages/zoho-billing/src/client.ts:71](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L71)
 
 #### Constructors
 
@@ -3644,7 +3644,7 @@ Defined in: packages/zoho-billing/src/client.ts:71
 new ZohoBillingClient(options): ZohoBillingClient;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:80
+Defined in: [packages/zoho-billing/src/client.ts:80](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L80)
 
 ###### Parameters
 
@@ -3666,7 +3666,7 @@ Defined in: packages/zoho-billing/src/client.ts:80
 get organizationId(): string;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:108
+Defined in: [packages/zoho-billing/src/client.ts:108](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L108)
 
 ###### Returns
 
@@ -3684,7 +3684,7 @@ listAll<T>(
 ): Promise<T[]>;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:270
+Defined in: [packages/zoho-billing/src/client.ts:270](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L270)
 
 Collect every page of a list endpoint into a single array.
 
@@ -3716,7 +3716,7 @@ paginate<T>(
 ): AsyncGenerator<T, void, undefined>;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:242
+Defined in: [packages/zoho-billing/src/client.ts:242](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L242)
 
 Walk every page of a list endpoint, yielding items one at a time.
 
@@ -3749,7 +3749,7 @@ page, which is the only safe read without the flag.
 request<T>(path, options?): Promise<T>;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:119
+Defined in: [packages/zoho-billing/src/client.ts:119](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L119)
 
 Issue one API call and return the parsed body.
 
@@ -3778,7 +3778,7 @@ which covers tokens revoked or rotated out from under a warm cache.
 
 ### ZohoTokenManager
 
-Defined in: packages/zoho-billing/src/auth.ts:105
+Defined in: [packages/zoho-billing/src/auth.ts:105](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L105)
 
 #### Constructors
 
@@ -3788,7 +3788,7 @@ Defined in: packages/zoho-billing/src/auth.ts:105
 new ZohoTokenManager(options): ZohoTokenManager;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:115
+Defined in: [packages/zoho-billing/src/auth.ts:115](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L115)
 
 ###### Parameters
 
@@ -3810,7 +3810,7 @@ Defined in: packages/zoho-billing/src/auth.ts:115
 get canRefresh(): boolean;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:161
+Defined in: [packages/zoho-billing/src/auth.ts:161](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L161)
 
 True when this manager can mint a new token after a 401.
 
@@ -3826,7 +3826,7 @@ True when this manager can mint a new token after a 401.
 getAccessToken(): Promise<string>;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:131
+Defined in: [packages/zoho-billing/src/auth.ts:131](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L131)
 
 Return a usable access token, refreshing if the cached one is missing or
 within the leeway window of expiring.
@@ -3841,7 +3841,7 @@ within the leeway window of expiring.
 invalidate(): Promise<void>;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:156
+Defined in: [packages/zoho-billing/src/auth.ts:156](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L156)
 
 Drop the cached token so the next call refreshes. Used when Zoho rejects a
 token we believed was still valid (e.g. revoked server-side).
@@ -3854,7 +3854,7 @@ token we believed was still valid (e.g. revoked server-side).
 
 ### AddChargeParams
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:229
+Defined in: [packages/zoho-billing/src/types/subscription.ts:229](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L229)
 
 #### Indexable
 
@@ -3870,7 +3870,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:229
 optional account_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:232
+Defined in: [packages/zoho-billing/src/types/subscription.ts:232](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L232)
 
 ##### amount
 
@@ -3878,7 +3878,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:232
 amount: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:230
+Defined in: [packages/zoho-billing/src/types/subscription.ts:230](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L230)
 
 ##### description?
 
@@ -3886,7 +3886,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:230
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:231
+Defined in: [packages/zoho-billing/src/types/subscription.ts:231](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L231)
 
 ##### tax\_id?
 
@@ -3894,13 +3894,13 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:231
 optional tax_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:233
+Defined in: [packages/zoho-billing/src/types/subscription.ts:233](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L233)
 
 ***
 
 ### AddInvoiceLineItemsParams
 
-Defined in: packages/zoho-billing/src/types/billing.ts:134
+Defined in: [packages/zoho-billing/src/types/billing.ts:134](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L134)
 
 #### Indexable
 
@@ -3916,13 +3916,13 @@ Defined in: packages/zoho-billing/src/types/billing.ts:134
 line_items: ZohoLineItem[];
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:135
+Defined in: [packages/zoho-billing/src/types/billing.ts:135](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L135)
 
 ***
 
 ### BuyOneTimeAddonHostedPageParams
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:76
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:76](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L76)
 
 #### Extends
 
@@ -3944,7 +3944,7 @@ addons: ZohoSubscriptionAddon & {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:78
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:78](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L78)
 
 ##### redirect\_url?
 
@@ -3952,7 +3952,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:78
 optional redirect_url?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:42
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L42)
 
 Where Zoho sends the customer after success.
 
@@ -3968,13 +3968,13 @@ HostedPageRedirects.redirect_url
 subscription_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:77
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:77](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L77)
 
 ***
 
 ### BuyOneTimeAddonParams
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:223
+Defined in: [packages/zoho-billing/src/types/subscription.ts:223](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L223)
 
 #### Indexable
 
@@ -3992,7 +3992,7 @@ addons: ZohoSubscriptionAddon & {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:224
+Defined in: [packages/zoho-billing/src/types/subscription.ts:224](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L224)
 
 ##### exchange\_rate?
 
@@ -4000,13 +4000,13 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:224
 optional exchange_rate?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:225
+Defined in: [packages/zoho-billing/src/types/subscription.ts:225](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L225)
 
 ***
 
 ### CancelSubscriptionParams
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:215
+Defined in: [packages/zoho-billing/src/types/subscription.ts:215](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L215)
 
 #### Properties
 
@@ -4016,7 +4016,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:215
 optional cancel_at_end?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:220
+Defined in: [packages/zoho-billing/src/types/subscription.ts:220](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L220)
 
 `true` cancels at the end of the current term (the subscription becomes
 `non_renewing` and access continues); `false` cancels immediately.
@@ -4025,7 +4025,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:220
 
 ### CollectInvoicePaymentParams
 
-Defined in: packages/zoho-billing/src/types/billing.ts:115
+Defined in: [packages/zoho-billing/src/types/billing.ts:115](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L115)
 
 #### Indexable
 
@@ -4041,7 +4041,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:115
 optional account_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:118
+Defined in: [packages/zoho-billing/src/types/billing.ts:118](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L118)
 
 ##### bank\_account\_id?
 
@@ -4049,7 +4049,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:118
 optional bank_account_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:119
+Defined in: [packages/zoho-billing/src/types/billing.ts:119](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L119)
 
 ##### card\_id?
 
@@ -4057,7 +4057,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:119
 optional card_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:117
+Defined in: [packages/zoho-billing/src/types/billing.ts:117](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L117)
 
 Card to charge. Omit to use the customer's default.
 
@@ -4067,13 +4067,13 @@ Card to charge. Omit to use the customer's default.
 optional payment_gateway?: ZohoPaymentGateway;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:120
+Defined in: [packages/zoho-billing/src/types/billing.ts:120](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L120)
 
 ***
 
 ### CreateAddonParams
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:134
+Defined in: [packages/zoho-billing/src/types/catalog.ts:134](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L134)
 
 #### Indexable
 
@@ -4089,7 +4089,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:134
 addon_code: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:135
+Defined in: [packages/zoho-billing/src/types/catalog.ts:135](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L135)
 
 ##### applicable\_to\_all\_plans?
 
@@ -4097,7 +4097,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:135
 optional applicable_to_all_plans?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:145
+Defined in: [packages/zoho-billing/src/types/catalog.ts:145](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L145)
 
 When false, restrict availability with `plans`.
 
@@ -4107,7 +4107,7 @@ When false, restrict availability with `plans`.
 optional custom_fields?: ZohoCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:148
+Defined in: [packages/zoho-billing/src/types/catalog.ts:148](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L148)
 
 ##### description?
 
@@ -4115,7 +4115,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:148
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:142
+Defined in: [packages/zoho-billing/src/types/catalog.ts:142](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L142)
 
 ##### interval\_unit?
 
@@ -4123,7 +4123,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:142
 optional interval_unit?: ZohoIntervalUnit;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:141
+Defined in: [packages/zoho-billing/src/types/catalog.ts:141](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L141)
 
 ##### name
 
@@ -4131,7 +4131,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:141
 name: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:136
+Defined in: [packages/zoho-billing/src/types/catalog.ts:136](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L136)
 
 ##### plans?
 
@@ -4141,7 +4141,7 @@ optional plans?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:146
+Defined in: [packages/zoho-billing/src/types/catalog.ts:146](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L146)
 
 ###### plan\_code
 
@@ -4155,7 +4155,7 @@ plan_code: string;
 price_brackets: ZohoPriceBracket[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:139
+Defined in: [packages/zoho-billing/src/types/catalog.ts:139](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L139)
 
 ##### pricing\_scheme?
 
@@ -4163,7 +4163,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:139
 optional pricing_scheme?: ZohoPricingScheme;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:138
+Defined in: [packages/zoho-billing/src/types/catalog.ts:138](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L138)
 
 ##### product\_id?
 
@@ -4171,7 +4171,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:138
 optional product_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:143
+Defined in: [packages/zoho-billing/src/types/catalog.ts:143](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L143)
 
 ##### tax\_id?
 
@@ -4179,7 +4179,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:143
 optional tax_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:147
+Defined in: [packages/zoho-billing/src/types/catalog.ts:147](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L147)
 
 ##### type?
 
@@ -4187,7 +4187,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:147
 optional type?: ZohoAddonType;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:140
+Defined in: [packages/zoho-billing/src/types/catalog.ts:140](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L140)
 
 ##### unit\_name?
 
@@ -4195,13 +4195,13 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:140
 optional unit_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:137
+Defined in: [packages/zoho-billing/src/types/catalog.ts:137](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L137)
 
 ***
 
 ### CreateCouponParams
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:186
+Defined in: [packages/zoho-billing/src/types/catalog.ts:186](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L186)
 
 #### Indexable
 
@@ -4219,7 +4219,7 @@ optional addons?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:200
+Defined in: [packages/zoho-billing/src/types/catalog.ts:200](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L200)
 
 ###### addon\_code
 
@@ -4233,7 +4233,7 @@ addon_code: string;
 optional apply_to_addons?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:199
+Defined in: [packages/zoho-billing/src/types/catalog.ts:199](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L199)
 
 ##### apply\_to\_plans?
 
@@ -4241,7 +4241,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:199
 optional apply_to_plans?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:197
+Defined in: [packages/zoho-billing/src/types/catalog.ts:197](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L197)
 
 ##### coupon\_code
 
@@ -4249,7 +4249,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:197
 coupon_code: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:187
+Defined in: [packages/zoho-billing/src/types/catalog.ts:187](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L187)
 
 ##### description?
 
@@ -4257,7 +4257,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:187
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:193
+Defined in: [packages/zoho-billing/src/types/catalog.ts:193](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L193)
 
 ##### discount\_by
 
@@ -4265,7 +4265,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:193
 discount_by: ZohoDiscountBy;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:189
+Defined in: [packages/zoho-billing/src/types/catalog.ts:189](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L189)
 
 ##### discount\_value
 
@@ -4273,7 +4273,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:189
 discount_value: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:191
+Defined in: [packages/zoho-billing/src/types/catalog.ts:191](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L191)
 
 A percentage when `discount_by` is `percentage`, else a flat amount.
 
@@ -4283,7 +4283,7 @@ A percentage when `discount_by` is `percentage`, else a flat amount.
 optional duration?: ZohoCouponDuration;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:192
+Defined in: [packages/zoho-billing/src/types/catalog.ts:192](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L192)
 
 ##### expiry\_at?
 
@@ -4291,7 +4291,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:192
 optional expiry_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:196
+Defined in: [packages/zoho-billing/src/types/catalog.ts:196](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L196)
 
 ##### max\_redemption?
 
@@ -4299,7 +4299,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:196
 optional max_redemption?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:195
+Defined in: [packages/zoho-billing/src/types/catalog.ts:195](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L195)
 
 ##### name
 
@@ -4307,7 +4307,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:195
 name: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:188
+Defined in: [packages/zoho-billing/src/types/catalog.ts:188](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L188)
 
 ##### plans?
 
@@ -4317,7 +4317,7 @@ optional plans?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:198
+Defined in: [packages/zoho-billing/src/types/catalog.ts:198](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L198)
 
 ###### plan\_code
 
@@ -4331,13 +4331,13 @@ plan_code: string;
 optional product_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:194
+Defined in: [packages/zoho-billing/src/types/catalog.ts:194](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L194)
 
 ***
 
 ### CreateCreditNoteParams
 
-Defined in: packages/zoho-billing/src/types/billing.ts:223
+Defined in: [packages/zoho-billing/src/types/billing.ts:223](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L223)
 
 #### Indexable
 
@@ -4353,7 +4353,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:223
 creditnote_items: ZohoLineItem[];
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:225
+Defined in: [packages/zoho-billing/src/types/billing.ts:225](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L225)
 
 ##### customer\_id
 
@@ -4361,7 +4361,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:225
 customer_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:224
+Defined in: [packages/zoho-billing/src/types/billing.ts:224](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L224)
 
 ##### date?
 
@@ -4369,7 +4369,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:224
 optional date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:226
+Defined in: [packages/zoho-billing/src/types/billing.ts:226](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L226)
 
 ##### notes?
 
@@ -4377,7 +4377,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:226
 optional notes?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:228
+Defined in: [packages/zoho-billing/src/types/billing.ts:228](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L228)
 
 ##### reference\_number?
 
@@ -4385,13 +4385,13 @@ Defined in: packages/zoho-billing/src/types/billing.ts:228
 optional reference_number?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:227
+Defined in: [packages/zoho-billing/src/types/billing.ts:227](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L227)
 
 ***
 
 ### CreateCustomerParams
 
-Defined in: packages/zoho-billing/src/types/customer.ts:55
+Defined in: [packages/zoho-billing/src/types/customer.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L55)
 
 #### Indexable
 
@@ -4407,7 +4407,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:55
 optional billing_address?: ZohoAddress;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:66
+Defined in: [packages/zoho-billing/src/types/customer.ts:66](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L66)
 
 ##### company\_name?
 
@@ -4415,7 +4415,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:66
 optional company_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:61
+Defined in: [packages/zoho-billing/src/types/customer.ts:61](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L61)
 
 ##### contact\_persons?
 
@@ -4423,7 +4423,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:61
 optional contact_persons?: ZohoContactPerson[];
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:68
+Defined in: [packages/zoho-billing/src/types/customer.ts:68](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L68)
 
 ##### currency\_code?
 
@@ -4431,7 +4431,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:68
 optional currency_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:65
+Defined in: [packages/zoho-billing/src/types/customer.ts:65](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L65)
 
 ##### custom\_fields?
 
@@ -4439,7 +4439,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:65
 optional custom_fields?: ZohoCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:84
+Defined in: [packages/zoho-billing/src/types/customer.ts:84](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L84)
 
 ##### display\_name
 
@@ -4447,7 +4447,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:84
 display_name: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:56
+Defined in: [packages/zoho-billing/src/types/customer.ts:56](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L56)
 
 ##### email?
 
@@ -4455,7 +4455,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:56
 optional email?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:60
+Defined in: [packages/zoho-billing/src/types/customer.ts:60](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L60)
 
 ##### first\_name?
 
@@ -4463,7 +4463,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:60
 optional first_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:58
+Defined in: [packages/zoho-billing/src/types/customer.ts:58](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L58)
 
 ##### gst\_no?
 
@@ -4471,7 +4471,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:58
 optional gst_no?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:72
+Defined in: [packages/zoho-billing/src/types/customer.ts:72](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L72)
 
 ##### gst\_treatment?
 
@@ -4479,7 +4479,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:72
 optional gst_treatment?: ZohoGstTreatment;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:71
+Defined in: [packages/zoho-billing/src/types/customer.ts:71](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L71)
 
 ##### is\_taxable?
 
@@ -4487,7 +4487,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:71
 optional is_taxable?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:75
+Defined in: [packages/zoho-billing/src/types/customer.ts:75](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L75)
 
 ##### last\_name?
 
@@ -4495,7 +4495,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:75
 optional last_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:59
+Defined in: [packages/zoho-billing/src/types/customer.ts:59](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L59)
 
 ##### mobile?
 
@@ -4503,7 +4503,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:59
 optional mobile?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:63
+Defined in: [packages/zoho-billing/src/types/customer.ts:63](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L63)
 
 ##### notes?
 
@@ -4511,7 +4511,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:63
 optional notes?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:77
+Defined in: [packages/zoho-billing/src/types/customer.ts:77](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L77)
 
 ##### payment\_terms?
 
@@ -4519,7 +4519,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:77
 optional payment_terms?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:69
+Defined in: [packages/zoho-billing/src/types/customer.ts:69](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L69)
 
 ##### payment\_terms\_label?
 
@@ -4527,7 +4527,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:69
 optional payment_terms_label?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:70
+Defined in: [packages/zoho-billing/src/types/customer.ts:70](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L70)
 
 ##### phone?
 
@@ -4535,7 +4535,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:70
 optional phone?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:62
+Defined in: [packages/zoho-billing/src/types/customer.ts:62](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L62)
 
 ##### place\_of\_supply?
 
@@ -4543,7 +4543,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:62
 optional place_of_supply?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:73
+Defined in: [packages/zoho-billing/src/types/customer.ts:73](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L73)
 
 ##### reference\_id?
 
@@ -4551,7 +4551,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:73
 optional reference_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:83
+Defined in: [packages/zoho-billing/src/types/customer.ts:83](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L83)
 
 Your own identifier for this customer. Also the lookup key for
 `customers.getByReference`, which is the idiomatic way to map an
@@ -4563,7 +4563,7 @@ application user onto a Zoho customer without storing Zoho's ID.
 optional salutation?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:57
+Defined in: [packages/zoho-billing/src/types/customer.ts:57](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L57)
 
 ##### shipping\_address?
 
@@ -4571,7 +4571,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:57
 optional shipping_address?: ZohoAddress;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:67
+Defined in: [packages/zoho-billing/src/types/customer.ts:67](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L67)
 
 ##### tax\_exemption\_id?
 
@@ -4579,7 +4579,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:67
 optional tax_exemption_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:76
+Defined in: [packages/zoho-billing/src/types/customer.ts:76](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L76)
 
 ##### tax\_id?
 
@@ -4587,7 +4587,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:76
 optional tax_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:74
+Defined in: [packages/zoho-billing/src/types/customer.ts:74](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L74)
 
 ##### website?
 
@@ -4595,13 +4595,13 @@ Defined in: packages/zoho-billing/src/types/customer.ts:74
 optional website?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:64
+Defined in: [packages/zoho-billing/src/types/customer.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L64)
 
 ***
 
 ### CreatePaymentParams
 
-Defined in: packages/zoho-billing/src/types/billing.ts:173
+Defined in: [packages/zoho-billing/src/types/billing.ts:173](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L173)
 
 #### Indexable
 
@@ -4617,7 +4617,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:173
 optional account_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:185
+Defined in: [packages/zoho-billing/src/types/billing.ts:185](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L185)
 
 ##### amount
 
@@ -4625,7 +4625,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:185
 amount: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:176
+Defined in: [packages/zoho-billing/src/types/billing.ts:176](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L176)
 
 Payment amount in the customer's currency.
 
@@ -4635,7 +4635,7 @@ Payment amount in the customer's currency.
 customer_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:174
+Defined in: [packages/zoho-billing/src/types/billing.ts:174](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L174)
 
 ##### date?
 
@@ -4643,7 +4643,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:174
 optional date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:177
+Defined in: [packages/zoho-billing/src/types/billing.ts:177](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L177)
 
 ##### description?
 
@@ -4651,7 +4651,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:177
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:181
+Defined in: [packages/zoho-billing/src/types/billing.ts:181](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L181)
 
 ##### exchange\_rate?
 
@@ -4659,7 +4659,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:181
 optional exchange_rate?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:182
+Defined in: [packages/zoho-billing/src/types/billing.ts:182](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L182)
 
 ##### invoices?
 
@@ -4670,7 +4670,7 @@ optional invoices?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:184
+Defined in: [packages/zoho-billing/src/types/billing.ts:184](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L184)
 
 Invoices to apply this payment against.
 
@@ -4692,7 +4692,7 @@ invoice_id: string;
 optional payment_mode?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:179
+Defined in: [packages/zoho-billing/src/types/billing.ts:179](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L179)
 
 e.g. `cash`, `check`, `banktransfer`, `creditcard`.
 
@@ -4702,13 +4702,13 @@ e.g. `cash`, `check`, `banktransfer`, `creditcard`.
 optional reference_number?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:180
+Defined in: [packages/zoho-billing/src/types/billing.ts:180](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L180)
 
 ***
 
 ### CreatePlanParams
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:78
+Defined in: [packages/zoho-billing/src/types/catalog.ts:78](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L78)
 
 #### Indexable
 
@@ -4726,7 +4726,7 @@ optional addons?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:97
+Defined in: [packages/zoho-billing/src/types/catalog.ts:97](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L97)
 
 ###### addon\_code
 
@@ -4740,7 +4740,7 @@ addon_code: string;
 optional billing_cycles?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:87
+Defined in: [packages/zoho-billing/src/types/catalog.ts:87](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L87)
 
 Total number of cycles before the plan expires. Omit for perpetual.
 
@@ -4750,7 +4750,7 @@ Total number of cycles before the plan expires. Omit for perpetual.
 optional custom_fields?: ZohoCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:98
+Defined in: [packages/zoho-billing/src/types/catalog.ts:98](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L98)
 
 ##### description?
 
@@ -4758,7 +4758,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:98
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:91
+Defined in: [packages/zoho-billing/src/types/catalog.ts:91](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L91)
 
 ##### interval?
 
@@ -4766,7 +4766,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:91
 optional interval?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:84
+Defined in: [packages/zoho-billing/src/types/catalog.ts:84](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L84)
 
 Number of `interval_unit`s between charges.
 
@@ -4776,7 +4776,7 @@ Number of `interval_unit`s between charges.
 optional interval_unit?: ZohoIntervalUnit;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:85
+Defined in: [packages/zoho-billing/src/types/catalog.ts:85](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L85)
 
 ##### name
 
@@ -4784,7 +4784,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:85
 name: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:80
+Defined in: [packages/zoho-billing/src/types/catalog.ts:80](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L80)
 
 ##### plan\_code
 
@@ -4792,7 +4792,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:80
 plan_code: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:79
+Defined in: [packages/zoho-billing/src/types/catalog.ts:79](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L79)
 
 ##### price\_brackets?
 
@@ -4800,7 +4800,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:79
 optional price_brackets?: ZohoPriceBracket[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:94
+Defined in: [packages/zoho-billing/src/types/catalog.ts:94](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L94)
 
 ##### pricing\_scheme?
 
@@ -4808,7 +4808,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:94
 optional pricing_scheme?: ZohoPricingScheme;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:93
+Defined in: [packages/zoho-billing/src/types/catalog.ts:93](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L93)
 
 ##### product\_id?
 
@@ -4816,7 +4816,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:93
 optional product_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:92
+Defined in: [packages/zoho-billing/src/types/catalog.ts:92](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L92)
 
 ##### recurring\_price
 
@@ -4824,7 +4824,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:92
 recurring_price: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:82
+Defined in: [packages/zoho-billing/src/types/catalog.ts:82](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L82)
 
 Price per interval.
 
@@ -4834,7 +4834,7 @@ Price per interval.
 optional setup_fee?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:90
+Defined in: [packages/zoho-billing/src/types/catalog.ts:90](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L90)
 
 ##### tax\_id?
 
@@ -4842,7 +4842,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:90
 optional tax_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:96
+Defined in: [packages/zoho-billing/src/types/catalog.ts:96](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L96)
 
 ##### trial\_period?
 
@@ -4850,7 +4850,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:96
 optional trial_period?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:89
+Defined in: [packages/zoho-billing/src/types/catalog.ts:89](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L89)
 
 Free trial length in days.
 
@@ -4860,13 +4860,13 @@ Free trial length in days.
 optional unit?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:95
+Defined in: [packages/zoho-billing/src/types/catalog.ts:95](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L95)
 
 ***
 
 ### CreateProductParams
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:44
+Defined in: [packages/zoho-billing/src/types/catalog.ts:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L44)
 
 #### Indexable
 
@@ -4882,7 +4882,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:44
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:46
+Defined in: [packages/zoho-billing/src/types/catalog.ts:46](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L46)
 
 ##### email\_ids?
 
@@ -4890,7 +4890,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:46
 optional email_ids?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:47
+Defined in: [packages/zoho-billing/src/types/catalog.ts:47](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L47)
 
 ##### name
 
@@ -4898,7 +4898,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:47
 name: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:45
+Defined in: [packages/zoho-billing/src/types/catalog.ts:45](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L45)
 
 ##### redirect\_url?
 
@@ -4906,13 +4906,13 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:45
 optional redirect_url?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:48
+Defined in: [packages/zoho-billing/src/types/catalog.ts:48](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L48)
 
 ***
 
 ### CreateSubscriptionHostedPageParams
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:45
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:45](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L45)
 
 #### Extends
 
@@ -4932,7 +4932,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:45
 optional addons?: ZohoSubscriptionAddon[];
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:51
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:51](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L51)
 
 ##### can\_charge\_setup\_fee\_immediately?
 
@@ -4940,7 +4940,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:51
 optional can_charge_setup_fee_immediately?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:58
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:58](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L58)
 
 ##### coupon\_code?
 
@@ -4948,7 +4948,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:58
 optional coupon_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:52
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:52](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L52)
 
 ##### custom\_fields?
 
@@ -4956,7 +4956,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:52
 optional custom_fields?: ZohoCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:55
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L55)
 
 ##### customer?
 
@@ -4964,7 +4964,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:55
 optional customer?: ZohoSubscriptionCustomer;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:49
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:49](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L49)
 
 New customer captured on the hosted page.
 
@@ -4974,7 +4974,7 @@ New customer captured on the hosted page.
 optional customer_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:47
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:47](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L47)
 
 Existing customer. Mutually exclusive with `customer`.
 
@@ -4984,7 +4984,7 @@ Existing customer. Mutually exclusive with `customer`.
 optional exclude_setup_fee?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:57
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:57](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L57)
 
 ##### exclude\_trial?
 
@@ -4992,7 +4992,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:57
 optional exclude_trial?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:56
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:56](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L56)
 
 ##### plan
 
@@ -5002,7 +5002,7 @@ plan: ZohoSubscriptionPlan & {
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:50
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:50](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L50)
 
 ###### Type Declaration
 
@@ -5018,7 +5018,7 @@ plan_code: string;
 optional redirect_url?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:42
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L42)
 
 Where Zoho sends the customer after success.
 
@@ -5034,7 +5034,7 @@ HostedPageRedirects.redirect_url
 optional reference_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:53
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:53](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L53)
 
 ##### starts\_at?
 
@@ -5042,13 +5042,13 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:53
 optional starts_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:54
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:54](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L54)
 
 ***
 
 ### CreateSubscriptionParams
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:146
+Defined in: [packages/zoho-billing/src/types/subscription.ts:146](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L146)
 
 #### Indexable
 
@@ -5064,7 +5064,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:146
 optional addons?: ZohoSubscriptionAddon[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:152
+Defined in: [packages/zoho-billing/src/types/subscription.ts:152](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L152)
 
 ##### auto\_collect?
 
@@ -5072,7 +5072,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:152
 optional auto_collect?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:161
+Defined in: [packages/zoho-billing/src/types/subscription.ts:161](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L161)
 
 `true` charges the card automatically each renewal; `false` bills offline.
 
@@ -5082,7 +5082,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:161
 optional bank_account_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:166
+Defined in: [packages/zoho-billing/src/types/subscription.ts:166](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L166)
 
 ##### can\_charge\_setup\_fee\_immediately?
 
@@ -5090,7 +5090,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:166
 optional can_charge_setup_fee_immediately?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:173
+Defined in: [packages/zoho-billing/src/types/subscription.ts:173](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L173)
 
 Bills the setup fee immediately instead of at trial end.
 
@@ -5100,7 +5100,7 @@ Bills the setup fee immediately instead of at trial end.
 optional card_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:165
+Defined in: [packages/zoho-billing/src/types/subscription.ts:165](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L165)
 
 ##### contactpersons?
 
@@ -5110,7 +5110,7 @@ optional contactpersons?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:167
+Defined in: [packages/zoho-billing/src/types/subscription.ts:167](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L167)
 
 ###### contactperson\_id?
 
@@ -5124,7 +5124,7 @@ optional contactperson_id?: string;
 optional coupon_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:153
+Defined in: [packages/zoho-billing/src/types/subscription.ts:153](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L153)
 
 ##### custom\_fields?
 
@@ -5132,7 +5132,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:153
 optional custom_fields?: ZohoCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:159
+Defined in: [packages/zoho-billing/src/types/subscription.ts:159](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L159)
 
 ##### customer?
 
@@ -5140,7 +5140,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:159
 optional customer?: ZohoSubscriptionCustomer;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:150
+Defined in: [packages/zoho-billing/src/types/subscription.ts:150](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L150)
 
 New customer to create alongside the subscription.
 
@@ -5150,7 +5150,7 @@ New customer to create alongside the subscription.
 optional customer_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:148
+Defined in: [packages/zoho-billing/src/types/subscription.ts:148](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L148)
 
 Existing customer. Mutually exclusive with `customer`.
 
@@ -5160,7 +5160,7 @@ Existing customer. Mutually exclusive with `customer`.
 optional exchange_rate?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:156
+Defined in: [packages/zoho-billing/src/types/subscription.ts:156](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L156)
 
 ##### exclude\_setup\_fee?
 
@@ -5168,7 +5168,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:156
 optional exclude_setup_fee?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:171
+Defined in: [packages/zoho-billing/src/types/subscription.ts:171](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L171)
 
 Skips the plan's setup fee for this subscription.
 
@@ -5178,7 +5178,7 @@ Skips the plan's setup fee for this subscription.
 optional exclude_trial?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:169
+Defined in: [packages/zoho-billing/src/types/subscription.ts:169](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L169)
 
 Skips the plan's trial period for this subscription.
 
@@ -5188,7 +5188,7 @@ Skips the plan's trial period for this subscription.
 optional gst_no?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:176
+Defined in: [packages/zoho-billing/src/types/subscription.ts:176](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L176)
 
 ##### gst\_treatment?
 
@@ -5196,7 +5196,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:176
 optional gst_treatment?: ZohoGstTreatment;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:175
+Defined in: [packages/zoho-billing/src/types/subscription.ts:175](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L175)
 
 ##### is\_metered\_billing?
 
@@ -5204,7 +5204,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:175
 optional is_metered_billing?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:178
+Defined in: [packages/zoho-billing/src/types/subscription.ts:178](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L178)
 
 ##### payment\_gateways?
 
@@ -5214,7 +5214,7 @@ optional payment_gateways?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:174
+Defined in: [packages/zoho-billing/src/types/subscription.ts:174](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L174)
 
 ###### payment\_gateway?
 
@@ -5228,7 +5228,7 @@ optional payment_gateway?: ZohoPaymentGateway;
 optional payment_terms?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:163
+Defined in: [packages/zoho-billing/src/types/subscription.ts:163](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L163)
 
 ##### payment\_terms\_label?
 
@@ -5236,7 +5236,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:163
 optional payment_terms_label?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:164
+Defined in: [packages/zoho-billing/src/types/subscription.ts:164](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L164)
 
 ##### place\_of\_supply?
 
@@ -5244,7 +5244,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:164
 optional place_of_supply?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:157
+Defined in: [packages/zoho-billing/src/types/subscription.ts:157](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L157)
 
 ##### plan
 
@@ -5254,7 +5254,7 @@ plan: ZohoSubscriptionPlan & {
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:151
+Defined in: [packages/zoho-billing/src/types/subscription.ts:151](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L151)
 
 ###### Type Declaration
 
@@ -5270,7 +5270,7 @@ plan_code: string;
 optional pricebook_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:177
+Defined in: [packages/zoho-billing/src/types/subscription.ts:177](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L177)
 
 ##### reference\_id?
 
@@ -5278,7 +5278,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:177
 optional reference_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:154
+Defined in: [packages/zoho-billing/src/types/subscription.ts:154](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L154)
 
 ##### salesperson\_name?
 
@@ -5286,7 +5286,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:154
 optional salesperson_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:158
+Defined in: [packages/zoho-billing/src/types/subscription.ts:158](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L158)
 
 ##### starts\_at?
 
@@ -5294,7 +5294,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:158
 optional starts_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:155
+Defined in: [packages/zoho-billing/src/types/subscription.ts:155](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L155)
 
 ##### template\_id?
 
@@ -5302,13 +5302,13 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:155
 optional template_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:162
+Defined in: [packages/zoho-billing/src/types/subscription.ts:162](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L162)
 
 ***
 
 ### EmailInvoiceParams
 
-Defined in: packages/zoho-billing/src/types/billing.ts:124
+Defined in: [packages/zoho-billing/src/types/billing.ts:124](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L124)
 
 #### Indexable
 
@@ -5324,7 +5324,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:124
 optional body?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:128
+Defined in: [packages/zoho-billing/src/types/billing.ts:128](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L128)
 
 ##### cc\_mail\_ids?
 
@@ -5332,7 +5332,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:128
 optional cc_mail_ids?: string[];
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:126
+Defined in: [packages/zoho-billing/src/types/billing.ts:126](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L126)
 
 ##### send\_attachment?
 
@@ -5340,7 +5340,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:126
 optional send_attachment?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:130
+Defined in: [packages/zoho-billing/src/types/billing.ts:130](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L130)
 
 ##### send\_customer\_statement?
 
@@ -5348,7 +5348,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:130
 optional send_customer_statement?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:129
+Defined in: [packages/zoho-billing/src/types/billing.ts:129](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L129)
 
 ##### subject?
 
@@ -5356,7 +5356,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:129
 optional subject?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:127
+Defined in: [packages/zoho-billing/src/types/billing.ts:127](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L127)
 
 ##### to\_mail\_ids?
 
@@ -5364,13 +5364,13 @@ Defined in: packages/zoho-billing/src/types/billing.ts:127
 optional to_mail_ids?: string[];
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:125
+Defined in: [packages/zoho-billing/src/types/billing.ts:125](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L125)
 
 ***
 
 ### ExtendSubscriptionParams
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:255
+Defined in: [packages/zoho-billing/src/types/subscription.ts:255](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L255)
 
 #### Indexable
 
@@ -5386,7 +5386,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:255
 optional extend_by?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:257
+Defined in: [packages/zoho-billing/src/types/subscription.ts:257](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L257)
 
 Number of `interval_unit`s to extend the current term by.
 
@@ -5396,13 +5396,13 @@ Number of `interval_unit`s to extend the current term by.
 optional extend_to?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:258
+Defined in: [packages/zoho-billing/src/types/subscription.ts:258](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L258)
 
 ***
 
 ### InvoicePaymentHostedPageParams
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:87
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:87](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L87)
 
 #### Extends
 
@@ -5422,7 +5422,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:87
 invoice_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:88
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:88](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L88)
 
 ##### redirect\_url?
 
@@ -5430,7 +5430,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:88
 optional redirect_url?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:42
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L42)
 
 Where Zoho sends the customer after success.
 
@@ -5444,7 +5444,7 @@ HostedPageRedirects.redirect_url
 
 ### ListAddonsParams
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:154
+Defined in: [packages/zoho-billing/src/types/catalog.ts:154](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L154)
 
 Common query parameters accepted by list endpoints.
 
@@ -5466,7 +5466,7 @@ Common query parameters accepted by list endpoints.
 optional filter_by?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:157
+Defined in: [packages/zoho-billing/src/types/catalog.ts:157](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L157)
 
 ###### Overrides
 
@@ -5478,7 +5478,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:157
 optional page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:30
+Defined in: [packages/zoho-billing/src/types/common.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L30)
 
 ###### Inherited from
 
@@ -5490,7 +5490,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:30
 optional per_page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:32
+Defined in: [packages/zoho-billing/src/types/common.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L32)
 
 Zoho's default and maximum is 200.
 
@@ -5504,7 +5504,7 @@ Zoho's default and maximum is 200.
 optional plan_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:156
+Defined in: [packages/zoho-billing/src/types/catalog.ts:156](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L156)
 
 ##### product\_id?
 
@@ -5512,7 +5512,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:156
 optional product_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:155
+Defined in: [packages/zoho-billing/src/types/catalog.ts:155](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L155)
 
 ##### search\_text?
 
@@ -5520,7 +5520,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:155
 optional search_text?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:36
+Defined in: [packages/zoho-billing/src/types/common.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L36)
 
 ###### Inherited from
 
@@ -5532,7 +5532,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:36
 optional sort_column?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:34
+Defined in: [packages/zoho-billing/src/types/common.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L34)
 
 ###### Inherited from
 
@@ -5544,7 +5544,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:34
 optional sort_order?: "A" | "D";
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:35
+Defined in: [packages/zoho-billing/src/types/common.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L35)
 
 ###### Inherited from
 
@@ -5554,7 +5554,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:35
 
 ### ListCustomersParams
 
-Defined in: packages/zoho-billing/src/types/customer.ts:90
+Defined in: [packages/zoho-billing/src/types/customer.ts:90](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L90)
 
 Common query parameters accepted by list endpoints.
 
@@ -5576,7 +5576,7 @@ Common query parameters accepted by list endpoints.
 optional display_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:94
+Defined in: [packages/zoho-billing/src/types/customer.ts:94](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L94)
 
 ##### email?
 
@@ -5584,7 +5584,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:94
 optional email?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:93
+Defined in: [packages/zoho-billing/src/types/customer.ts:93](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L93)
 
 ##### filter\_by?
 
@@ -5592,7 +5592,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:93
 optional filter_by?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:92
+Defined in: [packages/zoho-billing/src/types/customer.ts:92](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L92)
 
 e.g. `Status.Active`, `Status.Inactive`.
 
@@ -5606,7 +5606,7 @@ e.g. `Status.Active`, `Status.Inactive`.
 optional page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:30
+Defined in: [packages/zoho-billing/src/types/common.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L30)
 
 ###### Inherited from
 
@@ -5618,7 +5618,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:30
 optional per_page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:32
+Defined in: [packages/zoho-billing/src/types/common.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L32)
 
 Zoho's default and maximum is 200.
 
@@ -5632,7 +5632,7 @@ Zoho's default and maximum is 200.
 optional phone?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:95
+Defined in: [packages/zoho-billing/src/types/customer.ts:95](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L95)
 
 ##### search\_text?
 
@@ -5640,7 +5640,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:95
 optional search_text?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:36
+Defined in: [packages/zoho-billing/src/types/common.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L36)
 
 ###### Inherited from
 
@@ -5652,7 +5652,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:36
 optional sort_column?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:34
+Defined in: [packages/zoho-billing/src/types/common.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L34)
 
 ###### Inherited from
 
@@ -5664,7 +5664,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:34
 optional sort_order?: "A" | "D";
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:35
+Defined in: [packages/zoho-billing/src/types/common.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L35)
 
 ###### Inherited from
 
@@ -5674,7 +5674,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:35
 
 ### ListEventsParams
 
-Defined in: packages/zoho-billing/src/types/event.ts:72
+Defined in: [packages/zoho-billing/src/types/event.ts:72](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L72)
 
 Common query parameters accepted by list endpoints.
 
@@ -5696,7 +5696,7 @@ Common query parameters accepted by list endpoints.
 optional event_type?: ZohoEventType;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:73
+Defined in: [packages/zoho-billing/src/types/event.ts:73](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L73)
 
 ##### filter\_by?
 
@@ -5704,7 +5704,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:73
 optional filter_by?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:33
+Defined in: [packages/zoho-billing/src/types/common.ts:33](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L33)
 
 ###### Inherited from
 
@@ -5716,7 +5716,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:33
 optional from_date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:75
+Defined in: [packages/zoho-billing/src/types/event.ts:75](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L75)
 
 `yyyy-mm-dd`.
 
@@ -5726,7 +5726,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:75
 optional page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:30
+Defined in: [packages/zoho-billing/src/types/common.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L30)
 
 ###### Inherited from
 
@@ -5738,7 +5738,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:30
 optional per_page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:32
+Defined in: [packages/zoho-billing/src/types/common.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L32)
 
 Zoho's default and maximum is 200.
 
@@ -5752,7 +5752,7 @@ Zoho's default and maximum is 200.
 optional search_text?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:36
+Defined in: [packages/zoho-billing/src/types/common.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L36)
 
 ###### Inherited from
 
@@ -5764,7 +5764,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:36
 optional sort_column?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:34
+Defined in: [packages/zoho-billing/src/types/common.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L34)
 
 ###### Inherited from
 
@@ -5776,7 +5776,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:34
 optional sort_order?: "A" | "D";
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:35
+Defined in: [packages/zoho-billing/src/types/common.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L35)
 
 ###### Inherited from
 
@@ -5788,13 +5788,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:35
 optional to_date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:76
+Defined in: [packages/zoho-billing/src/types/event.ts:76](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L76)
 
 ***
 
 ### ListInvoicesParams
 
-Defined in: packages/zoho-billing/src/types/billing.ts:104
+Defined in: [packages/zoho-billing/src/types/billing.ts:104](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L104)
 
 Common query parameters accepted by list endpoints.
 
@@ -5816,7 +5816,7 @@ Common query parameters accepted by list endpoints.
 optional customer_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:105
+Defined in: [packages/zoho-billing/src/types/billing.ts:105](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L105)
 
 ##### date\_end?
 
@@ -5824,7 +5824,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:105
 optional date_end?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:112
+Defined in: [packages/zoho-billing/src/types/billing.ts:112](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L112)
 
 ##### date\_start?
 
@@ -5832,7 +5832,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:112
 optional date_start?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:111
+Defined in: [packages/zoho-billing/src/types/billing.ts:111](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L111)
 
 ##### filter\_by?
 
@@ -5840,7 +5840,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:111
 optional filter_by?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:108
+Defined in: [packages/zoho-billing/src/types/billing.ts:108](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L108)
 
 e.g. `Status.Paid`, `Status.Unpaid`, `Status.Overdue`, `Status.Void`.
 
@@ -5854,7 +5854,7 @@ e.g. `Status.Paid`, `Status.Unpaid`, `Status.Overdue`, `Status.Void`.
 optional invoice_number?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:109
+Defined in: [packages/zoho-billing/src/types/billing.ts:109](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L109)
 
 ##### page?
 
@@ -5862,7 +5862,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:109
 optional page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:30
+Defined in: [packages/zoho-billing/src/types/common.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L30)
 
 ###### Inherited from
 
@@ -5874,7 +5874,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:30
 optional per_page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:32
+Defined in: [packages/zoho-billing/src/types/common.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L32)
 
 Zoho's default and maximum is 200.
 
@@ -5888,7 +5888,7 @@ Zoho's default and maximum is 200.
 optional reference_number?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:110
+Defined in: [packages/zoho-billing/src/types/billing.ts:110](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L110)
 
 ##### search\_text?
 
@@ -5896,7 +5896,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:110
 optional search_text?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:36
+Defined in: [packages/zoho-billing/src/types/common.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L36)
 
 ###### Inherited from
 
@@ -5908,7 +5908,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:36
 optional sort_column?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:34
+Defined in: [packages/zoho-billing/src/types/common.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L34)
 
 ###### Inherited from
 
@@ -5920,7 +5920,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:34
 optional sort_order?: "A" | "D";
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:35
+Defined in: [packages/zoho-billing/src/types/common.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L35)
 
 ###### Inherited from
 
@@ -5932,13 +5932,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:35
 optional subscription_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:106
+Defined in: [packages/zoho-billing/src/types/billing.ts:106](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L106)
 
 ***
 
 ### ListPaymentsParams
 
-Defined in: packages/zoho-billing/src/types/billing.ts:189
+Defined in: [packages/zoho-billing/src/types/billing.ts:189](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L189)
 
 Common query parameters accepted by list endpoints.
 
@@ -5960,7 +5960,7 @@ Common query parameters accepted by list endpoints.
 optional customer_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:190
+Defined in: [packages/zoho-billing/src/types/billing.ts:190](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L190)
 
 ##### date\_end?
 
@@ -5968,7 +5968,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:190
 optional date_end?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:194
+Defined in: [packages/zoho-billing/src/types/billing.ts:194](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L194)
 
 ##### date\_start?
 
@@ -5976,7 +5976,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:194
 optional date_start?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:193
+Defined in: [packages/zoho-billing/src/types/billing.ts:193](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L193)
 
 ##### filter\_by?
 
@@ -5984,7 +5984,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:193
 optional filter_by?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:191
+Defined in: [packages/zoho-billing/src/types/billing.ts:191](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L191)
 
 ###### Overrides
 
@@ -5996,7 +5996,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:191
 optional page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:30
+Defined in: [packages/zoho-billing/src/types/common.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L30)
 
 ###### Inherited from
 
@@ -6008,7 +6008,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:30
 optional per_page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:32
+Defined in: [packages/zoho-billing/src/types/common.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L32)
 
 Zoho's default and maximum is 200.
 
@@ -6022,7 +6022,7 @@ Zoho's default and maximum is 200.
 optional reference_number?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:192
+Defined in: [packages/zoho-billing/src/types/billing.ts:192](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L192)
 
 ##### search\_text?
 
@@ -6030,7 +6030,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:192
 optional search_text?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:36
+Defined in: [packages/zoho-billing/src/types/common.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L36)
 
 ###### Inherited from
 
@@ -6042,7 +6042,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:36
 optional sort_column?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:34
+Defined in: [packages/zoho-billing/src/types/common.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L34)
 
 ###### Inherited from
 
@@ -6054,7 +6054,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:34
 optional sort_order?: "A" | "D";
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:35
+Defined in: [packages/zoho-billing/src/types/common.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L35)
 
 ###### Inherited from
 
@@ -6064,7 +6064,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:35
 
 ### ListPlansParams
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:104
+Defined in: [packages/zoho-billing/src/types/catalog.ts:104](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L104)
 
 Common query parameters accepted by list endpoints.
 
@@ -6086,7 +6086,7 @@ Common query parameters accepted by list endpoints.
 optional filter_by?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:107
+Defined in: [packages/zoho-billing/src/types/catalog.ts:107](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L107)
 
 e.g. `PlanStatus.Active`, `PlanStatus.Inactive`.
 
@@ -6100,7 +6100,7 @@ e.g. `PlanStatus.Active`, `PlanStatus.Inactive`.
 optional page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:30
+Defined in: [packages/zoho-billing/src/types/common.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L30)
 
 ###### Inherited from
 
@@ -6112,7 +6112,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:30
 optional per_page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:32
+Defined in: [packages/zoho-billing/src/types/common.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L32)
 
 Zoho's default and maximum is 200.
 
@@ -6126,7 +6126,7 @@ Zoho's default and maximum is 200.
 optional product_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:105
+Defined in: [packages/zoho-billing/src/types/catalog.ts:105](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L105)
 
 ##### search\_text?
 
@@ -6134,7 +6134,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:105
 optional search_text?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:36
+Defined in: [packages/zoho-billing/src/types/common.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L36)
 
 ###### Inherited from
 
@@ -6146,7 +6146,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:36
 optional sort_column?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:34
+Defined in: [packages/zoho-billing/src/types/common.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L34)
 
 ###### Inherited from
 
@@ -6158,7 +6158,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:34
 optional sort_order?: "A" | "D";
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:35
+Defined in: [packages/zoho-billing/src/types/common.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L35)
 
 ###### Inherited from
 
@@ -6168,7 +6168,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:35
 
 ### ListSubscriptionsParams
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:204
+Defined in: [packages/zoho-billing/src/types/subscription.ts:204](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L204)
 
 Common query parameters accepted by list endpoints.
 
@@ -6190,7 +6190,7 @@ Common query parameters accepted by list endpoints.
 optional customer_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:205
+Defined in: [packages/zoho-billing/src/types/subscription.ts:205](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L205)
 
 ##### filter\_by?
 
@@ -6198,7 +6198,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:205
 optional filter_by?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:212
+Defined in: [packages/zoho-billing/src/types/subscription.ts:212](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L212)
 
 e.g. `SubscriptionStatus.ACTIVE`, `SubscriptionStatus.LIVE`,
 `SubscriptionStatus.TRIAL`, `SubscriptionStatus.CANCELLED`, or
@@ -6214,7 +6214,7 @@ e.g. `SubscriptionStatus.ACTIVE`, `SubscriptionStatus.LIVE`,
 optional page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:30
+Defined in: [packages/zoho-billing/src/types/common.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L30)
 
 ###### Inherited from
 
@@ -6226,7 +6226,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:30
 optional per_page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:32
+Defined in: [packages/zoho-billing/src/types/common.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L32)
 
 Zoho's default and maximum is 200.
 
@@ -6240,7 +6240,7 @@ Zoho's default and maximum is 200.
 optional reference_contains?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:206
+Defined in: [packages/zoho-billing/src/types/subscription.ts:206](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L206)
 
 ##### search\_text?
 
@@ -6248,7 +6248,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:206
 optional search_text?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:36
+Defined in: [packages/zoho-billing/src/types/common.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L36)
 
 ###### Inherited from
 
@@ -6260,7 +6260,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:36
 optional sort_column?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:34
+Defined in: [packages/zoho-billing/src/types/common.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L34)
 
 ###### Inherited from
 
@@ -6272,7 +6272,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:34
 optional sort_order?: "A" | "D";
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:35
+Defined in: [packages/zoho-billing/src/types/common.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L35)
 
 ###### Inherited from
 
@@ -6282,7 +6282,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:35
 
 ### PauseSubscriptionParams
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:242
+Defined in: [packages/zoho-billing/src/types/subscription.ts:242](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L242)
 
 #### Indexable
 
@@ -6298,7 +6298,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:242
 optional pause_date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:244
+Defined in: [packages/zoho-billing/src/types/subscription.ts:244](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L244)
 
 Date to pause on, `yyyy-mm-dd`. Defaults to immediately.
 
@@ -6308,7 +6308,7 @@ Date to pause on, `yyyy-mm-dd`. Defaults to immediately.
 optional resume_date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:246
+Defined in: [packages/zoho-billing/src/types/subscription.ts:246](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L246)
 
 Date to auto-resume on, `yyyy-mm-dd`.
 
@@ -6316,7 +6316,7 @@ Date to auto-resume on, `yyyy-mm-dd`.
 
 ### PaymentMethodHostedPageParams
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:82
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:82](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L82)
 
 #### Extends
 
@@ -6336,7 +6336,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:82
 customer_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:83
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:83](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L83)
 
 ##### redirect\_url?
 
@@ -6344,7 +6344,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:83
 optional redirect_url?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:42
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L42)
 
 Where Zoho sends the customer after success.
 
@@ -6358,7 +6358,7 @@ HostedPageRedirects.redirect_url
 
 ### PostponeRenewalParams
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:237
+Defined in: [packages/zoho-billing/src/types/subscription.ts:237](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L237)
 
 #### Properties
 
@@ -6368,7 +6368,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:237
 renewal_at: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:239
+Defined in: [packages/zoho-billing/src/types/subscription.ts:239](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L239)
 
 New renewal date, `yyyy-mm-dd`.
 
@@ -6376,7 +6376,7 @@ New renewal date, `yyyy-mm-dd`.
 
 ### RefundPaymentParams
 
-Defined in: packages/zoho-billing/src/types/billing.ts:197
+Defined in: [packages/zoho-billing/src/types/billing.ts:197](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L197)
 
 #### Indexable
 
@@ -6392,7 +6392,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:197
 amount: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:198
+Defined in: [packages/zoho-billing/src/types/billing.ts:198](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L198)
 
 ##### date?
 
@@ -6400,7 +6400,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:198
 optional date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:199
+Defined in: [packages/zoho-billing/src/types/billing.ts:199](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L199)
 
 ##### description?
 
@@ -6408,7 +6408,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:199
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:200
+Defined in: [packages/zoho-billing/src/types/billing.ts:200](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L200)
 
 ##### from\_account\_id?
 
@@ -6416,7 +6416,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:200
 optional from_account_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:203
+Defined in: [packages/zoho-billing/src/types/billing.ts:203](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L203)
 
 `true` refunds through the gateway; `false` records an offline refund.
 
@@ -6426,13 +6426,13 @@ Defined in: packages/zoho-billing/src/types/billing.ts:203
 optional reference_number?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:201
+Defined in: [packages/zoho-billing/src/types/billing.ts:201](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L201)
 
 ***
 
 ### ResumeSubscriptionParams
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:250
+Defined in: [packages/zoho-billing/src/types/subscription.ts:250](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L250)
 
 #### Indexable
 
@@ -6448,13 +6448,13 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:250
 optional resume_date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:251
+Defined in: [packages/zoho-billing/src/types/subscription.ts:251](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L251)
 
 ***
 
 ### ScheduledChange
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:262
+Defined in: [packages/zoho-billing/src/types/subscription.ts:262](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L262)
 
 #### Indexable
 
@@ -6470,7 +6470,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:262
 optional addons?: ZohoSubscriptionAddon[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:264
+Defined in: [packages/zoho-billing/src/types/subscription.ts:264](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L264)
 
 ##### coupon?
 
@@ -6478,7 +6478,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:264
 optional coupon?: ZohoSubscriptionCoupon;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:265
+Defined in: [packages/zoho-billing/src/types/subscription.ts:265](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L265)
 
 ##### plan?
 
@@ -6486,7 +6486,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:265
 optional plan?: ZohoSubscriptionPlan;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:263
+Defined in: [packages/zoho-billing/src/types/subscription.ts:263](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L263)
 
 ##### scheduled\_at?
 
@@ -6494,13 +6494,13 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:263
 optional scheduled_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:266
+Defined in: [packages/zoho-billing/src/types/subscription.ts:266](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L266)
 
 ***
 
 ### SubscriptionActivity
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:270
+Defined in: [packages/zoho-billing/src/types/subscription.ts:270](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L270)
 
 #### Indexable
 
@@ -6516,7 +6516,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:270
 optional activity_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:271
+Defined in: [packages/zoho-billing/src/types/subscription.ts:271](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L271)
 
 ##### activity\_type?
 
@@ -6524,7 +6524,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:271
 optional activity_type?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:273
+Defined in: [packages/zoho-billing/src/types/subscription.ts:273](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L273)
 
 ##### description?
 
@@ -6532,7 +6532,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:273
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:272
+Defined in: [packages/zoho-billing/src/types/subscription.ts:272](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L272)
 
 ##### operation\_type?
 
@@ -6540,7 +6540,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:272
 optional operation_type?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:274
+Defined in: [packages/zoho-billing/src/types/subscription.ts:274](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L274)
 
 ##### performed\_by?
 
@@ -6548,7 +6548,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:274
 optional performed_by?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:276
+Defined in: [packages/zoho-billing/src/types/subscription.ts:276](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L276)
 
 ##### time?
 
@@ -6556,13 +6556,13 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:276
 optional time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:275
+Defined in: [packages/zoho-billing/src/types/subscription.ts:275](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L275)
 
 ***
 
 ### SubscriptionListResponse
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:29
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:29](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L29)
 
 Envelope Zoho wraps every response in. `code: 0` means success.
 
@@ -6578,7 +6578,7 @@ Envelope Zoho wraps every response in. `code: 0` means success.
 code: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:8
+Defined in: [packages/zoho-billing/src/types/common.ts:8](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L8)
 
 ###### Inherited from
 
@@ -6590,7 +6590,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:8
 message: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:9
+Defined in: [packages/zoho-billing/src/types/common.ts:9](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L9)
 
 ###### Inherited from
 
@@ -6602,13 +6602,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:9
 subscriptions: ZohoSubscription[];
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:30
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L30)
 
 ***
 
 ### SubscriptionResponse
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:25
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L25)
 
 Envelope Zoho wraps every response in. `code: 0` means success.
 
@@ -6624,7 +6624,7 @@ Envelope Zoho wraps every response in. `code: 0` means success.
 code: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:8
+Defined in: [packages/zoho-billing/src/types/common.ts:8](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L8)
 
 ###### Inherited from
 
@@ -6636,7 +6636,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:8
 message: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:9
+Defined in: [packages/zoho-billing/src/types/common.ts:9](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L9)
 
 ###### Inherited from
 
@@ -6648,13 +6648,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:9
 subscription: ZohoSubscription;
 ```
 
-Defined in: packages/zoho-billing/src/resources/subscriptions.ts:26
+Defined in: [packages/zoho-billing/src/resources/subscriptions.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/subscriptions.ts#L26)
 
 ***
 
 ### UpdateCardHostedPageParams
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:71
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:71](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L71)
 
 #### Extends
 
@@ -6674,7 +6674,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:71
 customer_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:72
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:72](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L72)
 
 ##### redirect\_url?
 
@@ -6682,7 +6682,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:72
 optional redirect_url?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:42
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L42)
 
 Where Zoho sends the customer after success.
 
@@ -6696,7 +6696,7 @@ HostedPageRedirects.redirect_url
 
 ### UpdateSubscriptionHostedPageParams
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:62
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:62](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L62)
 
 #### Extends
 
@@ -6716,7 +6716,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:62
 optional addons?: ZohoSubscriptionAddon[];
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:65
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:65](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L65)
 
 ##### coupon\_code?
 
@@ -6724,7 +6724,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:65
 optional coupon_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:66
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:66](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L66)
 
 ##### end\_of\_term?
 
@@ -6732,7 +6732,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:66
 optional end_of_term?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:67
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:67](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L67)
 
 ##### plan?
 
@@ -6740,7 +6740,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:67
 optional plan?: ZohoSubscriptionPlan;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:64
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L64)
 
 ##### redirect\_url?
 
@@ -6748,7 +6748,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:64
 optional redirect_url?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:42
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L42)
 
 Where Zoho sends the customer after success.
 
@@ -6764,13 +6764,13 @@ HostedPageRedirects.redirect_url
 subscription_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:63
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:63](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L63)
 
 ***
 
 ### UpdateSubscriptionParams
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:182
+Defined in: [packages/zoho-billing/src/types/subscription.ts:182](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L182)
 
 #### Indexable
 
@@ -6786,7 +6786,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:182
 optional addons?: ZohoSubscriptionAddon[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:184
+Defined in: [packages/zoho-billing/src/types/subscription.ts:184](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L184)
 
 ##### auto\_collect?
 
@@ -6794,7 +6794,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:184
 optional auto_collect?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:189
+Defined in: [packages/zoho-billing/src/types/subscription.ts:189](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L189)
 
 ##### card\_id?
 
@@ -6802,7 +6802,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:189
 optional card_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:190
+Defined in: [packages/zoho-billing/src/types/subscription.ts:190](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L190)
 
 ##### coupon\_code?
 
@@ -6810,7 +6810,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:190
 optional coupon_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:185
+Defined in: [packages/zoho-billing/src/types/subscription.ts:185](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L185)
 
 ##### custom\_fields?
 
@@ -6818,7 +6818,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:185
 optional custom_fields?: ZohoCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:188
+Defined in: [packages/zoho-billing/src/types/subscription.ts:188](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L188)
 
 ##### end\_of\_term?
 
@@ -6826,7 +6826,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:188
 optional end_of_term?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:198
+Defined in: [packages/zoho-billing/src/types/subscription.ts:198](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L198)
 
 `true` defers the change to the next renewal; `false` applies it now and
 prorates. Defaults to Zoho's org-level setting when omitted.
@@ -6837,7 +6837,7 @@ prorates. Defaults to Zoho's org-level setting when omitted.
 optional exchange_rate?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:187
+Defined in: [packages/zoho-billing/src/types/subscription.ts:187](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L187)
 
 ##### payment\_terms?
 
@@ -6845,7 +6845,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:187
 optional payment_terms?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:191
+Defined in: [packages/zoho-billing/src/types/subscription.ts:191](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L191)
 
 ##### payment\_terms\_label?
 
@@ -6853,7 +6853,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:191
 optional payment_terms_label?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:192
+Defined in: [packages/zoho-billing/src/types/subscription.ts:192](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L192)
 
 ##### plan?
 
@@ -6861,7 +6861,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:192
 optional plan?: ZohoSubscriptionPlan;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:183
+Defined in: [packages/zoho-billing/src/types/subscription.ts:183](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L183)
 
 ##### prorate?
 
@@ -6869,7 +6869,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:183
 optional prorate?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:200
+Defined in: [packages/zoho-billing/src/types/subscription.ts:200](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L200)
 
 Prorate the mid-term change.
 
@@ -6879,7 +6879,7 @@ Prorate the mid-term change.
 optional reference_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:186
+Defined in: [packages/zoho-billing/src/types/subscription.ts:186](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L186)
 
 ##### salesperson\_name?
 
@@ -6887,13 +6887,13 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:186
 optional salesperson_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:193
+Defined in: [packages/zoho-billing/src/types/subscription.ts:193](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L193)
 
 ***
 
 ### ZohoAccessToken
 
-Defined in: packages/zoho-billing/src/auth.ts:14
+Defined in: [packages/zoho-billing/src/auth.ts:14](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L14)
 
 A cached access token plus the epoch-ms instant it stops being valid.
 
@@ -6905,7 +6905,7 @@ A cached access token plus the epoch-ms instant it stops being valid.
 accessToken: string;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:15
+Defined in: [packages/zoho-billing/src/auth.ts:15](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L15)
 
 ##### expiresAt
 
@@ -6913,7 +6913,7 @@ Defined in: packages/zoho-billing/src/auth.ts:15
 expiresAt: number;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:17
+Defined in: [packages/zoho-billing/src/auth.ts:17](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L17)
 
 Epoch milliseconds.
 
@@ -6921,7 +6921,7 @@ Epoch milliseconds.
 
 ### ZohoAddon
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:113
+Defined in: [packages/zoho-billing/src/types/catalog.ts:113](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L113)
 
 #### Indexable
 
@@ -6937,7 +6937,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:113
 addon_code: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:114
+Defined in: [packages/zoho-billing/src/types/catalog.ts:114](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L114)
 
 ##### applicable\_to\_all\_plans?
 
@@ -6945,7 +6945,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:114
 optional applicable_to_all_plans?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:124
+Defined in: [packages/zoho-billing/src/types/catalog.ts:124](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L124)
 
 ##### created\_time?
 
@@ -6953,7 +6953,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:124
 optional created_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:129
+Defined in: [packages/zoho-billing/src/types/catalog.ts:129](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L129)
 
 ##### custom\_fields?
 
@@ -6961,7 +6961,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:129
 optional custom_fields?: ZohoCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:128
+Defined in: [packages/zoho-billing/src/types/catalog.ts:128](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L128)
 
 ##### description?
 
@@ -6969,7 +6969,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:128
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:116
+Defined in: [packages/zoho-billing/src/types/catalog.ts:116](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L116)
 
 ##### interval\_unit?
 
@@ -6977,7 +6977,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:116
 optional interval_unit?: ZohoIntervalUnit;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:123
+Defined in: [packages/zoho-billing/src/types/catalog.ts:123](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L123)
 
 ##### name?
 
@@ -6985,7 +6985,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:123
 optional name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:115
+Defined in: [packages/zoho-billing/src/types/catalog.ts:115](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L115)
 
 ##### plans?
 
@@ -6995,7 +6995,7 @@ optional plans?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:125
+Defined in: [packages/zoho-billing/src/types/catalog.ts:125](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L125)
 
 ###### plan\_code?
 
@@ -7009,7 +7009,7 @@ optional plan_code?: string;
 optional price_brackets?: ZohoPriceBracket[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:121
+Defined in: [packages/zoho-billing/src/types/catalog.ts:121](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L121)
 
 ##### pricing\_scheme?
 
@@ -7017,7 +7017,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:121
 optional pricing_scheme?: ZohoPricingScheme;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:122
+Defined in: [packages/zoho-billing/src/types/catalog.ts:122](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L122)
 
 ##### product\_id?
 
@@ -7025,7 +7025,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:122
 optional product_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:126
+Defined in: [packages/zoho-billing/src/types/catalog.ts:126](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L126)
 
 ##### status?
 
@@ -7033,7 +7033,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:126
 optional status?: ZohoStatus;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:117
+Defined in: [packages/zoho-billing/src/types/catalog.ts:117](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L117)
 
 ##### tags?
 
@@ -7041,7 +7041,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:117
 optional tags?: ZohoTag[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:127
+Defined in: [packages/zoho-billing/src/types/catalog.ts:127](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L127)
 
 ##### type?
 
@@ -7049,7 +7049,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:127
 optional type?: ZohoAddonType;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:118
+Defined in: [packages/zoho-billing/src/types/catalog.ts:118](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L118)
 
 ##### unit?
 
@@ -7057,7 +7057,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:118
 optional unit?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:119
+Defined in: [packages/zoho-billing/src/types/catalog.ts:119](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L119)
 
 ##### unit\_name?
 
@@ -7065,7 +7065,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:119
 optional unit_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:120
+Defined in: [packages/zoho-billing/src/types/catalog.ts:120](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L120)
 
 ##### updated\_time?
 
@@ -7073,13 +7073,13 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:120
 optional updated_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:130
+Defined in: [packages/zoho-billing/src/types/catalog.ts:130](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L130)
 
 ***
 
 ### ZohoAddress
 
-Defined in: packages/zoho-billing/src/types/common.ts:39
+Defined in: [packages/zoho-billing/src/types/common.ts:39](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L39)
 
 #### Properties
 
@@ -7089,7 +7089,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:39
 optional attention?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:40
+Defined in: [packages/zoho-billing/src/types/common.ts:40](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L40)
 
 ##### city?
 
@@ -7097,7 +7097,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:40
 optional city?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:42
+Defined in: [packages/zoho-billing/src/types/common.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L42)
 
 ##### country?
 
@@ -7105,7 +7105,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:42
 optional country?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:44
+Defined in: [packages/zoho-billing/src/types/common.ts:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L44)
 
 ##### fax?
 
@@ -7113,7 +7113,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:44
 optional fax?: string | number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:46
+Defined in: [packages/zoho-billing/src/types/common.ts:46](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L46)
 
 ##### state?
 
@@ -7121,7 +7121,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:46
 optional state?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:43
+Defined in: [packages/zoho-billing/src/types/common.ts:43](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L43)
 
 ##### street?
 
@@ -7129,7 +7129,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:43
 optional street?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:41
+Defined in: [packages/zoho-billing/src/types/common.ts:41](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L41)
 
 ##### zip?
 
@@ -7137,13 +7137,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:41
 optional zip?: string | number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:45
+Defined in: [packages/zoho-billing/src/types/common.ts:45](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L45)
 
 ***
 
 ### ZohoBillingClientOptions
 
-Defined in: packages/zoho-billing/src/client.ts:30
+Defined in: [packages/zoho-billing/src/client.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L30)
 
 #### Properties
 
@@ -7153,7 +7153,7 @@ Defined in: packages/zoho-billing/src/client.ts:30
 optional accountsBaseUrl?: string;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:39
+Defined in: [packages/zoho-billing/src/client.ts:39](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L39)
 
 Overrides the region's OAuth accounts host.
 
@@ -7163,7 +7163,7 @@ Overrides the region's OAuth accounts host.
 optional apiBaseUrl?: string;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:37
+Defined in: [packages/zoho-billing/src/client.ts:37](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L37)
 
 Overrides the region's API host (e.g. a mock server in tests).
 
@@ -7173,7 +7173,7 @@ Overrides the region's API host (e.g. a mock server in tests).
 optional apiPath?: string;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:41
+Defined in: [packages/zoho-billing/src/client.ts:41](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L41)
 
 Path prefix after the host. Defaults to `/billing/v1`.
 
@@ -7183,7 +7183,7 @@ Path prefix after the host. Defaults to `/billing/v1`.
 credentials: ZohoCredentials;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:33
+Defined in: [packages/zoho-billing/src/client.ts:33](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L33)
 
 ##### defaultHeaders?
 
@@ -7191,7 +7191,7 @@ Defined in: packages/zoho-billing/src/client.ts:33
 optional defaultHeaders?: Record<string, string>;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:50
+Defined in: [packages/zoho-billing/src/client.ts:50](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L50)
 
 Extra headers merged into every request.
 
@@ -7201,7 +7201,7 @@ Extra headers merged into every request.
 optional fetch?: typeof fetch;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:48
+Defined in: [packages/zoho-billing/src/client.ts:48](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L48)
 
 Injected for tests; defaults to the global `fetch`.
 
@@ -7211,7 +7211,7 @@ Injected for tests; defaults to the global `fetch`.
 optional maxRetries?: number;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:44
+Defined in: [packages/zoho-billing/src/client.ts:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L44)
 
 Retries for throttled, 5xx, and connection failures. Defaults to 3.
 
@@ -7221,7 +7221,7 @@ Retries for throttled, 5xx, and connection failures. Defaults to 3.
 organizationId: string;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:32
+Defined in: [packages/zoho-billing/src/client.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L32)
 
 Zoho organization ID. Find it via `GET /organizations`.
 
@@ -7231,7 +7231,7 @@ Zoho organization ID. Find it via `GET /organizations`.
 optional region?: ZohoRegion;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:35
+Defined in: [packages/zoho-billing/src/client.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L35)
 
 Data centre the Zoho org lives in. Defaults to `us`.
 
@@ -7241,7 +7241,7 @@ Data centre the Zoho org lives in. Defaults to `us`.
 optional timeoutMs?: number;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:46
+Defined in: [packages/zoho-billing/src/client.ts:46](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L46)
 
 Per-request timeout in milliseconds. Defaults to 30000.
 
@@ -7251,13 +7251,13 @@ Per-request timeout in milliseconds. Defaults to 30000.
 optional tokenStore?: ZohoTokenStore;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:42
+Defined in: [packages/zoho-billing/src/client.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L42)
 
 ***
 
 ### ZohoCard
 
-Defined in: packages/zoho-billing/src/types/common.ts:116
+Defined in: [packages/zoho-billing/src/types/common.ts:116](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L116)
 
 #### Properties
 
@@ -7267,7 +7267,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:116
 optional card_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:117
+Defined in: [packages/zoho-billing/src/types/common.ts:117](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L117)
 
 ##### expiry\_month?
 
@@ -7275,7 +7275,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:117
 optional expiry_month?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:120
+Defined in: [packages/zoho-billing/src/types/common.ts:120](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L120)
 
 ##### expiry\_year?
 
@@ -7283,7 +7283,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:120
 optional expiry_year?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:121
+Defined in: [packages/zoho-billing/src/types/common.ts:121](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L121)
 
 ##### last\_four\_digits?
 
@@ -7291,7 +7291,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:121
 optional last_four_digits?: string | number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:118
+Defined in: [packages/zoho-billing/src/types/common.ts:118](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L118)
 
 ##### payment\_gateway?
 
@@ -7299,7 +7299,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:118
 optional payment_gateway?: ZohoPaymentGateway;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:119
+Defined in: [packages/zoho-billing/src/types/common.ts:119](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L119)
 
 ##### status?
 
@@ -7307,13 +7307,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:119
 optional status?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:122
+Defined in: [packages/zoho-billing/src/types/common.ts:122](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L122)
 
 ***
 
 ### ZohoCommunicationPreference
 
-Defined in: packages/zoho-billing/src/types/common.ts:80
+Defined in: [packages/zoho-billing/src/types/common.ts:80](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L80)
 
 #### Properties
 
@@ -7323,7 +7323,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:80
 optional is_email_enabled?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:81
+Defined in: [packages/zoho-billing/src/types/common.ts:81](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L81)
 
 ##### is\_sms\_enabled?
 
@@ -7331,7 +7331,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:81
 optional is_sms_enabled?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:82
+Defined in: [packages/zoho-billing/src/types/common.ts:82](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L82)
 
 ##### is\_whatsapp\_enabled?
 
@@ -7339,13 +7339,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:82
 optional is_whatsapp_enabled?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:83
+Defined in: [packages/zoho-billing/src/types/common.ts:83](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L83)
 
 ***
 
 ### ZohoContactPerson
 
-Defined in: packages/zoho-billing/src/types/common.ts:86
+Defined in: [packages/zoho-billing/src/types/common.ts:86](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L86)
 
 #### Properties
 
@@ -7355,7 +7355,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:86
 optional communication_preference?: ZohoCommunicationPreference;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:96
+Defined in: [packages/zoho-billing/src/types/common.ts:96](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L96)
 
 ##### contact\_person\_email?
 
@@ -7363,7 +7363,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:96
 optional contact_person_email?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:91
+Defined in: [packages/zoho-billing/src/types/common.ts:91](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L91)
 
 ##### contact\_person\_id?
 
@@ -7371,7 +7371,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:91
 optional contact_person_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:87
+Defined in: [packages/zoho-billing/src/types/common.ts:87](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L87)
 
 ##### contact\_person\_name?
 
@@ -7379,7 +7379,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:87
 optional contact_person_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:88
+Defined in: [packages/zoho-billing/src/types/common.ts:88](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L88)
 
 ##### email?
 
@@ -7387,7 +7387,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:88
 optional email?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:92
+Defined in: [packages/zoho-billing/src/types/common.ts:92](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L92)
 
 ##### first\_name?
 
@@ -7395,7 +7395,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:92
 optional first_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:89
+Defined in: [packages/zoho-billing/src/types/common.ts:89](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L89)
 
 ##### is\_primary\_contact?
 
@@ -7403,7 +7403,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:89
 optional is_primary_contact?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:95
+Defined in: [packages/zoho-billing/src/types/common.ts:95](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L95)
 
 ##### last\_name?
 
@@ -7411,7 +7411,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:95
 optional last_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:90
+Defined in: [packages/zoho-billing/src/types/common.ts:90](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L90)
 
 ##### mobile?
 
@@ -7419,7 +7419,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:90
 optional mobile?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:94
+Defined in: [packages/zoho-billing/src/types/common.ts:94](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L94)
 
 ##### phone?
 
@@ -7427,13 +7427,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:94
 optional phone?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:93
+Defined in: [packages/zoho-billing/src/types/common.ts:93](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L93)
 
 ***
 
 ### ZohoCoupon
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:164
+Defined in: [packages/zoho-billing/src/types/catalog.ts:164](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L164)
 
 #### Indexable
 
@@ -7451,7 +7451,7 @@ optional addons?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:180
+Defined in: [packages/zoho-billing/src/types/catalog.ts:180](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L180)
 
 ###### addon\_code?
 
@@ -7465,7 +7465,7 @@ optional addon_code?: string;
 optional apply_to_addons?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:179
+Defined in: [packages/zoho-billing/src/types/catalog.ts:179](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L179)
 
 ##### apply\_to\_plans?
 
@@ -7473,7 +7473,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:179
 optional apply_to_plans?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:177
+Defined in: [packages/zoho-billing/src/types/catalog.ts:177](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L177)
 
 ##### coupon\_code
 
@@ -7481,7 +7481,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:177
 coupon_code: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:165
+Defined in: [packages/zoho-billing/src/types/catalog.ts:165](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L165)
 
 ##### created\_time?
 
@@ -7489,7 +7489,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:165
 optional created_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:181
+Defined in: [packages/zoho-billing/src/types/catalog.ts:181](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L181)
 
 ##### description?
 
@@ -7497,7 +7497,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:181
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:167
+Defined in: [packages/zoho-billing/src/types/catalog.ts:167](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L167)
 
 ##### discount\_by?
 
@@ -7505,7 +7505,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:167
 optional discount_by?: ZohoDiscountBy;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:171
+Defined in: [packages/zoho-billing/src/types/catalog.ts:171](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L171)
 
 ##### discount\_value?
 
@@ -7513,7 +7513,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:171
 optional discount_value?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:172
+Defined in: [packages/zoho-billing/src/types/catalog.ts:172](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L172)
 
 ##### duration?
 
@@ -7521,7 +7521,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:172
 optional duration?: ZohoCouponDuration;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:169
+Defined in: [packages/zoho-billing/src/types/catalog.ts:169](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L169)
 
 ##### expiry\_at?
 
@@ -7529,7 +7529,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:169
 optional expiry_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:176
+Defined in: [packages/zoho-billing/src/types/catalog.ts:176](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L176)
 
 ##### max\_redemption?
 
@@ -7537,7 +7537,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:176
 optional max_redemption?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:174
+Defined in: [packages/zoho-billing/src/types/catalog.ts:174](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L174)
 
 ##### name?
 
@@ -7545,7 +7545,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:174
 optional name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:166
+Defined in: [packages/zoho-billing/src/types/catalog.ts:166](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L166)
 
 ##### plans?
 
@@ -7555,7 +7555,7 @@ optional plans?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:178
+Defined in: [packages/zoho-billing/src/types/catalog.ts:178](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L178)
 
 ###### plan\_code?
 
@@ -7569,7 +7569,7 @@ optional plan_code?: string;
 optional product_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:173
+Defined in: [packages/zoho-billing/src/types/catalog.ts:173](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L173)
 
 ##### redemption\_count?
 
@@ -7577,7 +7577,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:173
 optional redemption_count?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:175
+Defined in: [packages/zoho-billing/src/types/catalog.ts:175](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L175)
 
 ##### status?
 
@@ -7585,7 +7585,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:175
 optional status?: ZohoStatus;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:170
+Defined in: [packages/zoho-billing/src/types/catalog.ts:170](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L170)
 
 ##### type?
 
@@ -7593,7 +7593,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:170
 optional type?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:168
+Defined in: [packages/zoho-billing/src/types/catalog.ts:168](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L168)
 
 ##### updated\_time?
 
@@ -7601,13 +7601,13 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:168
 optional updated_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:182
+Defined in: [packages/zoho-billing/src/types/catalog.ts:182](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L182)
 
 ***
 
 ### ZohoCreditNote
 
-Defined in: packages/zoho-billing/src/types/billing.ts:207
+Defined in: [packages/zoho-billing/src/types/billing.ts:207](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L207)
 
 #### Indexable
 
@@ -7623,7 +7623,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:207
 optional balance?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:217
+Defined in: [packages/zoho-billing/src/types/billing.ts:217](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L217)
 
 ##### creditnote\_id
 
@@ -7631,7 +7631,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:217
 creditnote_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:208
+Defined in: [packages/zoho-billing/src/types/billing.ts:208](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L208)
 
 ##### creditnote\_items?
 
@@ -7639,7 +7639,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:208
 optional creditnote_items?: ZohoLineItem[];
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:218
+Defined in: [packages/zoho-billing/src/types/billing.ts:218](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L218)
 
 ##### creditnote\_number?
 
@@ -7647,7 +7647,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:218
 optional creditnote_number?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:209
+Defined in: [packages/zoho-billing/src/types/billing.ts:209](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L209)
 
 ##### currency\_code?
 
@@ -7655,7 +7655,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:209
 optional currency_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:219
+Defined in: [packages/zoho-billing/src/types/billing.ts:219](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L219)
 
 ##### customer\_id?
 
@@ -7663,7 +7663,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:219
 optional customer_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:213
+Defined in: [packages/zoho-billing/src/types/billing.ts:213](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L213)
 
 ##### customer\_name?
 
@@ -7671,7 +7671,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:213
 optional customer_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:214
+Defined in: [packages/zoho-billing/src/types/billing.ts:214](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L214)
 
 ##### date?
 
@@ -7679,7 +7679,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:214
 optional date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:210
+Defined in: [packages/zoho-billing/src/types/billing.ts:210](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L210)
 
 ##### email?
 
@@ -7687,7 +7687,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:210
 optional email?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:215
+Defined in: [packages/zoho-billing/src/types/billing.ts:215](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L215)
 
 ##### status?
 
@@ -7695,7 +7695,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:215
 optional status?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:211
+Defined in: [packages/zoho-billing/src/types/billing.ts:211](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L211)
 
 ##### total?
 
@@ -7703,7 +7703,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:211
 optional total?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:216
+Defined in: [packages/zoho-billing/src/types/billing.ts:216](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L216)
 
 ##### transaction\_id?
 
@@ -7711,13 +7711,13 @@ Defined in: packages/zoho-billing/src/types/billing.ts:216
 optional transaction_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:212
+Defined in: [packages/zoho-billing/src/types/billing.ts:212](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L212)
 
 ***
 
 ### ZohoCustomer
 
-Defined in: packages/zoho-billing/src/types/customer.ts:10
+Defined in: [packages/zoho-billing/src/types/customer.ts:10](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L10)
 
 #### Indexable
 
@@ -7733,7 +7733,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:10
 optional ach_supported?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:45
+Defined in: [packages/zoho-billing/src/types/customer.ts:45](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L45)
 
 ##### billing\_address?
 
@@ -7741,7 +7741,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:45
 optional billing_address?: ZohoAddress;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:27
+Defined in: [packages/zoho-billing/src/types/customer.ts:27](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L27)
 
 ##### company\_name?
 
@@ -7749,7 +7749,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:27
 optional company_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:17
+Defined in: [packages/zoho-billing/src/types/customer.ts:17](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L17)
 
 ##### contact\_persons?
 
@@ -7757,7 +7757,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:17
 optional contact_persons?: ZohoContactPerson[];
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:29
+Defined in: [packages/zoho-billing/src/types/customer.ts:29](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L29)
 
 ##### created\_time?
 
@@ -7765,7 +7765,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:29
 optional created_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:48
+Defined in: [packages/zoho-billing/src/types/customer.ts:48](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L48)
 
 ##### currency\_code?
 
@@ -7773,7 +7773,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:48
 optional currency_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:24
+Defined in: [packages/zoho-billing/src/types/customer.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L24)
 
 ##### currency\_id?
 
@@ -7781,7 +7781,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:24
 optional currency_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:25
+Defined in: [packages/zoho-billing/src/types/customer.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L25)
 
 ##### currency\_symbol?
 
@@ -7789,7 +7789,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:25
 optional currency_symbol?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:26
+Defined in: [packages/zoho-billing/src/types/customer.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L26)
 
 ##### custom\_fields?
 
@@ -7797,7 +7797,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:26
 optional custom_fields?: ZohoCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:46
+Defined in: [packages/zoho-billing/src/types/customer.ts:46](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L46)
 
 ##### customer\_id
 
@@ -7805,7 +7805,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:46
 customer_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:11
+Defined in: [packages/zoho-billing/src/types/customer.ts:11](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L11)
 
 ##### department?
 
@@ -7813,7 +7813,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:11
 optional department?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:20
+Defined in: [packages/zoho-billing/src/types/customer.ts:20](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L20)
 
 ##### designation?
 
@@ -7821,7 +7821,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:20
 optional designation?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:21
+Defined in: [packages/zoho-billing/src/types/customer.ts:21](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L21)
 
 ##### display\_name?
 
@@ -7829,7 +7829,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:21
 optional display_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:12
+Defined in: [packages/zoho-billing/src/types/customer.ts:12](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L12)
 
 ##### email?
 
@@ -7837,7 +7837,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:12
 optional email?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:16
+Defined in: [packages/zoho-billing/src/types/customer.ts:16](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L16)
 
 ##### first\_name?
 
@@ -7845,7 +7845,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:16
 optional first_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:14
+Defined in: [packages/zoho-billing/src/types/customer.ts:14](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L14)
 
 ##### gst\_no?
 
@@ -7853,7 +7853,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:14
 optional gst_no?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:33
+Defined in: [packages/zoho-billing/src/types/customer.ts:33](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L33)
 
 ##### gst\_treatment?
 
@@ -7861,7 +7861,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:33
 optional gst_treatment?: ZohoGstTreatment;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:32
+Defined in: [packages/zoho-billing/src/types/customer.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L32)
 
 ##### is\_taxable?
 
@@ -7869,7 +7869,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:32
 optional is_taxable?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:37
+Defined in: [packages/zoho-billing/src/types/customer.ts:37](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L37)
 
 ##### last\_name?
 
@@ -7877,7 +7877,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:37
 optional last_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:15
+Defined in: [packages/zoho-billing/src/types/customer.ts:15](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L15)
 
 ##### mobile?
 
@@ -7885,7 +7885,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:15
 optional mobile?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:19
+Defined in: [packages/zoho-billing/src/types/customer.ts:19](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L19)
 
 ##### notes?
 
@@ -7893,7 +7893,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:19
 optional notes?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:41
+Defined in: [packages/zoho-billing/src/types/customer.ts:41](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L41)
 
 ##### outstanding\_receivable\_amount?
 
@@ -7901,7 +7901,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:41
 optional outstanding_receivable_amount?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:43
+Defined in: [packages/zoho-billing/src/types/customer.ts:43](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L43)
 
 ##### payment\_terms?
 
@@ -7909,7 +7909,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:43
 optional payment_terms?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:30
+Defined in: [packages/zoho-billing/src/types/customer.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L30)
 
 ##### payment\_terms\_label?
 
@@ -7917,7 +7917,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:30
 optional payment_terms_label?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:31
+Defined in: [packages/zoho-billing/src/types/customer.ts:31](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L31)
 
 ##### phone?
 
@@ -7925,7 +7925,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:31
 optional phone?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:18
+Defined in: [packages/zoho-billing/src/types/customer.ts:18](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L18)
 
 ##### place\_of\_supply?
 
@@ -7933,7 +7933,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:18
 optional place_of_supply?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:34
+Defined in: [packages/zoho-billing/src/types/customer.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L34)
 
 ##### price\_precision?
 
@@ -7941,7 +7941,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:34
 optional price_precision?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:40
+Defined in: [packages/zoho-billing/src/types/customer.ts:40](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L40)
 
 ##### reference\_id?
 
@@ -7949,7 +7949,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:40
 optional reference_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:42
+Defined in: [packages/zoho-billing/src/types/customer.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L42)
 
 ##### salutation?
 
@@ -7957,7 +7957,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:42
 optional salutation?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:13
+Defined in: [packages/zoho-billing/src/types/customer.ts:13](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L13)
 
 ##### shipping\_address?
 
@@ -7965,7 +7965,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:13
 optional shipping_address?: ZohoAddress;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:28
+Defined in: [packages/zoho-billing/src/types/customer.ts:28](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L28)
 
 ##### status?
 
@@ -7973,7 +7973,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:28
 optional status?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:23
+Defined in: [packages/zoho-billing/src/types/customer.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L23)
 
 ##### tags?
 
@@ -7981,7 +7981,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:23
 optional tags?: ZohoTag[];
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:47
+Defined in: [packages/zoho-billing/src/types/customer.ts:47](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L47)
 
 ##### tax\_exemption\_code?
 
@@ -7989,7 +7989,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:47
 optional tax_exemption_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:39
+Defined in: [packages/zoho-billing/src/types/customer.ts:39](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L39)
 
 ##### tax\_exemption\_id?
 
@@ -7997,7 +7997,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:39
 optional tax_exemption_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:38
+Defined in: [packages/zoho-billing/src/types/customer.ts:38](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L38)
 
 ##### tax\_id?
 
@@ -8005,7 +8005,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:38
 optional tax_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:35
+Defined in: [packages/zoho-billing/src/types/customer.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L35)
 
 ##### tax\_name?
 
@@ -8013,7 +8013,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:35
 optional tax_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:36
+Defined in: [packages/zoho-billing/src/types/customer.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L36)
 
 ##### unused\_credits\_receivable\_amount?
 
@@ -8021,7 +8021,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:36
 optional unused_credits_receivable_amount?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:44
+Defined in: [packages/zoho-billing/src/types/customer.ts:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L44)
 
 ##### updated\_time?
 
@@ -8029,7 +8029,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:44
 optional updated_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:49
+Defined in: [packages/zoho-billing/src/types/customer.ts:49](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L49)
 
 ##### website?
 
@@ -8037,7 +8037,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:49
 optional website?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:22
+Defined in: [packages/zoho-billing/src/types/customer.ts:22](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L22)
 
 ##### zcrm\_account\_id?
 
@@ -8045,7 +8045,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:22
 optional zcrm_account_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:50
+Defined in: [packages/zoho-billing/src/types/customer.ts:50](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L50)
 
 ##### zcrm\_contact\_id?
 
@@ -8053,13 +8053,13 @@ Defined in: packages/zoho-billing/src/types/customer.ts:50
 optional zcrm_contact_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:51
+Defined in: [packages/zoho-billing/src/types/customer.ts:51](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L51)
 
 ***
 
 ### ZohoCustomField
 
-Defined in: packages/zoho-billing/src/types/common.ts:49
+Defined in: [packages/zoho-billing/src/types/common.ts:49](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L49)
 
 #### Properties
 
@@ -8069,7 +8069,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:49
 optional api_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:54
+Defined in: [packages/zoho-billing/src/types/common.ts:54](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L54)
 
 ##### data\_type?
 
@@ -8077,7 +8077,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:54
 optional data_type?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:53
+Defined in: [packages/zoho-billing/src/types/common.ts:53](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L53)
 
 ##### index?
 
@@ -8085,7 +8085,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:53
 optional index?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:50
+Defined in: [packages/zoho-billing/src/types/common.ts:50](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L50)
 
 ##### label?
 
@@ -8093,7 +8093,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:50
 optional label?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:51
+Defined in: [packages/zoho-billing/src/types/common.ts:51](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L51)
 
 ##### value?
 
@@ -8101,13 +8101,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:51
 optional value?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:52
+Defined in: [packages/zoho-billing/src/types/common.ts:52](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L52)
 
 ***
 
 ### ZohoCustomTokenCredentials
 
-Defined in: packages/zoho-billing/src/auth.ts:60
+Defined in: [packages/zoho-billing/src/auth.ts:60](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L60)
 
 Bring-your-own resolution, e.g. tokens brokered by another service.
 
@@ -8119,7 +8119,7 @@ Bring-your-own resolution, e.g. tokens brokered by another service.
 getAccessToken: () => string | Promise<string>;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:61
+Defined in: [packages/zoho-billing/src/auth.ts:61](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L61)
 
 ###### Returns
 
@@ -8129,7 +8129,7 @@ Defined in: packages/zoho-billing/src/auth.ts:61
 
 ### ZohoEvent
 
-Defined in: packages/zoho-billing/src/types/event.ts:63
+Defined in: [packages/zoho-billing/src/types/event.ts:63](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L63)
 
 #### Indexable
 
@@ -8145,7 +8145,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:63
 event_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:64
+Defined in: [packages/zoho-billing/src/types/event.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L64)
 
 ##### event\_time?
 
@@ -8153,7 +8153,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:64
 optional event_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:66
+Defined in: [packages/zoho-billing/src/types/event.ts:66](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L66)
 
 ##### event\_type?
 
@@ -8161,7 +8161,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:66
 optional event_type?: ZohoEventType;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:65
+Defined in: [packages/zoho-billing/src/types/event.ts:65](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L65)
 
 ##### payload?
 
@@ -8169,7 +8169,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:65
 optional payload?: ZohoEventPayload;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:68
+Defined in: [packages/zoho-billing/src/types/event.ts:68](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L68)
 
 Resource snapshot at the time the event fired.
 
@@ -8177,7 +8177,7 @@ Resource snapshot at the time the event fired.
 
 ### ZohoEventPayload
 
-Defined in: packages/zoho-billing/src/types/event.ts:55
+Defined in: [packages/zoho-billing/src/types/event.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L55)
 
 Payload bodies keyed by the resource Zoho nests under `data`.
 
@@ -8195,7 +8195,7 @@ Payload bodies keyed by the resource Zoho nests under `data`.
 optional creditnote?: ZohoCreditNote;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:59
+Defined in: [packages/zoho-billing/src/types/event.ts:59](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L59)
 
 ##### invoice?
 
@@ -8203,7 +8203,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:59
 optional invoice?: ZohoInvoice;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:57
+Defined in: [packages/zoho-billing/src/types/event.ts:57](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L57)
 
 ##### payment?
 
@@ -8211,7 +8211,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:57
 optional payment?: ZohoPayment;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:58
+Defined in: [packages/zoho-billing/src/types/event.ts:58](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L58)
 
 ##### subscription?
 
@@ -8219,13 +8219,13 @@ Defined in: packages/zoho-billing/src/types/event.ts:58
 optional subscription?: ZohoSubscription;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:56
+Defined in: [packages/zoho-billing/src/types/event.ts:56](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L56)
 
 ***
 
 ### ZohoHostedPage
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:23
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L23)
 
 #### Indexable
 
@@ -8241,7 +8241,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:23
 optional action?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:32
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L32)
 
 ##### created\_time?
 
@@ -8249,7 +8249,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:32
 optional created_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:34
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L34)
 
 ##### data?
 
@@ -8260,7 +8260,7 @@ optional data?: {
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:36
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L36)
 
 Populated once the page has been completed.
 
@@ -8282,7 +8282,7 @@ optional subscription?: ZohoSubscription;
 optional expiring_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:33
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:33](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L33)
 
 ##### hostedpage\_id
 
@@ -8290,7 +8290,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:33
 hostedpage_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:24
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L24)
 
 ##### status?
 
@@ -8298,7 +8298,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:24
 optional status?: ZohoHostedPageStatus;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:29
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:29](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L29)
 
 `success` means the customer completed the page. Poll or verify this on
 return before granting access - the redirect alone proves nothing.
@@ -8309,7 +8309,7 @@ return before granting access - the redirect alone proves nothing.
 optional url?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:31
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:31](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L31)
 
 The URL to send the customer to. Short-lived; do not cache it.
 
@@ -8317,7 +8317,7 @@ The URL to send the customer to. Short-lived; do not cache it.
 
 ### ZohoInvoice
 
-Defined in: packages/zoho-billing/src/types/billing.ts:41
+Defined in: [packages/zoho-billing/src/types/billing.ts:41](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L41)
 
 #### Indexable
 
@@ -8333,7 +8333,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:41
 optional ach_payment_initiated?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:100
+Defined in: [packages/zoho-billing/src/types/billing.ts:100](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L100)
 
 ##### adjustment?
 
@@ -8341,7 +8341,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:100
 optional adjustment?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:64
+Defined in: [packages/zoho-billing/src/types/billing.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L64)
 
 ##### adjustment\_description?
 
@@ -8349,7 +8349,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:64
 optional adjustment_description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:65
+Defined in: [packages/zoho-billing/src/types/billing.ts:65](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L65)
 
 ##### allow\_partial\_payments?
 
@@ -8357,7 +8357,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:65
 optional allow_partial_payments?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:75
+Defined in: [packages/zoho-billing/src/types/billing.ts:75](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L75)
 
 ##### balance?
 
@@ -8365,7 +8365,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:75
 optional balance?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:73
+Defined in: [packages/zoho-billing/src/types/billing.ts:73](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L73)
 
 ##### billing\_address?
 
@@ -8373,7 +8373,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:73
 optional billing_address?: ZohoAddress;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:80
+Defined in: [packages/zoho-billing/src/types/billing.ts:80](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L80)
 
 ##### client\_viewed\_time?
 
@@ -8381,7 +8381,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:80
 optional client_viewed_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:95
+Defined in: [packages/zoho-billing/src/types/billing.ts:95](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L95)
 
 ##### created\_time?
 
@@ -8389,7 +8389,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:95
 optional created_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:87
+Defined in: [packages/zoho-billing/src/types/billing.ts:87](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L87)
 
 ##### credits\_applied?
 
@@ -8397,7 +8397,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:87
 optional credits_applied?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:71
+Defined in: [packages/zoho-billing/src/types/billing.ts:71](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L71)
 
 ##### currency\_code?
 
@@ -8405,7 +8405,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:71
 optional currency_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:51
+Defined in: [packages/zoho-billing/src/types/billing.ts:51](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L51)
 
 ##### currency\_id?
 
@@ -8413,7 +8413,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:51
 optional currency_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:50
+Defined in: [packages/zoho-billing/src/types/billing.ts:50](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L50)
 
 ##### custom\_fields?
 
@@ -8421,7 +8421,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:50
 optional custom_fields?: ZohoCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:84
+Defined in: [packages/zoho-billing/src/types/billing.ts:84](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L84)
 
 ##### customer\_id?
 
@@ -8429,7 +8429,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:84
 optional customer_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:47
+Defined in: [packages/zoho-billing/src/types/billing.ts:47](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L47)
 
 ##### customer\_name?
 
@@ -8437,7 +8437,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:47
 optional customer_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:48
+Defined in: [packages/zoho-billing/src/types/billing.ts:48](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L48)
 
 ##### date?
 
@@ -8445,7 +8445,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:48
 optional date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:45
+Defined in: [packages/zoho-billing/src/types/billing.ts:45](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L45)
 
 ##### discount?
 
@@ -8453,7 +8453,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:45
 optional discount?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:58
+Defined in: [packages/zoho-billing/src/types/billing.ts:58](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L58)
 
 ##### discount\_type?
 
@@ -8461,7 +8461,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:58
 optional discount_type?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:59
+Defined in: [packages/zoho-billing/src/types/billing.ts:59](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L59)
 
 ##### due\_date?
 
@@ -8469,7 +8469,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:59
 optional due_date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:46
+Defined in: [packages/zoho-billing/src/types/billing.ts:46](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L46)
 
 ##### exchange\_rate?
 
@@ -8477,7 +8477,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:46
 optional exchange_rate?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:52
+Defined in: [packages/zoho-billing/src/types/billing.ts:52](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L52)
 
 ##### gst\_no?
 
@@ -8485,7 +8485,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:52
 optional gst_no?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:96
+Defined in: [packages/zoho-billing/src/types/billing.ts:96](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L96)
 
 ##### gst\_treatment?
 
@@ -8493,7 +8493,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:96
 optional gst_treatment?: ZohoGstTreatment;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:97
+Defined in: [packages/zoho-billing/src/types/billing.ts:97](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L97)
 
 ##### has\_attachment?
 
@@ -8501,7 +8501,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:97
 optional has_attachment?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:93
+Defined in: [packages/zoho-billing/src/types/billing.ts:93](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L93)
 
 ##### invoice\_id
 
@@ -8509,7 +8509,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:93
 invoice_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:42
+Defined in: [packages/zoho-billing/src/types/billing.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L42)
 
 ##### invoice\_number?
 
@@ -8517,7 +8517,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:42
 optional invoice_number?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:43
+Defined in: [packages/zoho-billing/src/types/billing.ts:43](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L43)
 
 ##### invoice\_url?
 
@@ -8525,7 +8525,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:43
 optional invoice_url?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:92
+Defined in: [packages/zoho-billing/src/types/billing.ts:92](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L92)
 
 Public payment link for this invoice.
 
@@ -8535,7 +8535,7 @@ Public payment link for this invoice.
 optional is_discount_before_tax?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:60
+Defined in: [packages/zoho-billing/src/types/billing.ts:60](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L60)
 
 ##### is\_emailed?
 
@@ -8543,7 +8543,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:60
 optional is_emailed?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:77
+Defined in: [packages/zoho-billing/src/types/billing.ts:77](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L77)
 
 ##### is\_inclusive\_tax?
 
@@ -8551,7 +8551,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:77
 optional is_inclusive_tax?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:61
+Defined in: [packages/zoho-billing/src/types/billing.ts:61](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L61)
 
 ##### is\_viewed\_by\_client?
 
@@ -8559,7 +8559,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:61
 optional is_viewed_by_client?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:94
+Defined in: [packages/zoho-billing/src/types/billing.ts:94](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L94)
 
 ##### last\_modified\_time?
 
@@ -8567,7 +8567,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:94
 optional last_modified_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:88
+Defined in: [packages/zoho-billing/src/types/billing.ts:88](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L88)
 
 ##### last\_payment\_date?
 
@@ -8575,7 +8575,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:88
 optional last_payment_date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:57
+Defined in: [packages/zoho-billing/src/types/billing.ts:57](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L57)
 
 ##### last\_reminder\_sent\_date?
 
@@ -8583,7 +8583,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:57
 optional last_reminder_sent_date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:79
+Defined in: [packages/zoho-billing/src/types/billing.ts:79](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L79)
 
 ##### line\_items?
 
@@ -8591,7 +8591,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:79
 optional line_items?: ZohoLineItem[];
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:62
+Defined in: [packages/zoho-billing/src/types/billing.ts:62](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L62)
 
 ##### notes?
 
@@ -8599,7 +8599,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:62
 optional notes?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:82
+Defined in: [packages/zoho-billing/src/types/billing.ts:82](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L82)
 
 ##### payment\_expected\_date?
 
@@ -8607,7 +8607,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:82
 optional payment_expected_date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:56
+Defined in: [packages/zoho-billing/src/types/billing.ts:56](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L56)
 
 ##### payment\_made?
 
@@ -8615,7 +8615,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:56
 optional payment_made?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:70
+Defined in: [packages/zoho-billing/src/types/billing.ts:70](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L70)
 
 ##### payment\_reminder\_enabled?
 
@@ -8623,7 +8623,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:70
 optional payment_reminder_enabled?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:99
+Defined in: [packages/zoho-billing/src/types/billing.ts:99](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L99)
 
 ##### payment\_terms?
 
@@ -8631,7 +8631,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:99
 optional payment_terms?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:54
+Defined in: [packages/zoho-billing/src/types/billing.ts:54](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L54)
 
 ##### payment\_terms\_label?
 
@@ -8639,7 +8639,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:54
 optional payment_terms_label?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:55
+Defined in: [packages/zoho-billing/src/types/billing.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L55)
 
 ##### place\_of\_supply?
 
@@ -8647,7 +8647,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:55
 optional place_of_supply?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:98
+Defined in: [packages/zoho-billing/src/types/billing.ts:98](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L98)
 
 ##### price\_precision?
 
@@ -8655,7 +8655,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:98
 optional price_precision?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:76
+Defined in: [packages/zoho-billing/src/types/billing.ts:76](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L76)
 
 ##### reference\_number?
 
@@ -8663,7 +8663,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:76
 optional reference_number?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:53
+Defined in: [packages/zoho-billing/src/types/billing.ts:53](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L53)
 
 ##### reminders\_sent?
 
@@ -8671,7 +8671,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:53
 optional reminders_sent?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:78
+Defined in: [packages/zoho-billing/src/types/billing.ts:78](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L78)
 
 ##### salesperson\_id?
 
@@ -8679,7 +8679,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:78
 optional salesperson_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:89
+Defined in: [packages/zoho-billing/src/types/billing.ts:89](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L89)
 
 ##### salesperson\_name?
 
@@ -8687,7 +8687,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:89
 optional salesperson_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:90
+Defined in: [packages/zoho-billing/src/types/billing.ts:90](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L90)
 
 ##### shipping\_address?
 
@@ -8695,7 +8695,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:90
 optional shipping_address?: ZohoAddress;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:81
+Defined in: [packages/zoho-billing/src/types/billing.ts:81](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L81)
 
 ##### shipping\_charge?
 
@@ -8703,7 +8703,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:81
 optional shipping_charge?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:63
+Defined in: [packages/zoho-billing/src/types/billing.ts:63](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L63)
 
 ##### status?
 
@@ -8711,7 +8711,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:63
 optional status?: ZohoInvoiceStatus;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:44
+Defined in: [packages/zoho-billing/src/types/billing.ts:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L44)
 
 ##### sub\_total?
 
@@ -8719,7 +8719,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:44
 optional sub_total?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:66
+Defined in: [packages/zoho-billing/src/types/billing.ts:66](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L66)
 
 ##### subscription\_id?
 
@@ -8727,7 +8727,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:66
 optional subscription_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:49
+Defined in: [packages/zoho-billing/src/types/billing.ts:49](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L49)
 
 ##### tax\_amount\_withheld?
 
@@ -8735,7 +8735,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:49
 optional tax_amount_withheld?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:72
+Defined in: [packages/zoho-billing/src/types/billing.ts:72](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L72)
 
 ##### tax\_total?
 
@@ -8743,7 +8743,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:72
 optional tax_total?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:67
+Defined in: [packages/zoho-billing/src/types/billing.ts:67](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L67)
 
 ##### taxes?
 
@@ -8751,7 +8751,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:67
 optional taxes?: ZohoTax[];
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:69
+Defined in: [packages/zoho-billing/src/types/billing.ts:69](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L69)
 
 ##### template\_id?
 
@@ -8759,7 +8759,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:69
 optional template_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:85
+Defined in: [packages/zoho-billing/src/types/billing.ts:85](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L85)
 
 ##### template\_name?
 
@@ -8767,7 +8767,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:85
 optional template_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:86
+Defined in: [packages/zoho-billing/src/types/billing.ts:86](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L86)
 
 ##### terms?
 
@@ -8775,7 +8775,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:86
 optional terms?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:83
+Defined in: [packages/zoho-billing/src/types/billing.ts:83](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L83)
 
 ##### total?
 
@@ -8783,7 +8783,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:83
 optional total?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:68
+Defined in: [packages/zoho-billing/src/types/billing.ts:68](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L68)
 
 ##### write\_off\_amount?
 
@@ -8791,13 +8791,13 @@ Defined in: packages/zoho-billing/src/types/billing.ts:68
 optional write_off_amount?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:74
+Defined in: [packages/zoho-billing/src/types/billing.ts:74](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L74)
 
 ***
 
 ### ZohoItemCustomField
 
-Defined in: packages/zoho-billing/src/types/common.ts:57
+Defined in: [packages/zoho-billing/src/types/common.ts:57](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L57)
 
 #### Properties
 
@@ -8807,7 +8807,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:57
 optional label?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:58
+Defined in: [packages/zoho-billing/src/types/common.ts:58](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L58)
 
 ##### value?
 
@@ -8815,13 +8815,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:58
 optional value?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:59
+Defined in: [packages/zoho-billing/src/types/common.ts:59](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L59)
 
 ***
 
 ### ZohoLineItem
 
-Defined in: packages/zoho-billing/src/types/billing.ts:24
+Defined in: [packages/zoho-billing/src/types/billing.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L24)
 
 #### Indexable
 
@@ -8837,7 +8837,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:24
 optional code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:29
+Defined in: [packages/zoho-billing/src/types/billing.ts:29](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L29)
 
 ##### description?
 
@@ -8845,7 +8845,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:29
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:28
+Defined in: [packages/zoho-billing/src/types/billing.ts:28](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L28)
 
 ##### discount?
 
@@ -8853,7 +8853,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:28
 optional discount?: string | number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:32
+Defined in: [packages/zoho-billing/src/types/billing.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L32)
 
 ##### item\_id?
 
@@ -8861,7 +8861,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:32
 optional item_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:25
+Defined in: [packages/zoho-billing/src/types/billing.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L25)
 
 ##### item\_total?
 
@@ -8869,7 +8869,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:25
 optional item_total?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:33
+Defined in: [packages/zoho-billing/src/types/billing.ts:33](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L33)
 
 ##### line\_item\_id?
 
@@ -8877,7 +8877,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:33
 optional line_item_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:26
+Defined in: [packages/zoho-billing/src/types/billing.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L26)
 
 ##### name?
 
@@ -8885,7 +8885,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:26
 optional name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:27
+Defined in: [packages/zoho-billing/src/types/billing.ts:27](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L27)
 
 ##### price?
 
@@ -8893,7 +8893,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:27
 optional price?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:31
+Defined in: [packages/zoho-billing/src/types/billing.ts:31](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L31)
 
 ##### quantity?
 
@@ -8901,7 +8901,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:31
 optional quantity?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:30
+Defined in: [packages/zoho-billing/src/types/billing.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L30)
 
 ##### tax\_id?
 
@@ -8909,7 +8909,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:30
 optional tax_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:34
+Defined in: [packages/zoho-billing/src/types/billing.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L34)
 
 ##### tax\_name?
 
@@ -8917,7 +8917,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:34
 optional tax_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:35
+Defined in: [packages/zoho-billing/src/types/billing.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L35)
 
 ##### tax\_percentage?
 
@@ -8925,7 +8925,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:35
 optional tax_percentage?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:36
+Defined in: [packages/zoho-billing/src/types/billing.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L36)
 
 ##### unit?
 
@@ -8933,13 +8933,13 @@ Defined in: packages/zoho-billing/src/types/billing.ts:36
 optional unit?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:37
+Defined in: [packages/zoho-billing/src/types/billing.ts:37](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L37)
 
 ***
 
 ### ZohoListParams
 
-Defined in: packages/zoho-billing/src/types/common.ts:29
+Defined in: [packages/zoho-billing/src/types/common.ts:29](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L29)
 
 Common query parameters accepted by list endpoints.
 
@@ -8971,7 +8971,7 @@ Common query parameters accepted by list endpoints.
 optional filter_by?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:33
+Defined in: [packages/zoho-billing/src/types/common.ts:33](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L33)
 
 ##### page?
 
@@ -8979,7 +8979,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:33
 optional page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:30
+Defined in: [packages/zoho-billing/src/types/common.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L30)
 
 ##### per\_page?
 
@@ -8987,7 +8987,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:30
 optional per_page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:32
+Defined in: [packages/zoho-billing/src/types/common.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L32)
 
 Zoho's default and maximum is 200.
 
@@ -8997,7 +8997,7 @@ Zoho's default and maximum is 200.
 optional search_text?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:36
+Defined in: [packages/zoho-billing/src/types/common.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L36)
 
 ##### sort\_column?
 
@@ -9005,7 +9005,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:36
 optional sort_column?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:34
+Defined in: [packages/zoho-billing/src/types/common.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L34)
 
 ##### sort\_order?
 
@@ -9013,13 +9013,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:34
 optional sort_order?: "A" | "D";
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:35
+Defined in: [packages/zoho-billing/src/types/common.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L35)
 
 ***
 
 ### ZohoListResponse
 
-Defined in: packages/zoho-billing/src/types/common.ts:24
+Defined in: [packages/zoho-billing/src/types/common.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L24)
 
 Envelope Zoho wraps every response in. `code: 0` means success.
 
@@ -9041,7 +9041,7 @@ Envelope Zoho wraps every response in. `code: 0` means success.
 code: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:8
+Defined in: [packages/zoho-billing/src/types/common.ts:8](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L8)
 
 ###### Inherited from
 
@@ -9053,7 +9053,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:8
 message: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:9
+Defined in: [packages/zoho-billing/src/types/common.ts:9](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L9)
 
 ###### Inherited from
 
@@ -9065,13 +9065,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:9
 optional page_context?: ZohoPageContext;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:25
+Defined in: [packages/zoho-billing/src/types/common.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L25)
 
 ***
 
 ### ZohoNote
 
-Defined in: packages/zoho-billing/src/types/common.ts:73
+Defined in: [packages/zoho-billing/src/types/common.ts:73](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L73)
 
 #### Properties
 
@@ -9081,7 +9081,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:73
 optional commented_by?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:76
+Defined in: [packages/zoho-billing/src/types/common.ts:76](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L76)
 
 ##### commented\_time?
 
@@ -9089,7 +9089,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:76
 optional commented_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:77
+Defined in: [packages/zoho-billing/src/types/common.ts:77](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L77)
 
 ##### description?
 
@@ -9097,7 +9097,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:77
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:75
+Defined in: [packages/zoho-billing/src/types/common.ts:75](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L75)
 
 ##### note\_id?
 
@@ -9105,13 +9105,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:75
 optional note_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:74
+Defined in: [packages/zoho-billing/src/types/common.ts:74](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L74)
 
 ***
 
 ### ZohoOrganization
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:3
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:3](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L3)
 
 #### Indexable
 
@@ -9127,7 +9127,7 @@ Defined in: packages/zoho-billing/src/resources/organizations.ts:3
 optional contact_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:6
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:6](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L6)
 
 ##### country?
 
@@ -9135,7 +9135,7 @@ Defined in: packages/zoho-billing/src/resources/organizations.ts:6
 optional country?: string;
 ```
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:11
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:11](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L11)
 
 ##### currency\_code?
 
@@ -9143,7 +9143,7 @@ Defined in: packages/zoho-billing/src/resources/organizations.ts:11
 optional currency_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:8
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:8](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L8)
 
 ##### currency\_symbol?
 
@@ -9151,7 +9151,7 @@ Defined in: packages/zoho-billing/src/resources/organizations.ts:8
 optional currency_symbol?: string;
 ```
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:9
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:9](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L9)
 
 ##### email?
 
@@ -9159,7 +9159,7 @@ Defined in: packages/zoho-billing/src/resources/organizations.ts:9
 optional email?: string;
 ```
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:7
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L7)
 
 ##### fiscal\_year\_start\_month?
 
@@ -9167,7 +9167,7 @@ Defined in: packages/zoho-billing/src/resources/organizations.ts:7
 optional fiscal_year_start_month?: string;
 ```
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:12
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:12](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L12)
 
 ##### is\_default\_org?
 
@@ -9175,7 +9175,7 @@ Defined in: packages/zoho-billing/src/resources/organizations.ts:12
 optional is_default_org?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:13
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:13](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L13)
 
 ##### name?
 
@@ -9183,7 +9183,7 @@ Defined in: packages/zoho-billing/src/resources/organizations.ts:13
 optional name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:5
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:5](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L5)
 
 ##### organization\_id
 
@@ -9191,7 +9191,7 @@ Defined in: packages/zoho-billing/src/resources/organizations.ts:5
 organization_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:4
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:4](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L4)
 
 ##### time\_zone?
 
@@ -9199,13 +9199,13 @@ Defined in: packages/zoho-billing/src/resources/organizations.ts:4
 optional time_zone?: string;
 ```
 
-Defined in: packages/zoho-billing/src/resources/organizations.ts:10
+Defined in: [packages/zoho-billing/src/resources/organizations.ts:10](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/resources/organizations.ts#L10)
 
 ***
 
 ### ZohoPageContext
 
-Defined in: packages/zoho-billing/src/types/common.ts:13
+Defined in: [packages/zoho-billing/src/types/common.ts:13](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L13)
 
 Pagination metadata returned alongside list endpoints.
 
@@ -9217,7 +9217,7 @@ Pagination metadata returned alongside list endpoints.
 optional applied_filter?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:18
+Defined in: [packages/zoho-billing/src/types/common.ts:18](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L18)
 
 ##### has\_more\_page?
 
@@ -9225,7 +9225,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:18
 optional has_more_page?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:16
+Defined in: [packages/zoho-billing/src/types/common.ts:16](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L16)
 
 ##### page?
 
@@ -9233,7 +9233,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:16
 optional page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:14
+Defined in: [packages/zoho-billing/src/types/common.ts:14](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L14)
 
 ##### per\_page?
 
@@ -9241,7 +9241,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:14
 optional per_page?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:15
+Defined in: [packages/zoho-billing/src/types/common.ts:15](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L15)
 
 ##### report\_name?
 
@@ -9249,7 +9249,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:15
 optional report_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:17
+Defined in: [packages/zoho-billing/src/types/common.ts:17](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L17)
 
 ##### sort\_column?
 
@@ -9257,7 +9257,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:17
 optional sort_column?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:19
+Defined in: [packages/zoho-billing/src/types/common.ts:19](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L19)
 
 ##### sort\_order?
 
@@ -9265,7 +9265,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:19
 optional sort_order?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:20
+Defined in: [packages/zoho-billing/src/types/common.ts:20](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L20)
 
 ##### total?
 
@@ -9273,13 +9273,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:20
 optional total?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:21
+Defined in: [packages/zoho-billing/src/types/common.ts:21](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L21)
 
 ***
 
 ### ZohoPayment
 
-Defined in: packages/zoho-billing/src/types/billing.ts:145
+Defined in: [packages/zoho-billing/src/types/billing.ts:145](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L145)
 
 #### Indexable
 
@@ -9295,7 +9295,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:145
 optional amount?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:149
+Defined in: [packages/zoho-billing/src/types/billing.ts:149](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L149)
 
 ##### amount\_refunded?
 
@@ -9303,7 +9303,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:149
 optional amount_refunded?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:150
+Defined in: [packages/zoho-billing/src/types/billing.ts:150](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L150)
 
 ##### autotransaction?
 
@@ -9311,7 +9311,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:150
 optional autotransaction?: Record<string, unknown>;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:158
+Defined in: [packages/zoho-billing/src/types/billing.ts:158](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L158)
 
 ##### autotransaction\_id?
 
@@ -9319,7 +9319,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:158
 optional autotransaction_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:159
+Defined in: [packages/zoho-billing/src/types/billing.ts:159](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L159)
 
 ##### card\_id?
 
@@ -9327,7 +9327,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:159
 optional card_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:163
+Defined in: [packages/zoho-billing/src/types/billing.ts:163](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L163)
 
 ##### currency\_code?
 
@@ -9335,7 +9335,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:163
 optional currency_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:169
+Defined in: [packages/zoho-billing/src/types/billing.ts:169](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L169)
 
 ##### customer\_id?
 
@@ -9343,7 +9343,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:169
 optional customer_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:155
+Defined in: [packages/zoho-billing/src/types/billing.ts:155](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L155)
 
 ##### customer\_name?
 
@@ -9351,7 +9351,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:155
 optional customer_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:156
+Defined in: [packages/zoho-billing/src/types/billing.ts:156](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L156)
 
 ##### date?
 
@@ -9359,7 +9359,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:156
 optional date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:151
+Defined in: [packages/zoho-billing/src/types/billing.ts:151](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L151)
 
 ##### description?
 
@@ -9367,7 +9367,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:151
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:154
+Defined in: [packages/zoho-billing/src/types/billing.ts:154](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L154)
 
 ##### email?
 
@@ -9375,7 +9375,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:154
 optional email?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:157
+Defined in: [packages/zoho-billing/src/types/billing.ts:157](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L157)
 
 ##### exchange\_rate?
 
@@ -9383,7 +9383,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:157
 optional exchange_rate?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:168
+Defined in: [packages/zoho-billing/src/types/billing.ts:168](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L168)
 
 ##### expiry\_month?
 
@@ -9391,7 +9391,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:168
 optional expiry_month?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:165
+Defined in: [packages/zoho-billing/src/types/billing.ts:165](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L165)
 
 ##### expiry\_year?
 
@@ -9399,7 +9399,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:165
 optional expiry_year?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:166
+Defined in: [packages/zoho-billing/src/types/billing.ts:166](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L166)
 
 ##### gateway\_error\_message?
 
@@ -9407,7 +9407,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:166
 optional gateway_error_message?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:162
+Defined in: [packages/zoho-billing/src/types/billing.ts:162](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L162)
 
 ##### gateway\_transaction\_id?
 
@@ -9415,7 +9415,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:162
 optional gateway_transaction_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:161
+Defined in: [packages/zoho-billing/src/types/billing.ts:161](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L161)
 
 ##### invoices?
 
@@ -9426,7 +9426,7 @@ optional invoices?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:167
+Defined in: [packages/zoho-billing/src/types/billing.ts:167](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L167)
 
 ###### amount\_applied?
 
@@ -9446,7 +9446,7 @@ optional invoice_id?: string;
 optional last_four_digits?: string | number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:164
+Defined in: [packages/zoho-billing/src/types/billing.ts:164](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L164)
 
 ##### mode?
 
@@ -9454,7 +9454,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:164
 optional mode?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:148
+Defined in: [packages/zoho-billing/src/types/billing.ts:148](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L148)
 
 ##### payment\_gateway?
 
@@ -9462,7 +9462,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:148
 optional payment_gateway?: ZohoPaymentGateway;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:160
+Defined in: [packages/zoho-billing/src/types/billing.ts:160](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L160)
 
 ##### payment\_id
 
@@ -9470,7 +9470,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:160
 payment_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:146
+Defined in: [packages/zoho-billing/src/types/billing.ts:146](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L146)
 
 ##### payment\_mode?
 
@@ -9478,7 +9478,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:146
 optional payment_mode?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:147
+Defined in: [packages/zoho-billing/src/types/billing.ts:147](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L147)
 
 ##### reference\_number?
 
@@ -9486,7 +9486,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:147
 optional reference_number?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:153
+Defined in: [packages/zoho-billing/src/types/billing.ts:153](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L153)
 
 ##### status?
 
@@ -9494,13 +9494,13 @@ Defined in: packages/zoho-billing/src/types/billing.ts:153
 optional status?: ZohoPaymentStatus;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:152
+Defined in: [packages/zoho-billing/src/types/billing.ts:152](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L152)
 
 ***
 
 ### ZohoPlan
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:52
+Defined in: [packages/zoho-billing/src/types/catalog.ts:52](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L52)
 
 #### Indexable
 
@@ -9519,7 +9519,7 @@ optional addons?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:70
+Defined in: [packages/zoho-billing/src/types/catalog.ts:70](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L70)
 
 ###### addon\_code?
 
@@ -9539,7 +9539,7 @@ optional name?: string;
 optional billing_cycles?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:64
+Defined in: [packages/zoho-billing/src/types/catalog.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L64)
 
 ##### created\_time?
 
@@ -9547,7 +9547,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:64
 optional created_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:73
+Defined in: [packages/zoho-billing/src/types/catalog.ts:73](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L73)
 
 ##### custom\_fields?
 
@@ -9555,7 +9555,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:73
 optional custom_fields?: ZohoCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:72
+Defined in: [packages/zoho-billing/src/types/catalog.ts:72](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L72)
 
 ##### description?
 
@@ -9563,7 +9563,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:72
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:67
+Defined in: [packages/zoho-billing/src/types/catalog.ts:67](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L67)
 
 ##### interval?
 
@@ -9571,7 +9571,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:67
 optional interval?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:62
+Defined in: [packages/zoho-billing/src/types/catalog.ts:62](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L62)
 
 ##### interval\_unit?
 
@@ -9579,7 +9579,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:62
 optional interval_unit?: ZohoIntervalUnit;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:63
+Defined in: [packages/zoho-billing/src/types/catalog.ts:63](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L63)
 
 ##### name?
 
@@ -9587,7 +9587,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:63
 optional name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:54
+Defined in: [packages/zoho-billing/src/types/catalog.ts:54](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L54)
 
 ##### plan\_code
 
@@ -9595,7 +9595,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:54
 plan_code: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:53
+Defined in: [packages/zoho-billing/src/types/catalog.ts:53](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L53)
 
 ##### price\_brackets?
 
@@ -9603,7 +9603,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:53
 optional price_brackets?: ZohoPriceBracket[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:58
+Defined in: [packages/zoho-billing/src/types/catalog.ts:58](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L58)
 
 ##### pricing\_scheme?
 
@@ -9611,7 +9611,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:58
 optional pricing_scheme?: ZohoPricingScheme;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:57
+Defined in: [packages/zoho-billing/src/types/catalog.ts:57](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L57)
 
 ##### product\_id?
 
@@ -9619,7 +9619,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:57
 optional product_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:68
+Defined in: [packages/zoho-billing/src/types/catalog.ts:68](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L68)
 
 ##### product\_name?
 
@@ -9627,7 +9627,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:68
 optional product_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:69
+Defined in: [packages/zoho-billing/src/types/catalog.ts:69](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L69)
 
 ##### recurring\_price?
 
@@ -9635,7 +9635,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:69
 optional recurring_price?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:56
+Defined in: [packages/zoho-billing/src/types/catalog.ts:56](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L56)
 
 ##### setup\_fee?
 
@@ -9643,7 +9643,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:56
 optional setup_fee?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:66
+Defined in: [packages/zoho-billing/src/types/catalog.ts:66](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L66)
 
 ##### status?
 
@@ -9651,7 +9651,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:66
 optional status?: ZohoStatus;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:55
+Defined in: [packages/zoho-billing/src/types/catalog.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L55)
 
 ##### tags?
 
@@ -9659,7 +9659,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:55
 optional tags?: ZohoTag[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:71
+Defined in: [packages/zoho-billing/src/types/catalog.ts:71](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L71)
 
 ##### trial\_period?
 
@@ -9667,7 +9667,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:71
 optional trial_period?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:65
+Defined in: [packages/zoho-billing/src/types/catalog.ts:65](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L65)
 
 ##### type?
 
@@ -9675,7 +9675,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:65
 optional type?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:59
+Defined in: [packages/zoho-billing/src/types/catalog.ts:59](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L59)
 
 ##### unit?
 
@@ -9683,7 +9683,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:59
 optional unit?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:60
+Defined in: [packages/zoho-billing/src/types/catalog.ts:60](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L60)
 
 ##### unit\_name?
 
@@ -9691,7 +9691,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:60
 optional unit_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:61
+Defined in: [packages/zoho-billing/src/types/catalog.ts:61](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L61)
 
 ##### updated\_time?
 
@@ -9699,13 +9699,13 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:61
 optional updated_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:74
+Defined in: [packages/zoho-billing/src/types/catalog.ts:74](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L74)
 
 ***
 
 ### ZohoPricebook
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:208
+Defined in: [packages/zoho-billing/src/types/catalog.ts:208](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L208)
 
 #### Indexable
 
@@ -9721,7 +9721,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:208
 optional currency_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:212
+Defined in: [packages/zoho-billing/src/types/catalog.ts:212](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L212)
 
 ##### description?
 
@@ -9729,7 +9729,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:212
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:211
+Defined in: [packages/zoho-billing/src/types/catalog.ts:211](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L211)
 
 ##### name?
 
@@ -9737,7 +9737,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:211
 optional name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:210
+Defined in: [packages/zoho-billing/src/types/catalog.ts:210](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L210)
 
 ##### pricebook\_id
 
@@ -9745,7 +9745,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:210
 pricebook_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:209
+Defined in: [packages/zoho-billing/src/types/catalog.ts:209](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L209)
 
 ##### pricebook\_items?
 
@@ -9753,7 +9753,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:209
 optional pricebook_items?: unknown[];
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:214
+Defined in: [packages/zoho-billing/src/types/catalog.ts:214](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L214)
 
 ##### status?
 
@@ -9761,13 +9761,13 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:214
 optional status?: ZohoStatus;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:213
+Defined in: [packages/zoho-billing/src/types/catalog.ts:213](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L213)
 
 ***
 
 ### ZohoPriceBracket
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:26
+Defined in: [packages/zoho-billing/src/types/catalog.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L26)
 
 #### Properties
 
@@ -9777,7 +9777,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:26
 optional end_quantity?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:28
+Defined in: [packages/zoho-billing/src/types/catalog.ts:28](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L28)
 
 ##### price?
 
@@ -9785,7 +9785,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:28
 optional price?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:29
+Defined in: [packages/zoho-billing/src/types/catalog.ts:29](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L29)
 
 ##### start\_quantity?
 
@@ -9793,13 +9793,13 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:29
 optional start_quantity?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:27
+Defined in: [packages/zoho-billing/src/types/catalog.ts:27](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L27)
 
 ***
 
 ### ZohoProduct
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:32
+Defined in: [packages/zoho-billing/src/types/catalog.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L32)
 
 #### Indexable
 
@@ -9815,7 +9815,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:32
 optional created_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:39
+Defined in: [packages/zoho-billing/src/types/catalog.ts:39](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L39)
 
 ##### description?
 
@@ -9823,7 +9823,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:39
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:35
+Defined in: [packages/zoho-billing/src/types/catalog.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L35)
 
 ##### email\_ids?
 
@@ -9831,7 +9831,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:35
 optional email_ids?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:36
+Defined in: [packages/zoho-billing/src/types/catalog.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L36)
 
 ##### name?
 
@@ -9839,7 +9839,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:36
 optional name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:34
+Defined in: [packages/zoho-billing/src/types/catalog.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L34)
 
 ##### product\_id
 
@@ -9847,7 +9847,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:34
 product_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:33
+Defined in: [packages/zoho-billing/src/types/catalog.ts:33](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L33)
 
 ##### redirect\_url?
 
@@ -9855,7 +9855,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:33
 optional redirect_url?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:37
+Defined in: [packages/zoho-billing/src/types/catalog.ts:37](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L37)
 
 ##### status?
 
@@ -9863,7 +9863,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:37
 optional status?: ZohoStatus;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:38
+Defined in: [packages/zoho-billing/src/types/catalog.ts:38](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L38)
 
 ##### updated\_time?
 
@@ -9871,13 +9871,13 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:38
 optional updated_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:40
+Defined in: [packages/zoho-billing/src/types/catalog.ts:40](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L40)
 
 ***
 
 ### ZohoRefreshTokenCredentials
 
-Defined in: packages/zoho-billing/src/auth.ts:48
+Defined in: [packages/zoho-billing/src/auth.ts:48](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L48)
 
 Long-lived credentials; the client refreshes access tokens as needed.
 
@@ -9889,7 +9889,7 @@ Long-lived credentials; the client refreshes access tokens as needed.
 clientId: string;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:49
+Defined in: [packages/zoho-billing/src/auth.ts:49](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L49)
 
 ##### clientSecret
 
@@ -9897,7 +9897,7 @@ Defined in: packages/zoho-billing/src/auth.ts:49
 clientSecret: string;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:50
+Defined in: [packages/zoho-billing/src/auth.ts:50](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L50)
 
 ##### refreshToken
 
@@ -9905,13 +9905,13 @@ Defined in: packages/zoho-billing/src/auth.ts:50
 refreshToken: string;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:51
+Defined in: [packages/zoho-billing/src/auth.ts:51](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L51)
 
 ***
 
 ### ZohoRefund
 
-Defined in: packages/zoho-billing/src/types/billing.ts:232
+Defined in: [packages/zoho-billing/src/types/billing.ts:232](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L232)
 
 #### Indexable
 
@@ -9927,7 +9927,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:232
 optional amount?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:237
+Defined in: [packages/zoho-billing/src/types/billing.ts:237](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L237)
 
 ##### creditnote\_id?
 
@@ -9935,7 +9935,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:237
 optional creditnote_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:234
+Defined in: [packages/zoho-billing/src/types/billing.ts:234](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L234)
 
 ##### date?
 
@@ -9943,7 +9943,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:234
 optional date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:236
+Defined in: [packages/zoho-billing/src/types/billing.ts:236](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L236)
 
 ##### description?
 
@@ -9951,7 +9951,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:236
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:238
+Defined in: [packages/zoho-billing/src/types/billing.ts:238](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L238)
 
 ##### payment\_id?
 
@@ -9959,7 +9959,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:238
 optional payment_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:235
+Defined in: [packages/zoho-billing/src/types/billing.ts:235](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L235)
 
 ##### reference\_number?
 
@@ -9967,7 +9967,7 @@ Defined in: packages/zoho-billing/src/types/billing.ts:235
 optional reference_number?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:239
+Defined in: [packages/zoho-billing/src/types/billing.ts:239](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L239)
 
 ##### refund\_id
 
@@ -9975,13 +9975,13 @@ Defined in: packages/zoho-billing/src/types/billing.ts:239
 refund_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:233
+Defined in: [packages/zoho-billing/src/types/billing.ts:233](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L233)
 
 ***
 
 ### ZohoRegionHosts
 
-Defined in: packages/zoho-billing/src/config.ts:21
+Defined in: [packages/zoho-billing/src/config.ts:21](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/config.ts#L21)
 
 #### Properties
 
@@ -9991,7 +9991,7 @@ Defined in: packages/zoho-billing/src/config.ts:21
 accounts: string;
 ```
 
-Defined in: packages/zoho-billing/src/config.ts:25
+Defined in: [packages/zoho-billing/src/config.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/config.ts#L25)
 
 Host serving the OAuth token endpoints.
 
@@ -10001,7 +10001,7 @@ Host serving the OAuth token endpoints.
 api: string;
 ```
 
-Defined in: packages/zoho-billing/src/config.ts:23
+Defined in: [packages/zoho-billing/src/config.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/config.ts#L23)
 
 Host serving the Billing REST API.
 
@@ -10009,7 +10009,7 @@ Host serving the Billing REST API.
 
 ### ZohoRequestOptions
 
-Defined in: packages/zoho-billing/src/client.ts:53
+Defined in: [packages/zoho-billing/src/client.ts:53](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L53)
 
 #### Properties
 
@@ -10019,7 +10019,7 @@ Defined in: packages/zoho-billing/src/client.ts:53
 optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:58
+Defined in: [packages/zoho-billing/src/client.ts:58](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L58)
 
 JSON request body.
 
@@ -10029,7 +10029,7 @@ JSON request body.
 optional headers?: Record<string, string>;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:60
+Defined in: [packages/zoho-billing/src/client.ts:60](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L60)
 
 Per-request header overrides.
 
@@ -10039,7 +10039,7 @@ Per-request header overrides.
 optional maxRetries?: number;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:64
+Defined in: [packages/zoho-billing/src/client.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L64)
 
 Overrides `maxRetries` for this call.
 
@@ -10049,7 +10049,7 @@ Overrides `maxRetries` for this call.
 optional method?: "POST" | "GET" | "PUT" | "DELETE";
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:54
+Defined in: [packages/zoho-billing/src/client.ts:54](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L54)
 
 ##### query?
 
@@ -10057,7 +10057,7 @@ Defined in: packages/zoho-billing/src/client.ts:54
 optional query?: ZohoQueryParams;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:56
+Defined in: [packages/zoho-billing/src/client.ts:56](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L56)
 
 Query parameters. `undefined` and `null` values are dropped.
 
@@ -10067,7 +10067,7 @@ Query parameters. `undefined` and `null` values are dropped.
 optional signal?: AbortSignal;
 ```
 
-Defined in: packages/zoho-billing/src/client.ts:62
+Defined in: [packages/zoho-billing/src/client.ts:62](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/client.ts#L62)
 
 Aborts the request (in addition to the configured timeout).
 
@@ -10075,7 +10075,7 @@ Aborts the request (in addition to the configured timeout).
 
 ### ZohoResponse
 
-Defined in: packages/zoho-billing/src/types/common.ts:7
+Defined in: [packages/zoho-billing/src/types/common.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L7)
 
 Envelope Zoho wraps every response in. `code: 0` means success.
 
@@ -10093,7 +10093,7 @@ Envelope Zoho wraps every response in. `code: 0` means success.
 code: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:8
+Defined in: [packages/zoho-billing/src/types/common.ts:8](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L8)
 
 ##### message
 
@@ -10101,13 +10101,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:8
 message: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:9
+Defined in: [packages/zoho-billing/src/types/common.ts:9](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L9)
 
 ***
 
 ### ZohoStaticTokenCredentials
 
-Defined in: packages/zoho-billing/src/auth.ts:55
+Defined in: [packages/zoho-billing/src/auth.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L55)
 
 A pre-obtained access token. The client will not refresh it.
 
@@ -10119,13 +10119,13 @@ A pre-obtained access token. The client will not refresh it.
 accessToken: string;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:56
+Defined in: [packages/zoho-billing/src/auth.ts:56](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L56)
 
 ***
 
 ### ZohoSubscription
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:87
+Defined in: [packages/zoho-billing/src/types/subscription.ts:87](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L87)
 
 #### Properties
 
@@ -10135,7 +10135,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:87
 optional activated_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:94
+Defined in: [packages/zoho-billing/src/types/subscription.ts:94](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L94)
 
 ##### addons?
 
@@ -10143,7 +10143,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:94
 optional addons?: ZohoSubscriptionAddon[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:125
+Defined in: [packages/zoho-billing/src/types/subscription.ts:125](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L125)
 
 ##### amount?
 
@@ -10151,7 +10151,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:125
 optional amount?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:92
+Defined in: [packages/zoho-billing/src/types/subscription.ts:92](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L92)
 
 ##### auto\_collect?
 
@@ -10159,7 +10159,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:92
 optional auto_collect?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:104
+Defined in: [packages/zoho-billing/src/types/subscription.ts:104](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L104)
 
 ##### bank\_account\_id?
 
@@ -10167,7 +10167,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:104
 optional bank_account_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:123
+Defined in: [packages/zoho-billing/src/types/subscription.ts:123](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L123)
 
 ##### can\_add\_bank\_account?
 
@@ -10175,7 +10175,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:123
 optional can_add_bank_account?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:130
+Defined in: [packages/zoho-billing/src/types/subscription.ts:130](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L130)
 
 ##### can\_charge\_setup\_fee\_immediately?
 
@@ -10183,7 +10183,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:130
 optional can_charge_setup_fee_immediately?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:138
+Defined in: [packages/zoho-billing/src/types/subscription.ts:138](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L138)
 
 ##### cancelled\_at?
 
@@ -10191,7 +10191,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:138
 optional cancelled_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:119
+Defined in: [packages/zoho-billing/src/types/subscription.ts:119](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L119)
 
 ##### card?
 
@@ -10199,7 +10199,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:119
 optional card?: ZohoCard;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:127
+Defined in: [packages/zoho-billing/src/types/subscription.ts:127](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L127)
 
 ##### child\_invoice\_id?
 
@@ -10207,7 +10207,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:127
 optional child_invoice_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:111
+Defined in: [packages/zoho-billing/src/types/subscription.ts:111](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L111)
 
 ##### contact\_persons\_associated?
 
@@ -10215,7 +10215,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:111
 optional contact_persons_associated?: ZohoContactPerson[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:134
+Defined in: [packages/zoho-billing/src/types/subscription.ts:134](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L134)
 
 ##### coupon?
 
@@ -10223,7 +10223,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:134
 optional coupon?: ZohoSubscriptionCoupon;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:126
+Defined in: [packages/zoho-billing/src/types/subscription.ts:126](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L126)
 
 ##### created\_at?
 
@@ -10231,7 +10231,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:126
 optional created_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:93
+Defined in: [packages/zoho-billing/src/types/subscription.ts:93](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L93)
 
 ##### created\_time?
 
@@ -10239,7 +10239,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:93
 optional created_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:105
+Defined in: [packages/zoho-billing/src/types/subscription.ts:105](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L105)
 
 ##### currency\_code?
 
@@ -10247,7 +10247,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:105
 optional currency_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:112
+Defined in: [packages/zoho-billing/src/types/subscription.ts:112](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L112)
 
 ##### currency\_symbol?
 
@@ -10255,7 +10255,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:112
 optional currency_symbol?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:113
+Defined in: [packages/zoho-billing/src/types/subscription.ts:113](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L113)
 
 ##### current\_term\_ends\_at?
 
@@ -10263,7 +10263,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:113
 optional current_term_ends_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:96
+Defined in: [packages/zoho-billing/src/types/subscription.ts:96](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L96)
 
 ##### current\_term\_starts\_at?
 
@@ -10271,7 +10271,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:96
 optional current_term_starts_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:95
+Defined in: [packages/zoho-billing/src/types/subscription.ts:95](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L95)
 
 ##### custom\_fields?
 
@@ -10279,7 +10279,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:95
 optional custom_fields?: ZohoCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:132
+Defined in: [packages/zoho-billing/src/types/subscription.ts:132](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L132)
 
 ##### customer?
 
@@ -10287,7 +10287,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:132
 optional customer?: ZohoSubscriptionCustomer;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:131
+Defined in: [packages/zoho-billing/src/types/subscription.ts:131](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L131)
 
 ##### customer\_id?
 
@@ -10295,7 +10295,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:131
 optional customer_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:140
+Defined in: [packages/zoho-billing/src/types/subscription.ts:140](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L140)
 
 Present on list responses, which flatten a few customer fields.
 
@@ -10305,7 +10305,7 @@ Present on list responses, which flatten a few customer fields.
 optional customer_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:141
+Defined in: [packages/zoho-billing/src/types/subscription.ts:141](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L141)
 
 ##### email?
 
@@ -10313,7 +10313,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:141
 optional email?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:142
+Defined in: [packages/zoho-billing/src/types/subscription.ts:142](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L142)
 
 ##### end\_of\_term?
 
@@ -10321,7 +10321,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:142
 optional end_of_term?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:114
+Defined in: [packages/zoho-billing/src/types/subscription.ts:114](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L114)
 
 ##### expires\_at?
 
@@ -10329,7 +10329,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:114
 optional expires_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:99
+Defined in: [packages/zoho-billing/src/types/subscription.ts:99](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L99)
 
 ##### gst\_treatment?
 
@@ -10337,7 +10337,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:99
 optional gst_treatment?: ZohoGstTreatment;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:120
+Defined in: [packages/zoho-billing/src/types/subscription.ts:120](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L120)
 
 ##### interval?
 
@@ -10345,7 +10345,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:120
 optional interval?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:102
+Defined in: [packages/zoho-billing/src/types/subscription.ts:102](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L102)
 
 ##### interval\_unit?
 
@@ -10353,7 +10353,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:102
 optional interval_unit?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:103
+Defined in: [packages/zoho-billing/src/types/subscription.ts:103](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L103)
 
 ##### is\_metered\_billing?
 
@@ -10361,7 +10361,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:103
 optional is_metered_billing?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:122
+Defined in: [packages/zoho-billing/src/types/subscription.ts:122](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L122)
 
 ##### last\_billing\_at?
 
@@ -10369,7 +10369,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:122
 optional last_billing_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:97
+Defined in: [packages/zoho-billing/src/types/subscription.ts:97](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L97)
 
 ##### name?
 
@@ -10377,7 +10377,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:97
 optional name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:90
+Defined in: [packages/zoho-billing/src/types/subscription.ts:90](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L90)
 
 ##### next\_billing\_at?
 
@@ -10385,7 +10385,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:90
 optional next_billing_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:98
+Defined in: [packages/zoho-billing/src/types/subscription.ts:98](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L98)
 
 ##### notes?
 
@@ -10393,7 +10393,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:98
 optional notes?: ZohoNote[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:135
+Defined in: [packages/zoho-billing/src/types/subscription.ts:135](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L135)
 
 ##### pause\_date?
 
@@ -10401,7 +10401,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:135
 optional pause_date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:100
+Defined in: [packages/zoho-billing/src/types/subscription.ts:100](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L100)
 
 ##### payment\_gateways?
 
@@ -10411,7 +10411,7 @@ optional payment_gateways?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:136
+Defined in: [packages/zoho-billing/src/types/subscription.ts:136](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L136)
 
 ###### payment\_gateway?
 
@@ -10425,7 +10425,7 @@ optional payment_gateway?: ZohoPaymentGateway;
 optional payment_terms?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:128
+Defined in: [packages/zoho-billing/src/types/subscription.ts:128](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L128)
 
 ##### payment\_terms\_label?
 
@@ -10433,7 +10433,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:128
 optional payment_terms_label?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:129
+Defined in: [packages/zoho-billing/src/types/subscription.ts:129](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L129)
 
 ##### place\_of\_supply?
 
@@ -10441,7 +10441,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:129
 optional place_of_supply?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:108
+Defined in: [packages/zoho-billing/src/types/subscription.ts:108](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L108)
 
 ##### plan?
 
@@ -10449,7 +10449,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:108
 optional plan?: ZohoSubscriptionPlan;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:124
+Defined in: [packages/zoho-billing/src/types/subscription.ts:124](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L124)
 
 ##### plan\_name?
 
@@ -10457,7 +10457,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:124
 optional plan_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:143
+Defined in: [packages/zoho-billing/src/types/subscription.ts:143](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L143)
 
 ##### pricebook\_id?
 
@@ -10465,7 +10465,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:143
 optional pricebook_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:121
+Defined in: [packages/zoho-billing/src/types/subscription.ts:121](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L121)
 
 ##### product\_id?
 
@@ -10473,7 +10473,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:121
 optional product_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:115
+Defined in: [packages/zoho-billing/src/types/subscription.ts:115](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L115)
 
 ##### product\_name?
 
@@ -10481,7 +10481,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:115
 optional product_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:116
+Defined in: [packages/zoho-billing/src/types/subscription.ts:116](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L116)
 
 ##### reference\_id?
 
@@ -10489,7 +10489,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:116
 optional reference_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:107
+Defined in: [packages/zoho-billing/src/types/subscription.ts:107](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L107)
 
 ##### resume\_date?
 
@@ -10497,7 +10497,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:107
 optional resume_date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:101
+Defined in: [packages/zoho-billing/src/types/subscription.ts:101](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L101)
 
 ##### salesperson\_id?
 
@@ -10505,7 +10505,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:101
 optional salesperson_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:109
+Defined in: [packages/zoho-billing/src/types/subscription.ts:109](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L109)
 
 ##### salesperson\_name?
 
@@ -10513,7 +10513,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:109
 optional salesperson_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:110
+Defined in: [packages/zoho-billing/src/types/subscription.ts:110](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L110)
 
 ##### status?
 
@@ -10521,7 +10521,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:110
 optional status?: ZohoSubscriptionStatus;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:91
+Defined in: [packages/zoho-billing/src/types/subscription.ts:91](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L91)
 
 ##### subscription\_id
 
@@ -10529,7 +10529,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:91
 subscription_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:88
+Defined in: [packages/zoho-billing/src/types/subscription.ts:88](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L88)
 
 ##### subscription\_number?
 
@@ -10537,7 +10537,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:88
 optional subscription_number?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:89
+Defined in: [packages/zoho-billing/src/types/subscription.ts:89](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L89)
 
 ##### taxes?
 
@@ -10545,7 +10545,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:89
 optional taxes?: ZohoTax[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:133
+Defined in: [packages/zoho-billing/src/types/subscription.ts:133](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L133)
 
 ##### trial\_ends\_at?
 
@@ -10553,7 +10553,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:133
 optional trial_ends_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:118
+Defined in: [packages/zoho-billing/src/types/subscription.ts:118](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L118)
 
 ##### trial\_starts\_at?
 
@@ -10561,7 +10561,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:118
 optional trial_starts_at?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:117
+Defined in: [packages/zoho-billing/src/types/subscription.ts:117](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L117)
 
 ##### unbilled\_charge\_id?
 
@@ -10569,7 +10569,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:117
 optional unbilled_charge_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:137
+Defined in: [packages/zoho-billing/src/types/subscription.ts:137](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L137)
 
 ##### updated\_time?
 
@@ -10577,13 +10577,13 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:137
 optional updated_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:106
+Defined in: [packages/zoho-billing/src/types/subscription.ts:106](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L106)
 
 ***
 
 ### ZohoSubscriptionAddon
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:53
+Defined in: [packages/zoho-billing/src/types/subscription.ts:53](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L53)
 
 #### Properties
 
@@ -10593,7 +10593,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:53
 optional addon_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:54
+Defined in: [packages/zoho-billing/src/types/subscription.ts:54](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L54)
 
 ##### addon\_description?
 
@@ -10601,7 +10601,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:54
 optional addon_description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:56
+Defined in: [packages/zoho-billing/src/types/subscription.ts:56](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L56)
 
 ##### discount?
 
@@ -10609,7 +10609,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:56
 optional discount?: string | number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:59
+Defined in: [packages/zoho-billing/src/types/subscription.ts:59](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L59)
 
 ##### item\_custom\_fields?
 
@@ -10617,7 +10617,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:59
 optional item_custom_fields?: ZohoItemCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:63
+Defined in: [packages/zoho-billing/src/types/subscription.ts:63](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L63)
 
 ##### name?
 
@@ -10625,7 +10625,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:63
 optional name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:55
+Defined in: [packages/zoho-billing/src/types/subscription.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L55)
 
 ##### price?
 
@@ -10633,7 +10633,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:55
 optional price?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:58
+Defined in: [packages/zoho-billing/src/types/subscription.ts:58](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L58)
 
 ##### quantity?
 
@@ -10641,7 +10641,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:58
 optional quantity?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:57
+Defined in: [packages/zoho-billing/src/types/subscription.ts:57](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L57)
 
 ##### tags?
 
@@ -10649,7 +10649,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:57
 optional tags?: ZohoTag[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:62
+Defined in: [packages/zoho-billing/src/types/subscription.ts:62](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L62)
 
 ##### tax\_id?
 
@@ -10657,7 +10657,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:62
 optional tax_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:61
+Defined in: [packages/zoho-billing/src/types/subscription.ts:61](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L61)
 
 ##### total?
 
@@ -10665,13 +10665,13 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:61
 optional total?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:60
+Defined in: [packages/zoho-billing/src/types/subscription.ts:60](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L60)
 
 ***
 
 ### ZohoSubscriptionCoupon
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:66
+Defined in: [packages/zoho-billing/src/types/subscription.ts:66](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L66)
 
 #### Properties
 
@@ -10681,7 +10681,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:66
 optional coupon_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:67
+Defined in: [packages/zoho-billing/src/types/subscription.ts:67](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L67)
 
 ##### discount\_amount?
 
@@ -10689,13 +10689,13 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:67
 optional discount_amount?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:68
+Defined in: [packages/zoho-billing/src/types/subscription.ts:68](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L68)
 
 ***
 
 ### ZohoSubscriptionCustomer
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:71
+Defined in: [packages/zoho-billing/src/types/subscription.ts:71](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L71)
 
 #### Properties
 
@@ -10705,7 +10705,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:71
 optional billing_address?: ZohoAddress;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:81
+Defined in: [packages/zoho-billing/src/types/subscription.ts:81](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L81)
 
 ##### company\_name?
 
@@ -10713,7 +10713,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:81
 optional company_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:78
+Defined in: [packages/zoho-billing/src/types/subscription.ts:78](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L78)
 
 ##### customer\_id?
 
@@ -10721,7 +10721,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:78
 optional customer_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:72
+Defined in: [packages/zoho-billing/src/types/subscription.ts:72](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L72)
 
 ##### display\_name?
 
@@ -10729,7 +10729,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:72
 optional display_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:73
+Defined in: [packages/zoho-billing/src/types/subscription.ts:73](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L73)
 
 ##### email?
 
@@ -10737,7 +10737,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:73
 optional email?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:77
+Defined in: [packages/zoho-billing/src/types/subscription.ts:77](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L77)
 
 ##### first\_name?
 
@@ -10745,7 +10745,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:77
 optional first_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:75
+Defined in: [packages/zoho-billing/src/types/subscription.ts:75](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L75)
 
 ##### last\_name?
 
@@ -10753,7 +10753,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:75
 optional last_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:76
+Defined in: [packages/zoho-billing/src/types/subscription.ts:76](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L76)
 
 ##### mobile?
 
@@ -10761,7 +10761,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:76
 optional mobile?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:80
+Defined in: [packages/zoho-billing/src/types/subscription.ts:80](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L80)
 
 ##### payment\_terms?
 
@@ -10769,7 +10769,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:80
 optional payment_terms?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:83
+Defined in: [packages/zoho-billing/src/types/subscription.ts:83](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L83)
 
 ##### payment\_terms\_label?
 
@@ -10777,7 +10777,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:83
 optional payment_terms_label?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:84
+Defined in: [packages/zoho-billing/src/types/subscription.ts:84](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L84)
 
 ##### phone?
 
@@ -10785,7 +10785,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:84
 optional phone?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:79
+Defined in: [packages/zoho-billing/src/types/subscription.ts:79](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L79)
 
 ##### salutation?
 
@@ -10793,7 +10793,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:79
 optional salutation?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:74
+Defined in: [packages/zoho-billing/src/types/subscription.ts:74](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L74)
 
 ##### shipping\_address?
 
@@ -10801,13 +10801,13 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:74
 optional shipping_address?: ZohoAddress;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:82
+Defined in: [packages/zoho-billing/src/types/subscription.ts:82](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L82)
 
 ***
 
 ### ZohoSubscriptionPlan
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:37
+Defined in: [packages/zoho-billing/src/types/subscription.ts:37](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L37)
 
 #### Properties
 
@@ -10817,7 +10817,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:37
 optional description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:46
+Defined in: [packages/zoho-billing/src/types/subscription.ts:46](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L46)
 
 ##### discount?
 
@@ -10825,7 +10825,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:46
 optional discount?: string | number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:42
+Defined in: [packages/zoho-billing/src/types/subscription.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L42)
 
 ##### item\_custom\_fields?
 
@@ -10833,7 +10833,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:42
 optional item_custom_fields?: ZohoItemCustomField[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:50
+Defined in: [packages/zoho-billing/src/types/subscription.ts:50](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L50)
 
 ##### name?
 
@@ -10841,7 +10841,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:50
 optional name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:39
+Defined in: [packages/zoho-billing/src/types/subscription.ts:39](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L39)
 
 ##### plan\_code?
 
@@ -10849,7 +10849,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:39
 optional plan_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:38
+Defined in: [packages/zoho-billing/src/types/subscription.ts:38](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L38)
 
 ##### plan\_description?
 
@@ -10857,7 +10857,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:38
 optional plan_description?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:45
+Defined in: [packages/zoho-billing/src/types/subscription.ts:45](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L45)
 
 ##### price?
 
@@ -10865,7 +10865,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:45
 optional price?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:41
+Defined in: [packages/zoho-billing/src/types/subscription.ts:41](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L41)
 
 ##### quantity?
 
@@ -10873,7 +10873,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:41
 optional quantity?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:40
+Defined in: [packages/zoho-billing/src/types/subscription.ts:40](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L40)
 
 ##### setup\_fee?
 
@@ -10881,7 +10881,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:40
 optional setup_fee?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:44
+Defined in: [packages/zoho-billing/src/types/subscription.ts:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L44)
 
 ##### tags?
 
@@ -10889,7 +10889,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:44
 optional tags?: ZohoTag[];
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:49
+Defined in: [packages/zoho-billing/src/types/subscription.ts:49](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L49)
 
 ##### tax\_id?
 
@@ -10897,7 +10897,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:49
 optional tax_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:47
+Defined in: [packages/zoho-billing/src/types/subscription.ts:47](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L47)
 
 ##### total?
 
@@ -10905,7 +10905,7 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:47
 optional total?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:43
+Defined in: [packages/zoho-billing/src/types/subscription.ts:43](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L43)
 
 ##### trial\_days?
 
@@ -10913,13 +10913,13 @@ Defined in: packages/zoho-billing/src/types/subscription.ts:43
 optional trial_days?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:48
+Defined in: [packages/zoho-billing/src/types/subscription.ts:48](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L48)
 
 ***
 
 ### ZohoTag
 
-Defined in: packages/zoho-billing/src/types/common.ts:62
+Defined in: [packages/zoho-billing/src/types/common.ts:62](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L62)
 
 #### Properties
 
@@ -10929,7 +10929,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:62
 optional tag_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:63
+Defined in: [packages/zoho-billing/src/types/common.ts:63](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L63)
 
 ##### tag\_option\_id?
 
@@ -10937,13 +10937,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:63
 optional tag_option_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:64
+Defined in: [packages/zoho-billing/src/types/common.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L64)
 
 ***
 
 ### ZohoTax
 
-Defined in: packages/zoho-billing/src/types/common.ts:67
+Defined in: [packages/zoho-billing/src/types/common.ts:67](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L67)
 
 #### Properties
 
@@ -10953,7 +10953,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:67
 optional tax_amount?: string | number;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:70
+Defined in: [packages/zoho-billing/src/types/common.ts:70](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L70)
 
 ##### tax\_id?
 
@@ -10961,7 +10961,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:70
 optional tax_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:68
+Defined in: [packages/zoho-billing/src/types/common.ts:68](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L68)
 
 ##### tax\_name?
 
@@ -10969,13 +10969,13 @@ Defined in: packages/zoho-billing/src/types/common.ts:68
 optional tax_name?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:69
+Defined in: [packages/zoho-billing/src/types/common.ts:69](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L69)
 
 ***
 
 ### ZohoTokenManagerOptions
 
-Defined in: packages/zoho-billing/src/auth.ts:81
+Defined in: [packages/zoho-billing/src/auth.ts:81](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L81)
 
 #### Properties
 
@@ -10985,7 +10985,7 @@ Defined in: packages/zoho-billing/src/auth.ts:81
 optional accountsBaseUrl?: string;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:85
+Defined in: [packages/zoho-billing/src/auth.ts:85](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L85)
 
 Overrides the region's accounts host. Mainly for tests and Zoho proxies.
 
@@ -10995,7 +10995,7 @@ Overrides the region's accounts host. Mainly for tests and Zoho proxies.
 credentials: ZohoCredentials;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:82
+Defined in: [packages/zoho-billing/src/auth.ts:82](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L82)
 
 ##### expiryLeewayMs?
 
@@ -11003,7 +11003,7 @@ Defined in: packages/zoho-billing/src/auth.ts:82
 optional expiryLeewayMs?: number;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:91
+Defined in: [packages/zoho-billing/src/auth.ts:91](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L91)
 
 Refresh this many milliseconds before actual expiry, so a token does not
 expire mid-flight on a slow request. Defaults to 2 minutes.
@@ -11014,7 +11014,7 @@ expire mid-flight on a slow request. Defaults to 2 minutes.
 optional fetch?: typeof fetch;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:92
+Defined in: [packages/zoho-billing/src/auth.ts:92](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L92)
 
 ##### region?
 
@@ -11022,7 +11022,7 @@ Defined in: packages/zoho-billing/src/auth.ts:92
 optional region?: ZohoRegion;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:83
+Defined in: [packages/zoho-billing/src/auth.ts:83](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L83)
 
 ##### tokenStore?
 
@@ -11030,13 +11030,13 @@ Defined in: packages/zoho-billing/src/auth.ts:83
 optional tokenStore?: ZohoTokenStore;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:86
+Defined in: [packages/zoho-billing/src/auth.ts:86](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L86)
 
 ***
 
 ### ZohoTokenStore
 
-Defined in: packages/zoho-billing/src/auth.ts:25
+Defined in: [packages/zoho-billing/src/auth.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L25)
 
 Persistence for access tokens. The default is per-process memory, which is
 fine for a long-lived server but wasteful on serverless, where every cold
@@ -11050,7 +11050,7 @@ start re-refreshes. Supply a Redis/DB-backed store there instead.
 optional delete(key): void | Promise<void>;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:28
+Defined in: [packages/zoho-billing/src/auth.ts:28](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L28)
 
 ###### Parameters
 
@@ -11071,7 +11071,7 @@ get(key):
   | null;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:26
+Defined in: [packages/zoho-billing/src/auth.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L26)
 
 ###### Parameters
 
@@ -11091,7 +11091,7 @@ Defined in: packages/zoho-billing/src/auth.ts:26
 set(key, token): void | Promise<void>;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:27
+Defined in: [packages/zoho-billing/src/auth.ts:27](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L27)
 
 ###### Parameters
 
@@ -11108,7 +11108,7 @@ Defined in: packages/zoho-billing/src/auth.ts:27
 
 ### ZohoTransaction
 
-Defined in: packages/zoho-billing/src/types/customer.ts:98
+Defined in: [packages/zoho-billing/src/types/customer.ts:98](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L98)
 
 #### Indexable
 
@@ -11124,7 +11124,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:98
 optional amount?: number;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:102
+Defined in: [packages/zoho-billing/src/types/customer.ts:102](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L102)
 
 ##### currency\_code?
 
@@ -11132,7 +11132,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:102
 optional currency_code?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:104
+Defined in: [packages/zoho-billing/src/types/customer.ts:104](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L104)
 
 ##### date?
 
@@ -11140,7 +11140,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:104
 optional date?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:101
+Defined in: [packages/zoho-billing/src/types/customer.ts:101](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L101)
 
 ##### status?
 
@@ -11148,7 +11148,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:101
 optional status?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:103
+Defined in: [packages/zoho-billing/src/types/customer.ts:103](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L103)
 
 ##### transaction\_id?
 
@@ -11156,7 +11156,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:103
 optional transaction_id?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:99
+Defined in: [packages/zoho-billing/src/types/customer.ts:99](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L99)
 
 ##### transaction\_type?
 
@@ -11164,13 +11164,13 @@ Defined in: packages/zoho-billing/src/types/customer.ts:99
 optional transaction_type?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:100
+Defined in: [packages/zoho-billing/src/types/customer.ts:100](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L100)
 
 ***
 
 ### ZohoWebhookEndpoint
 
-Defined in: packages/zoho-billing/src/types/event.ts:79
+Defined in: [packages/zoho-billing/src/types/event.ts:79](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L79)
 
 #### Indexable
 
@@ -11186,7 +11186,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:79
 optional last_updated_time?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:83
+Defined in: [packages/zoho-billing/src/types/event.ts:83](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L83)
 
 ##### status?
 
@@ -11194,7 +11194,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:83
 optional status?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:82
+Defined in: [packages/zoho-billing/src/types/event.ts:82](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L82)
 
 ##### url?
 
@@ -11202,7 +11202,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:82
 optional url?: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:81
+Defined in: [packages/zoho-billing/src/types/event.ts:81](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L81)
 
 ##### webhook\_id
 
@@ -11210,7 +11210,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:81
 webhook_id: string;
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:80
+Defined in: [packages/zoho-billing/src/types/event.ts:80](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L80)
 
 ## Type Aliases
 
@@ -11220,7 +11220,7 @@ Defined in: packages/zoho-billing/src/types/event.ts:80
 type UpdateAddonParams = Partial<Omit<CreateAddonParams, "addon_code">>;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:152
+Defined in: [packages/zoho-billing/src/types/catalog.ts:152](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L152)
 
 ***
 
@@ -11230,7 +11230,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:152
 type UpdateCouponParams = Partial<Omit<CreateCouponParams, "coupon_code">>;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:204
+Defined in: [packages/zoho-billing/src/types/catalog.ts:204](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L204)
 
 ***
 
@@ -11240,7 +11240,7 @@ Defined in: packages/zoho-billing/src/types/catalog.ts:204
 type UpdateCustomerParams = Partial<CreateCustomerParams>;
 ```
 
-Defined in: packages/zoho-billing/src/types/customer.ts:88
+Defined in: [packages/zoho-billing/src/types/customer.ts:88](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/customer.ts#L88)
 
 ***
 
@@ -11250,7 +11250,7 @@ Defined in: packages/zoho-billing/src/types/customer.ts:88
 type UpdatePlanParams = Partial<Omit<CreatePlanParams, "plan_code">>;
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:102
+Defined in: [packages/zoho-billing/src/types/catalog.ts:102](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L102)
 
 ***
 
@@ -11264,7 +11264,7 @@ type ZohoAddonType =
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:111
+Defined in: [packages/zoho-billing/src/types/catalog.ts:111](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L111)
 
 Addons are billed alongside a plan: `recurring` or `one_time`.
 
@@ -11276,7 +11276,7 @@ Addons are billed alongside a plan: `recurring` or `one_time`.
 type ZohoBillingOptions = ZohoBillingClientOptions;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:37
+Defined in: [packages/zoho-billing/src/index.ts:37](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L37)
 
 ***
 
@@ -11290,7 +11290,7 @@ type ZohoCouponDuration =
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:161
+Defined in: [packages/zoho-billing/src/types/catalog.ts:161](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L161)
 
 `once` applies to one invoice; `forever` to every renewal.
 
@@ -11305,7 +11305,7 @@ type ZohoCredentials =
   | ZohoCustomTokenCredentials;
 ```
 
-Defined in: packages/zoho-billing/src/auth.ts:64
+Defined in: [packages/zoho-billing/src/auth.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/auth.ts#L64)
 
 ***
 
@@ -11319,7 +11319,7 @@ type ZohoDiscountBy =
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:162
+Defined in: [packages/zoho-billing/src/types/catalog.ts:162](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L162)
 
 ***
 
@@ -11370,7 +11370,7 @@ type ZohoEventType =
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/event.ts:12
+Defined in: [packages/zoho-billing/src/types/event.ts:12](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/event.ts#L12)
 
 Every event type Zoho Billing emits, per the official OpenAPI document.
 
@@ -11388,7 +11388,7 @@ type ZohoGstTreatment =
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:128
+Defined in: [packages/zoho-billing/src/types/common.ts:128](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L128)
 
 GST treatment, required for India-registered Zoho organizations.
 
@@ -11406,7 +11406,7 @@ type ZohoHostedPageStatus =
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/hostedpage.ts:16
+Defined in: [packages/zoho-billing/src/types/hostedpage.ts:16](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/hostedpage.ts#L16)
 
 ***
 
@@ -11416,7 +11416,7 @@ Defined in: packages/zoho-billing/src/types/hostedpage.ts:16
 type ZohoIntervalUnit = "days" | "weeks" | "months" | "years";
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:125
+Defined in: [packages/zoho-billing/src/types/common.ts:125](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L125)
 
 ***
 
@@ -11437,7 +11437,7 @@ type ZohoInvoiceStatus =
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:12
+Defined in: [packages/zoho-billing/src/types/billing.ts:12](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L12)
 
 ***
 
@@ -11458,7 +11458,7 @@ type ZohoPaymentGateway =
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:104
+Defined in: [packages/zoho-billing/src/types/common.ts:104](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L104)
 
 Payment gateways Zoho Billing can route a subscription through. Kept as a
 union with a `(string & {})` escape hatch so a newly supported gateway does
@@ -11477,7 +11477,7 @@ type ZohoPaymentStatus =
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/billing.ts:139
+Defined in: [packages/zoho-billing/src/types/billing.ts:139](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/billing.ts#L139)
 
 ***
 
@@ -11493,7 +11493,7 @@ type ZohoPricingScheme =
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:19
+Defined in: [packages/zoho-billing/src/types/catalog.ts:19](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L19)
 
 How a plan or addon converts quantity into price.
 
@@ -11509,7 +11509,7 @@ in; `package` charges per block of units.
 type ZohoQueryParams = Record<string, ZohoQueryValue>;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:4
+Defined in: [packages/zoho-billing/src/types/common.ts:4](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L4)
 
 ***
 
@@ -11519,7 +11519,7 @@ Defined in: packages/zoho-billing/src/types/common.ts:4
 type ZohoQueryValue = string | number | boolean | undefined | null;
 ```
 
-Defined in: packages/zoho-billing/src/types/common.ts:3
+Defined in: [packages/zoho-billing/src/types/common.ts:3](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/common.ts#L3)
 
 Shapes shared across every Zoho Billing module.
 
@@ -11531,7 +11531,7 @@ Shapes shared across every Zoho Billing module.
 type ZohoRegion = "us" | "eu" | "in" | "au" | "jp" | "uk" | "ca" | "sa" | "cn";
 ```
 
-Defined in: packages/zoho-billing/src/config.ts:10
+Defined in: [packages/zoho-billing/src/config.ts:10](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/config.ts#L10)
 
 Data-centre configuration for the Zoho Billing API.
 
@@ -11552,7 +11552,7 @@ type ZohoStatus =
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/catalog.ts:10
+Defined in: [packages/zoho-billing/src/types/catalog.ts:10](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/catalog.ts#L10)
 
 ***
 
@@ -11576,7 +11576,7 @@ type ZohoSubscriptionStatus =
 };
 ```
 
-Defined in: packages/zoho-billing/src/types/subscription.ts:22
+Defined in: [packages/zoho-billing/src/types/subscription.ts:22](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/types/subscription.ts#L22)
 
 Lifecycle states a subscription can be in.
 
@@ -11592,7 +11592,7 @@ grants access until `current_term_ends_at`.
 const ZOHO_BILLING_API_PATH: "/billing/v1" = "/billing/v1";
 ```
 
-Defined in: packages/zoho-billing/src/config.ts:53
+Defined in: [packages/zoho-billing/src/config.ts:53](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/config.ts#L53)
 
 Path prefix for the Billing v1 API, appended to the region's API host.
 
@@ -11604,7 +11604,7 @@ Path prefix for the Billing v1 API, appended to the region's API host.
 const ZOHO_ORG_HEADER: "X-com-zoho-subscriptions-organizationid" = "X-com-zoho-subscriptions-organizationid";
 ```
 
-Defined in: packages/zoho-billing/src/config.ts:60
+Defined in: [packages/zoho-billing/src/config.ts:60](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/config.ts#L60)
 
 Header Zoho uses to scope a request to one organization. The name still says
 "subscriptions" even on Zoho Billing - that is the documented header, not a
@@ -11618,7 +11618,7 @@ typo left over from the product rename.
 const ZOHO_REGIONS: Record<ZohoRegion, ZohoRegionHosts>;
 ```
 
-Defined in: packages/zoho-billing/src/config.ts:28
+Defined in: [packages/zoho-billing/src/config.ts:28](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/config.ts#L28)
 
 ## Functions
 
@@ -11628,7 +11628,7 @@ Defined in: packages/zoho-billing/src/config.ts:28
 function createZohoBillingFromEnv(env?, overrides?): ZohoBilling;
 ```
 
-Defined in: packages/zoho-billing/src/index.ts:85
+Defined in: [packages/zoho-billing/src/index.ts:85](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/index.ts#L85)
 
 Build a client from environment variables.
 
@@ -11655,7 +11655,7 @@ missing variable at once rather than one per run.
 function isZohoRegion(value): value is ZohoRegion;
 ```
 
-Defined in: packages/zoho-billing/src/config.ts:62
+Defined in: [packages/zoho-billing/src/config.ts:62](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/config.ts#L62)
 
 #### Parameters
 
@@ -11675,7 +11675,7 @@ Defined in: packages/zoho-billing/src/config.ts:62
 function resolveRegion(region): ZohoRegion;
 ```
 
-Defined in: packages/zoho-billing/src/config.ts:71
+Defined in: [packages/zoho-billing/src/config.ts:71](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/config.ts#L71)
 
 Resolve a region string, falling back to `us` when unset. Throws on an
 unknown region rather than silently defaulting, because a silent default

@@ -4,7 +4,7 @@
 
 ### BillingStore
 
-Defined in: packages/zoho-billing-react/src/store.ts:22
+Defined in: [packages/zoho-billing-react/src/store.ts:22](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L22)
 
 #### Constructors
 
@@ -26,7 +26,7 @@ new BillingStore(): BillingStore;
 clear(): void;
 ```
 
-Defined in: packages/zoho-billing-react/src/store.ts:110
+Defined in: [packages/zoho-billing-react/src/store.ts:110](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L110)
 
 ###### Returns
 
@@ -38,7 +38,7 @@ Defined in: packages/zoho-billing-react/src/store.ts:110
 getSnapshot<T>(key): CacheEntry<T>;
 ```
 
-Defined in: packages/zoho-billing-react/src/store.ts:44
+Defined in: [packages/zoho-billing-react/src/store.ts:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L44)
 
 Must return a referentially stable value for unchanged state, or
 `useSyncExternalStore` re-renders forever.
@@ -65,7 +65,7 @@ Must return a referentially stable value for unchanged state, or
 invalidate(prefix): void;
 ```
 
-Defined in: packages/zoho-billing-react/src/store.ts:99
+Defined in: [packages/zoho-billing-react/src/store.ts:99](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L99)
 
 Drop cached entries whose key starts with `prefix` and notify their
 subscribers so mounted hooks refetch.
@@ -90,7 +90,7 @@ load<T>(
 ): Promise<T>;
 ```
 
-Defined in: packages/zoho-billing-react/src/store.ts:59
+Defined in: [packages/zoho-billing-react/src/store.ts:59](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L59)
 
 Load `key`, deduping concurrent callers.
 
@@ -122,7 +122,7 @@ request instead of racing.
 setData<T>(key, data): void;
 ```
 
-Defined in: packages/zoho-billing-react/src/store.ts:91
+Defined in: [packages/zoho-billing-react/src/store.ts:91](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L91)
 
 Write a value directly, e.g. from a mutation response.
 
@@ -149,7 +149,7 @@ Write a value directly, e.g. from a mutation response.
 subscribe(key, listener): () => void;
 ```
 
-Defined in: packages/zoho-billing-react/src/store.ts:27
+Defined in: [packages/zoho-billing-react/src/store.ts:27](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L27)
 
 ###### Parameters
 
@@ -166,7 +166,7 @@ Defined in: packages/zoho-billing-react/src/store.ts:27
 
 ### ZohoBillingFetchError
 
-Defined in: packages/zoho-billing-react/src/client.ts:10
+Defined in: [packages/zoho-billing-react/src/client.ts:10](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L10)
 
 Browser-side transport.
 
@@ -191,7 +191,7 @@ new ZohoBillingFetchError(
 ): ZohoBillingFetchError;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:15
+Defined in: [packages/zoho-billing-react/src/client.ts:15](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L15)
 
 ###### Parameters
 
@@ -235,7 +235,7 @@ Error.cause
 readonly optional code?: string | number;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:13
+Defined in: [packages/zoho-billing-react/src/client.ts:13](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L13)
 
 Machine-readable error slug from the handler, e.g. `plan_not_allowed`.
 
@@ -311,7 +311,7 @@ Error.stackTraceLimit
 readonly status: number;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:11
+Defined in: [packages/zoho-billing-react/src/client.ts:11](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L11)
 
 #### Methods
 
@@ -474,7 +474,7 @@ Error.prepareStackTrace
 
 ### BillingMutationResult
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:12
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:12](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L12)
 
 #### Extends
 
@@ -495,7 +495,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:12
 data: T | undefined;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:7
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L7)
 
 ###### Inherited from
 
@@ -507,7 +507,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:7
 error: unknown;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:8
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:8](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L8)
 
 ###### Inherited from
 
@@ -519,7 +519,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:8
 isPending: boolean;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:9
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:9](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L9)
 
 ###### Inherited from
 
@@ -531,7 +531,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:9
 mutate: (...args) => Promise<T>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:16
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:16](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L16)
 
 ###### Parameters
 
@@ -549,7 +549,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:16
 reset: () => void;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:17
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:17](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L17)
 
 ###### Returns
 
@@ -559,7 +559,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:17
 
 ### BillingMutationState
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:6
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:6](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L6)
 
 #### Extended by
 
@@ -579,7 +579,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:6
 data: T | undefined;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:7
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L7)
 
 ##### error
 
@@ -587,7 +587,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:7
 error: unknown;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:8
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:8](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L8)
 
 ##### isPending
 
@@ -595,13 +595,13 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:8
 isPending: boolean;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:9
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:9](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L9)
 
 ***
 
 ### BillingQueryResult
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:15
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingQuery.ts:15](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingQuery.ts#L15)
 
 #### Type Parameters
 
@@ -617,7 +617,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:15
 data: T | undefined;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:16
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingQuery.ts:16](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingQuery.ts#L16)
 
 ##### error
 
@@ -625,7 +625,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:16
 error: unknown;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:17
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingQuery.ts:17](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingQuery.ts#L17)
 
 ##### isLoading
 
@@ -633,7 +633,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:17
 isLoading: boolean;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:18
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingQuery.ts:18](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingQuery.ts#L18)
 
 ##### isRefreshing
 
@@ -641,7 +641,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:18
 isRefreshing: boolean;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:20
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingQuery.ts:20](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingQuery.ts#L20)
 
 True on a background refresh, when stale data is still on screen.
 
@@ -651,7 +651,7 @@ True on a background refresh, when stale data is still on screen.
 refetch: () => Promise<T | undefined>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:21
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingQuery.ts:21](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingQuery.ts#L21)
 
 ###### Returns
 
@@ -661,7 +661,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:21
 
 ### CacheEntry
 
-Defined in: packages/zoho-billing-react/src/store.ts:12
+Defined in: [packages/zoho-billing-react/src/store.ts:12](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L12)
 
 #### Type Parameters
 
@@ -677,7 +677,7 @@ Defined in: packages/zoho-billing-react/src/store.ts:12
 optional data?: T;
 ```
 
-Defined in: packages/zoho-billing-react/src/store.ts:14
+Defined in: [packages/zoho-billing-react/src/store.ts:14](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L14)
 
 ##### error?
 
@@ -685,7 +685,7 @@ Defined in: packages/zoho-billing-react/src/store.ts:14
 optional error?: unknown;
 ```
 
-Defined in: packages/zoho-billing-react/src/store.ts:15
+Defined in: [packages/zoho-billing-react/src/store.ts:15](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L15)
 
 ##### status
 
@@ -693,7 +693,7 @@ Defined in: packages/zoho-billing-react/src/store.ts:15
 status: EntryStatus;
 ```
 
-Defined in: packages/zoho-billing-react/src/store.ts:13
+Defined in: [packages/zoho-billing-react/src/store.ts:13](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L13)
 
 ##### updatedAt?
 
@@ -701,7 +701,7 @@ Defined in: packages/zoho-billing-react/src/store.ts:13
 optional updatedAt?: number;
 ```
 
-Defined in: packages/zoho-billing-react/src/store.ts:17
+Defined in: [packages/zoho-billing-react/src/store.ts:17](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L17)
 
 Epoch ms of the last successful load, for staleness checks.
 
@@ -709,7 +709,7 @@ Epoch ms of the last successful load, for staleness checks.
 
 ### CancelSubscriptionOptions
 
-Defined in: packages/zoho-billing-react/src/hooks/mutations.ts:21
+Defined in: [packages/zoho-billing-react/src/hooks/mutations.ts:21](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/mutations.ts#L21)
 
 #### Properties
 
@@ -719,7 +719,7 @@ Defined in: packages/zoho-billing-react/src/hooks/mutations.ts:21
 optional cancelAtEnd?: boolean;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/mutations.ts:26
+Defined in: [packages/zoho-billing-react/src/hooks/mutations.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/mutations.ts#L26)
 
 `true` (the default) ends the subscription when the paid term expires;
 `false` cuts access off immediately.
@@ -728,7 +728,7 @@ Defined in: packages/zoho-billing-react/src/hooks/mutations.ts:26
 
 ### CreateHostedPageParams
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:21
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:21](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L21)
 
 #### Indexable
 
@@ -747,7 +747,7 @@ optional addons?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:27
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:27](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L27)
 
 ###### addon\_code
 
@@ -767,7 +767,7 @@ optional quantity?: number;
 optional coupon_code?: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:28
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:28](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L28)
 
 ##### kind
 
@@ -775,7 +775,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:28
 kind: HostedPageKind;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:22
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:22](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L22)
 
 ##### plan?
 
@@ -787,7 +787,7 @@ optional plan?: {
 };
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:24
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L24)
 
 Required for `new-subscription`; optional plan change otherwise.
 
@@ -815,7 +815,7 @@ optional quantity?: number;
 optional redirect_url?: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:30
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L30)
 
 Where Zoho returns the customer. Include a marker you can read back.
 
@@ -825,7 +825,7 @@ Where Zoho returns the customer. Include a marker you can read back.
 optional subscription_id?: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:26
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L26)
 
 Required for `update-subscription`.
 
@@ -833,7 +833,7 @@ Required for `update-subscription`.
 
 ### ManagePaymentMethodButtonProps
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:70
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:70](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L70)
 
 #### Extends
 
@@ -1940,7 +1940,7 @@ BaseProps.autoSave
 optional children?: ReactNode;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:71
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:71](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L71)
 
 ###### Overrides
 
@@ -3320,7 +3320,7 @@ BaseProps.onEndedCapture
 optional onError?: (error) => void;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:14
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:14](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L14)
 
 ###### Parameters
 
@@ -4854,7 +4854,7 @@ BaseProps.part
 optional pendingLabel?: ReactNode;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:13
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:13](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L13)
 
 Rendered while the hosted page is being created.
 
@@ -4954,7 +4954,7 @@ BaseProps.radioGroup
 optional redirectUrl?: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:11
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:11](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L11)
 
 Where Zoho returns the customer after checkout.
 
@@ -5234,7 +5234,7 @@ BaseProps.vocab
 
 ### SubscribeButtonProps
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:17
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:17](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L17)
 
 #### Extends
 
@@ -5279,7 +5279,7 @@ optional addons?: {
 }[];
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:21
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:21](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L21)
 
 ###### addon\_code
 
@@ -6364,7 +6364,7 @@ BaseProps.autoSave
 optional children?: ReactNode;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:22
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:22](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L22)
 
 ###### Overrides
 
@@ -6448,7 +6448,7 @@ BaseProps.contextMenu
 optional couponCode?: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:20
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:20](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L20)
 
 ##### dangerouslySetInnerHTML?
 
@@ -7752,7 +7752,7 @@ BaseProps.onEndedCapture
 optional onError?: (error) => void;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:14
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:14](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L14)
 
 ###### Parameters
 
@@ -9286,7 +9286,7 @@ BaseProps.part
 optional pendingLabel?: ReactNode;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:13
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:13](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L13)
 
 Rendered while the hosted page is being created.
 
@@ -9302,7 +9302,7 @@ BaseProps.pendingLabel
 planCode: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:18
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:18](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L18)
 
 ##### popover?
 
@@ -9380,7 +9380,7 @@ BaseProps.property
 optional quantity?: number;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:19
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:19](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L19)
 
 ##### radioGroup?
 
@@ -9402,7 +9402,7 @@ BaseProps.radioGroup
 optional redirectUrl?: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:11
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:11](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L11)
 
 Where Zoho returns the customer after checkout.
 
@@ -9682,7 +9682,7 @@ BaseProps.vocab
 
 ### UseBillingMutationOptions
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:20
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:20](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L20)
 
 #### Properties
 
@@ -9692,7 +9692,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:20
 optional invalidate?: string[];
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:25
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L25)
 
 Cache key prefixes to drop after a successful mutation, so mounted
 queries refetch. Defaults to `["/subscriptions"]`.
@@ -9701,7 +9701,7 @@ queries refetch. Defaults to `["/subscriptions"]`.
 
 ### UseBillingQueryOptions
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:7
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingQuery.ts:7](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingQuery.ts#L7)
 
 #### Properties
 
@@ -9711,7 +9711,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:7
 optional enabled?: boolean;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:9
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingQuery.ts:9](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingQuery.ts#L9)
 
 Skip fetching, e.g. while an ID is still undefined.
 
@@ -9721,7 +9721,7 @@ Skip fetching, e.g. while an ID is still undefined.
 optional query?: Record<string, string | number | boolean | null | undefined>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:10
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingQuery.ts:10](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingQuery.ts#L10)
 
 ##### staleTimeMs?
 
@@ -9729,7 +9729,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:10
 optional staleTimeMs?: number;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:12
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingQuery.ts:12](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingQuery.ts#L12)
 
 Serve cache without refetching if it is younger than this (ms).
 
@@ -9737,7 +9737,7 @@ Serve cache without refetching if it is younger than this (ms).
 
 ### UseHostedPageCheckoutResult
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:81
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:81](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L81)
 
 #### Properties
 
@@ -9747,7 +9747,7 @@ Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:81
 checkout: (params) => Promise<void>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:83
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:83](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L83)
 
 Create the page and send the browser to it.
 
@@ -9767,7 +9767,7 @@ Create the page and send the browser to it.
 error: unknown;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:85
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:85](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L85)
 
 ##### isPending
 
@@ -9775,13 +9775,13 @@ Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:85
 isPending: boolean;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:84
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:84](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L84)
 
 ***
 
 ### ZohoBillingContextValue
 
-Defined in: packages/zoho-billing-react/src/context.tsx:17
+Defined in: [packages/zoho-billing-react/src/context.tsx:17](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/context.tsx#L17)
 
 React bindings for Zoho Billing.
 
@@ -9810,7 +9810,7 @@ secret and sends no CORS headers, so mount
 fetcher: ZohoBillingFetcher;
 ```
 
-Defined in: packages/zoho-billing-react/src/context.tsx:18
+Defined in: [packages/zoho-billing-react/src/context.tsx:18](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/context.tsx#L18)
 
 ##### store
 
@@ -9818,13 +9818,13 @@ Defined in: packages/zoho-billing-react/src/context.tsx:18
 store: BillingStore;
 ```
 
-Defined in: packages/zoho-billing-react/src/context.tsx:19
+Defined in: [packages/zoho-billing-react/src/context.tsx:19](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/context.tsx#L19)
 
 ***
 
 ### ZohoBillingFetcherOptions
 
-Defined in: packages/zoho-billing-react/src/client.ts:23
+Defined in: [packages/zoho-billing-react/src/client.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L23)
 
 #### Properties
 
@@ -9834,7 +9834,7 @@ Defined in: packages/zoho-billing-react/src/client.ts:23
 baseUrl: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:25
+Defined in: [packages/zoho-billing-react/src/client.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L25)
 
 Where the backend handler is mounted, e.g. `/api/billing`.
 
@@ -9844,7 +9844,7 @@ Where the backend handler is mounted, e.g. `/api/billing`.
 optional credentials?: RequestCredentials;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:29
+Defined in: [packages/zoho-billing-react/src/client.ts:29](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L29)
 
 Defaults to `same-origin`, matching cookie-session auth.
 
@@ -9854,7 +9854,7 @@ Defaults to `same-origin`, matching cookie-session auth.
 optional fetch?: typeof fetch;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:30
+Defined in: [packages/zoho-billing-react/src/client.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L30)
 
 ##### headers?
 
@@ -9862,7 +9862,7 @@ Defined in: packages/zoho-billing-react/src/client.ts:30
 optional headers?: Record<string, string> | (() => Record<string, string>);
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:27
+Defined in: [packages/zoho-billing-react/src/client.ts:27](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L27)
 
 Merged into every request; use for CSRF tokens or tenant headers.
 
@@ -9870,7 +9870,7 @@ Merged into every request; use for CSRF tokens or tenant headers.
 
 ### ZohoBillingProviderProps
 
-Defined in: packages/zoho-billing-react/src/context.tsx:24
+Defined in: [packages/zoho-billing-react/src/context.tsx:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/context.tsx#L24)
 
 React bindings for Zoho Billing.
 
@@ -9903,7 +9903,7 @@ secret and sends no CORS headers, so mount
 optional baseUrl?: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/context.tsx:28
+Defined in: [packages/zoho-billing-react/src/context.tsx:28](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/context.tsx#L28)
 
 Where your backend mounts the handler. Defaults to `/api/billing`.
 
@@ -9913,7 +9913,7 @@ Where your backend mounts the handler. Defaults to `/api/billing`.
 children: ReactNode;
 ```
 
-Defined in: packages/zoho-billing-react/src/context.tsx:36
+Defined in: [packages/zoho-billing-react/src/context.tsx:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/context.tsx#L36)
 
 ##### credentials?
 
@@ -9921,7 +9921,7 @@ Defined in: packages/zoho-billing-react/src/context.tsx:36
 optional credentials?: RequestCredentials;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:29
+Defined in: [packages/zoho-billing-react/src/client.ts:29](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L29)
 
 Defaults to `same-origin`, matching cookie-session auth.
 
@@ -9935,7 +9935,7 @@ Defaults to `same-origin`, matching cookie-session auth.
 optional fetch?: typeof fetch;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:30
+Defined in: [packages/zoho-billing-react/src/client.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L30)
 
 ###### Inherited from
 
@@ -9947,7 +9947,7 @@ Defined in: packages/zoho-billing-react/src/client.ts:30
 optional fetcher?: ZohoBillingFetcher;
 ```
 
-Defined in: packages/zoho-billing-react/src/context.tsx:33
+Defined in: [packages/zoho-billing-react/src/context.tsx:33](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/context.tsx#L33)
 
 Supply your own transport, e.g. to route through an existing API client.
 Takes precedence over `baseUrl`.
@@ -9958,7 +9958,7 @@ Takes precedence over `baseUrl`.
 optional headers?: Record<string, string> | (() => Record<string, string>);
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:27
+Defined in: [packages/zoho-billing-react/src/client.ts:27](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L27)
 
 Merged into every request; use for CSRF tokens or tenant headers.
 
@@ -9972,7 +9972,7 @@ Merged into every request; use for CSRF tokens or tenant headers.
 optional store?: BillingStore;
 ```
 
-Defined in: packages/zoho-billing-react/src/context.tsx:35
+Defined in: [packages/zoho-billing-react/src/context.tsx:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/context.tsx#L35)
 
 Share one cache across provider remounts. Mostly useful in tests.
 
@@ -9980,7 +9980,7 @@ Share one cache across provider remounts. Mostly useful in tests.
 
 ### ZohoBillingRequestInit
 
-Defined in: packages/zoho-billing-react/src/client.ts:33
+Defined in: [packages/zoho-billing-react/src/client.ts:33](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L33)
 
 #### Properties
 
@@ -9990,7 +9990,7 @@ Defined in: packages/zoho-billing-react/src/client.ts:33
 optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:35
+Defined in: [packages/zoho-billing-react/src/client.ts:35](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L35)
 
 ##### method?
 
@@ -9998,7 +9998,7 @@ Defined in: packages/zoho-billing-react/src/client.ts:35
 optional method?: "GET" | "POST" | "PUT" | "DELETE";
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:34
+Defined in: [packages/zoho-billing-react/src/client.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L34)
 
 ##### query?
 
@@ -10006,7 +10006,7 @@ Defined in: packages/zoho-billing-react/src/client.ts:34
 optional query?: Record<string, string | number | boolean | null | undefined>;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:36
+Defined in: [packages/zoho-billing-react/src/client.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L36)
 
 ##### signal?
 
@@ -10014,7 +10014,7 @@ Defined in: packages/zoho-billing-react/src/client.ts:36
 optional signal?: AbortSignal;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:37
+Defined in: [packages/zoho-billing-react/src/client.ts:37](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L37)
 
 ## Type Aliases
 
@@ -10024,7 +10024,7 @@ Defined in: packages/zoho-billing-react/src/client.ts:37
 type EntryStatus = "idle" | "loading" | "success" | "error";
 ```
 
-Defined in: packages/zoho-billing-react/src/store.ts:10
+Defined in: [packages/zoho-billing-react/src/store.ts:10](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L10)
 
 A tiny cache + subscription store behind the query hooks.
 
@@ -10041,7 +10041,7 @@ invalidation after a mutation - and nothing more.
 type HostedPageKind = "new-subscription" | "update-subscription" | "update-card";
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:16
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:16](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L16)
 
 Which hosted-page flow to open.
 
@@ -10053,7 +10053,7 @@ Which hosted-page flow to open.
 type ZohoBillingFetcher = <T>(path, init?) => Promise<T>;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:40
+Defined in: [packages/zoho-billing-react/src/client.ts:40](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L40)
 
 #### Type Parameters
 
@@ -10080,7 +10080,7 @@ Defined in: packages/zoho-billing-react/src/client.ts:40
 function buildKey(path, query?): string;
 ```
 
-Defined in: packages/zoho-billing-react/src/store.ts:120
+Defined in: [packages/zoho-billing-react/src/store.ts:120](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/store.ts#L120)
 
 #### Parameters
 
@@ -10101,7 +10101,7 @@ Defined in: packages/zoho-billing-react/src/store.ts:120
 function createFetcher(options): ZohoBillingFetcher;
 ```
 
-Defined in: packages/zoho-billing-react/src/client.ts:45
+Defined in: [packages/zoho-billing-react/src/client.ts:45](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/client.ts#L45)
 
 #### Parameters
 
@@ -10125,7 +10125,7 @@ function formatAmount(
 ): string;
 ```
 
-Defined in: packages/zoho-billing-react/src/utils.ts:71
+Defined in: [packages/zoho-billing-react/src/utils.ts:71](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/utils.ts#L71)
 
 Format a Zoho amount for display.
 
@@ -10157,7 +10157,7 @@ function formatBillingDate(
 ): string;
 ```
 
-Defined in: packages/zoho-billing-react/src/utils.ts:84
+Defined in: [packages/zoho-billing-react/src/utils.ts:84](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/utils.ts#L84)
 
 Format a Zoho `yyyy-mm-dd` date for display, tolerating empty strings.
 
@@ -10181,7 +10181,7 @@ Format a Zoho `yyyy-mm-dd` date for display, tolerating empty strings.
 function formatSubscriptionStatus(status): string;
 ```
 
-Defined in: packages/zoho-billing-react/src/utils.ts:45
+Defined in: [packages/zoho-billing-react/src/utils.ts:45](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/utils.ts#L45)
 
 Human-readable label for a Zoho subscription status.
 
@@ -10203,7 +10203,7 @@ Human-readable label for a Zoho subscription status.
 function isCancelledAtPeriodEnd(subscription): boolean;
 ```
 
-Defined in: packages/zoho-billing-react/src/utils.ts:38
+Defined in: [packages/zoho-billing-react/src/utils.ts:38](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/utils.ts#L38)
 
 True when cancelled but still inside the paid term.
 
@@ -10225,7 +10225,7 @@ True when cancelled but still inside the paid term.
 function isSubscriptionEntitled(subscription): boolean;
 ```
 
-Defined in: packages/zoho-billing-react/src/utils.ts:23
+Defined in: [packages/zoho-billing-react/src/utils.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/utils.ts#L23)
 
 True when the subscription should currently grant access.
 
@@ -10247,7 +10247,7 @@ True when the subscription should currently grant access.
 function ManagePaymentMethodButton(__namedParameters): Element;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:75
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:75](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L75)
 
 Opens Zoho's hosted page for updating the stored card.
 
@@ -10269,7 +10269,7 @@ Opens Zoho's hosted page for updating the stored card.
 function needsPaymentAttention(subscription): boolean;
 ```
 
-Defined in: packages/zoho-billing-react/src/utils.ts:31
+Defined in: [packages/zoho-billing-react/src/utils.ts:31](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/utils.ts#L31)
 
 True when billing needs the customer's attention (failed or missed payment).
 
@@ -10291,7 +10291,7 @@ True when billing needs the customer's attention (failed or missed payment).
 function SubscribeButton(__namedParameters): Element;
 ```
 
-Defined in: packages/zoho-billing-react/src/components/SubscribeButton.tsx:31
+Defined in: [packages/zoho-billing-react/src/components/SubscribeButton.tsx:31](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/components/SubscribeButton.tsx#L31)
 
 Starts a Zoho hosted-page checkout for a plan.
 
@@ -10316,7 +10316,7 @@ whatever design system the host app uses.
 function useBillingMutation<TArgs, T>(run, options?): BillingMutationResult<TArgs, T>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingMutation.ts:34
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingMutation.ts:34](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingMutation.ts#L34)
 
 Shared write primitive.
 
@@ -10349,7 +10349,7 @@ exposed as state for rendering.
 function useBillingQuery<TResponse, TData>(path, options?): BillingQueryResult<TData>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useBillingQuery.ts:41
+Defined in: [packages/zoho-billing-react/src/hooks/useBillingQuery.ts:41](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useBillingQuery.ts#L41)
 
 Shared read primitive for the resource hooks.
 
@@ -10384,7 +10384,7 @@ disagree about their shape.
 function useCancelSubscription(): BillingMutationResult<[string, CancelSubscriptionOptions], ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/mutations.ts:30
+Defined in: [packages/zoho-billing-react/src/hooks/mutations.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/mutations.ts#L30)
 
 Cancel a subscription, at period end by default.
 
@@ -10400,7 +10400,7 @@ Cancel a subscription, at period end by default.
 function useCreateHostedPage(): BillingMutationResult<[CreateHostedPageParams], ZohoHostedPage>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:41
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:41](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L41)
 
 Create a Zoho hosted page (their Checkout equivalent).
 
@@ -10420,7 +10420,7 @@ else's account.
 function useCustomer(options?): BillingQueryResult<ZohoCustomer>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/queries.ts:64
+Defined in: [packages/zoho-billing-react/src/hooks/queries.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/queries.ts#L64)
 
 The signed-in customer's billing profile.
 
@@ -10442,7 +10442,7 @@ The signed-in customer's billing profile.
 function useHostedPageCheckout(): UseHostedPageCheckoutResult;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:94
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:94](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L94)
 
 One-call checkout: create the hosted page, then navigate to it.
 
@@ -10461,7 +10461,7 @@ to think a redirect happened when it did not.
 function useHostedPageResult(hostedPageId, options?): BillingQueryResult<ZohoHostedPage>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/useHostedPage.ts:121
+Defined in: [packages/zoho-billing-react/src/hooks/useHostedPage.ts:121](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/useHostedPage.ts#L121)
 
 Read a hosted page's outcome after the customer is redirected back.
 
@@ -10487,7 +10487,7 @@ return URL is not proof of payment - it can be visited directly.
 function useInvoices(options?): BillingQueryResult<ZohoInvoice[]>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/queries.ts:77
+Defined in: [packages/zoho-billing-react/src/hooks/queries.ts:77](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/queries.ts#L77)
 
 Invoice history, optionally narrowed to one subscription.
 
@@ -10509,7 +10509,7 @@ Invoice history, optionally narrowed to one subscription.
 function usePauseSubscription(): BillingMutationResult<[string, PauseSubscriptionParams], ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/mutations.ts:68
+Defined in: [packages/zoho-billing-react/src/hooks/mutations.ts:68](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/mutations.ts#L68)
 
 #### Returns
 
@@ -10523,7 +10523,7 @@ Defined in: packages/zoho-billing-react/src/hooks/mutations.ts:68
 function usePlans(options?): BillingQueryResult<ZohoPlan[]>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/queries.ts:21
+Defined in: [packages/zoho-billing-react/src/hooks/queries.ts:21](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/queries.ts#L21)
 
 Active plans from your Zoho catalogue, for a pricing table.
 
@@ -10548,7 +10548,7 @@ come back - the browser never sees plans you do not sell self-serve.
 function useReactivateSubscription(): BillingMutationResult<[string], ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/mutations.ts:52
+Defined in: [packages/zoho-billing-react/src/hooks/mutations.ts:52](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/mutations.ts#L52)
 
 #### Returns
 
@@ -10562,7 +10562,7 @@ Defined in: packages/zoho-billing-react/src/hooks/mutations.ts:52
 function useResumeSubscription(): BillingMutationResult<[string, ResumeSubscriptionParams], ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/mutations.ts:87
+Defined in: [packages/zoho-billing-react/src/hooks/mutations.ts:87](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/mutations.ts#L87)
 
 #### Returns
 
@@ -10576,7 +10576,7 @@ Defined in: packages/zoho-billing-react/src/hooks/mutations.ts:87
 function useSubscription(subscriptionId, options?): BillingQueryResult<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/queries.ts:51
+Defined in: [packages/zoho-billing-react/src/hooks/queries.ts:51](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/queries.ts#L51)
 
 One subscription. Pass `null`/`undefined` to hold off until the ID exists.
 
@@ -10599,7 +10599,7 @@ One subscription. Pass `null`/`undefined` to hold off until the ID exists.
 function useSubscriptions(options?): BillingQueryResult<ZohoSubscription[]>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/queries.ts:36
+Defined in: [packages/zoho-billing-react/src/hooks/queries.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/queries.ts#L36)
 
 Every subscription belonging to the signed-in customer.
 
@@ -10621,7 +10621,7 @@ Every subscription belonging to the signed-in customer.
 function useUpdateSubscription(): BillingMutationResult<[string, UpdateSubscriptionParams], ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing-react/src/hooks/mutations.ts:113
+Defined in: [packages/zoho-billing-react/src/hooks/mutations.ts:113](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/hooks/mutations.ts#L113)
 
 Change plan, addons, or coupon.
 
@@ -10641,7 +10641,7 @@ organization's default, which is easy to be surprised by.
 function useZohoBilling(): ZohoBillingContextValue;
 ```
 
-Defined in: packages/zoho-billing-react/src/context.tsx:80
+Defined in: [packages/zoho-billing-react/src/context.tsx:80](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/context.tsx#L80)
 
 React bindings for Zoho Billing.
 
@@ -10674,7 +10674,7 @@ secret and sends no CORS headers, so mount
 function ZohoBillingProvider(__namedParameters): Element;
 ```
 
-Defined in: packages/zoho-billing-react/src/context.tsx:39
+Defined in: [packages/zoho-billing-react/src/context.tsx:39](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/context.tsx#L39)
 
 React bindings for Zoho Billing.
 

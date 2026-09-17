@@ -4,7 +4,7 @@
 
 ### ZohoBillingAuthError
 
-Defined in: packages/zoho-billing/src/errors.ts:39
+Defined in: [packages/zoho-billing/src/errors.ts:39](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L39)
 
 Credentials are missing, expired, or the token is for the wrong region.
 
@@ -20,7 +20,7 @@ Credentials are missing, expired, or the token is for the wrong region.
 new ZohoBillingAuthError(message, context?): ZohoBillingAuthError;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:40
+Defined in: [packages/zoho-billing/src/errors.ts:40](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L40)
 
 ###### Parameters
 
@@ -45,7 +45,7 @@ Defined in: packages/zoho-billing/src/errors.ts:40
 readonly optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:25
+Defined in: [packages/zoho-billing/src/errors.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L25)
 
 ###### Inherited from
 
@@ -71,7 +71,7 @@ The cause of the error.
 readonly optional code?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:23
+Defined in: [packages/zoho-billing/src/errors.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L23)
 
 ###### Inherited from
 
@@ -107,7 +107,7 @@ Defined in: node\_modules/.bun/typescript@5.9.3/node\_modules/typescript/lib/lib
 readonly optional request?: string;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:26
+Defined in: [packages/zoho-billing/src/errors.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L26)
 
 ###### Inherited from
 
@@ -153,7 +153,7 @@ not capture any frames.
 readonly optional status?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:24
+Defined in: [packages/zoho-billing/src/errors.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L24)
 
 ###### Inherited from
 
@@ -312,7 +312,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 ### ZohoBillingConnectionError
 
-Defined in: packages/zoho-billing/src/errors.ts:97
+Defined in: [packages/zoho-billing/src/errors.ts:97](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L97)
 
 The request never completed: DNS failure, socket error, timeout, abort.
 
@@ -328,7 +328,7 @@ The request never completed: DNS failure, socket error, timeout, abort.
 new ZohoBillingConnectionError(message, context?): ZohoBillingConnectionError;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:98
+Defined in: [packages/zoho-billing/src/errors.ts:98](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L98)
 
 ###### Parameters
 
@@ -353,7 +353,7 @@ Defined in: packages/zoho-billing/src/errors.ts:98
 readonly optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:25
+Defined in: [packages/zoho-billing/src/errors.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L25)
 
 ###### Inherited from
 
@@ -379,7 +379,7 @@ The cause of the error.
 readonly optional code?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:23
+Defined in: [packages/zoho-billing/src/errors.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L23)
 
 ###### Inherited from
 
@@ -415,7 +415,7 @@ Defined in: node\_modules/.bun/typescript@5.9.3/node\_modules/typescript/lib/lib
 readonly optional request?: string;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:26
+Defined in: [packages/zoho-billing/src/errors.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L26)
 
 ###### Inherited from
 
@@ -461,7 +461,7 @@ not capture any frames.
 readonly optional status?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:24
+Defined in: [packages/zoho-billing/src/errors.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L24)
 
 ###### Inherited from
 
@@ -620,7 +620,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 ### ZohoBillingError
 
-Defined in: packages/zoho-billing/src/errors.ts:22
+Defined in: [packages/zoho-billing/src/errors.ts:22](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L22)
 
 #### Extends
 
@@ -646,7 +646,7 @@ Defined in: packages/zoho-billing/src/errors.ts:22
 new ZohoBillingError(message, context?): ZohoBillingError;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:28
+Defined in: [packages/zoho-billing/src/errors.ts:28](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L28)
 
 ###### Parameters
 
@@ -673,7 +673,7 @@ Error.constructor
 readonly optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:25
+Defined in: [packages/zoho-billing/src/errors.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L25)
 
 ##### cause?
 
@@ -697,7 +697,7 @@ Error.cause
 readonly optional code?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:23
+Defined in: [packages/zoho-billing/src/errors.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L23)
 
 ##### message
 
@@ -733,7 +733,7 @@ Error.name
 readonly optional request?: string;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:26
+Defined in: [packages/zoho-billing/src/errors.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L26)
 
 ##### stack?
 
@@ -779,7 +779,7 @@ Error.stackTraceLimit
 readonly optional status?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:24
+Defined in: [packages/zoho-billing/src/errors.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L24)
 
 #### Methods
 
@@ -942,7 +942,7 @@ Error.prepareStackTrace
 
 ### ZohoBillingInvalidRequestError
 
-Defined in: packages/zoho-billing/src/errors.ts:63
+Defined in: [packages/zoho-billing/src/errors.ts:63](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L63)
 
 Request was rejected as malformed or business-rule invalid.
 
@@ -958,7 +958,7 @@ Request was rejected as malformed or business-rule invalid.
 new ZohoBillingInvalidRequestError(message, context?): ZohoBillingInvalidRequestError;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:64
+Defined in: [packages/zoho-billing/src/errors.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L64)
 
 ###### Parameters
 
@@ -983,7 +983,7 @@ Defined in: packages/zoho-billing/src/errors.ts:64
 readonly optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:25
+Defined in: [packages/zoho-billing/src/errors.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L25)
 
 ###### Inherited from
 
@@ -1009,7 +1009,7 @@ The cause of the error.
 readonly optional code?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:23
+Defined in: [packages/zoho-billing/src/errors.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L23)
 
 ###### Inherited from
 
@@ -1045,7 +1045,7 @@ Defined in: node\_modules/.bun/typescript@5.9.3/node\_modules/typescript/lib/lib
 readonly optional request?: string;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:26
+Defined in: [packages/zoho-billing/src/errors.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L26)
 
 ###### Inherited from
 
@@ -1091,7 +1091,7 @@ not capture any frames.
 readonly optional status?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:24
+Defined in: [packages/zoho-billing/src/errors.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L24)
 
 ###### Inherited from
 
@@ -1250,7 +1250,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 ### ZohoBillingNotFoundError
 
-Defined in: packages/zoho-billing/src/errors.ts:55
+Defined in: [packages/zoho-billing/src/errors.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L55)
 
 The addressed resource does not exist in this organization.
 
@@ -1266,7 +1266,7 @@ The addressed resource does not exist in this organization.
 new ZohoBillingNotFoundError(message, context?): ZohoBillingNotFoundError;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:56
+Defined in: [packages/zoho-billing/src/errors.ts:56](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L56)
 
 ###### Parameters
 
@@ -1291,7 +1291,7 @@ Defined in: packages/zoho-billing/src/errors.ts:56
 readonly optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:25
+Defined in: [packages/zoho-billing/src/errors.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L25)
 
 ###### Inherited from
 
@@ -1317,7 +1317,7 @@ The cause of the error.
 readonly optional code?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:23
+Defined in: [packages/zoho-billing/src/errors.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L23)
 
 ###### Inherited from
 
@@ -1353,7 +1353,7 @@ Defined in: node\_modules/.bun/typescript@5.9.3/node\_modules/typescript/lib/lib
 readonly optional request?: string;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:26
+Defined in: [packages/zoho-billing/src/errors.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L26)
 
 ###### Inherited from
 
@@ -1399,7 +1399,7 @@ not capture any frames.
 readonly optional status?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:24
+Defined in: [packages/zoho-billing/src/errors.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L24)
 
 ###### Inherited from
 
@@ -1558,7 +1558,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 ### ZohoBillingPermissionError
 
-Defined in: packages/zoho-billing/src/errors.ts:47
+Defined in: [packages/zoho-billing/src/errors.ts:47](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L47)
 
 The token is valid but lacks the scope for this operation.
 
@@ -1574,7 +1574,7 @@ The token is valid but lacks the scope for this operation.
 new ZohoBillingPermissionError(message, context?): ZohoBillingPermissionError;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:48
+Defined in: [packages/zoho-billing/src/errors.ts:48](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L48)
 
 ###### Parameters
 
@@ -1599,7 +1599,7 @@ Defined in: packages/zoho-billing/src/errors.ts:48
 readonly optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:25
+Defined in: [packages/zoho-billing/src/errors.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L25)
 
 ###### Inherited from
 
@@ -1625,7 +1625,7 @@ The cause of the error.
 readonly optional code?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:23
+Defined in: [packages/zoho-billing/src/errors.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L23)
 
 ###### Inherited from
 
@@ -1661,7 +1661,7 @@ Defined in: node\_modules/.bun/typescript@5.9.3/node\_modules/typescript/lib/lib
 readonly optional request?: string;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:26
+Defined in: [packages/zoho-billing/src/errors.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L26)
 
 ###### Inherited from
 
@@ -1707,7 +1707,7 @@ not capture any frames.
 readonly optional status?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:24
+Defined in: [packages/zoho-billing/src/errors.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L24)
 
 ###### Inherited from
 
@@ -1866,7 +1866,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 ### ZohoBillingRateLimitError
 
-Defined in: packages/zoho-billing/src/errors.ts:74
+Defined in: [packages/zoho-billing/src/errors.ts:74](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L74)
 
 Zoho throttled the request. Zoho allows 100 requests/minute/organization and
 also enforces a per-plan daily cap; both surface as HTTP 429.
@@ -1883,7 +1883,7 @@ also enforces a per-plan daily cap; both surface as HTTP 429.
 new ZohoBillingRateLimitError(message, context?): ZohoBillingRateLimitError;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:78
+Defined in: [packages/zoho-billing/src/errors.ts:78](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L78)
 
 ###### Parameters
 
@@ -1908,7 +1908,7 @@ Defined in: packages/zoho-billing/src/errors.ts:78
 readonly optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:25
+Defined in: [packages/zoho-billing/src/errors.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L25)
 
 ###### Inherited from
 
@@ -1934,7 +1934,7 @@ The cause of the error.
 readonly optional code?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:23
+Defined in: [packages/zoho-billing/src/errors.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L23)
 
 ###### Inherited from
 
@@ -1970,7 +1970,7 @@ Defined in: node\_modules/.bun/typescript@5.9.3/node\_modules/typescript/lib/lib
 readonly optional request?: string;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:26
+Defined in: [packages/zoho-billing/src/errors.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L26)
 
 ###### Inherited from
 
@@ -1982,7 +1982,7 @@ Defined in: packages/zoho-billing/src/errors.ts:26
 readonly optional retryAfter?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:76
+Defined in: [packages/zoho-billing/src/errors.ts:76](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L76)
 
 Seconds to wait before retrying, when Zoho sent a `Retry-After` header.
 
@@ -2026,7 +2026,7 @@ not capture any frames.
 readonly optional status?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:24
+Defined in: [packages/zoho-billing/src/errors.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L24)
 
 ###### Inherited from
 
@@ -2185,7 +2185,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 ### ZohoBillingServerError
 
-Defined in: packages/zoho-billing/src/errors.ts:89
+Defined in: [packages/zoho-billing/src/errors.ts:89](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L89)
 
 Zoho returned a 5xx. Safe to retry idempotent calls.
 
@@ -2201,7 +2201,7 @@ Zoho returned a 5xx. Safe to retry idempotent calls.
 new ZohoBillingServerError(message, context?): ZohoBillingServerError;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:90
+Defined in: [packages/zoho-billing/src/errors.ts:90](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L90)
 
 ###### Parameters
 
@@ -2226,7 +2226,7 @@ Defined in: packages/zoho-billing/src/errors.ts:90
 readonly optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:25
+Defined in: [packages/zoho-billing/src/errors.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L25)
 
 ###### Inherited from
 
@@ -2252,7 +2252,7 @@ The cause of the error.
 readonly optional code?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:23
+Defined in: [packages/zoho-billing/src/errors.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L23)
 
 ###### Inherited from
 
@@ -2288,7 +2288,7 @@ Defined in: node\_modules/.bun/typescript@5.9.3/node\_modules/typescript/lib/lib
 readonly optional request?: string;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:26
+Defined in: [packages/zoho-billing/src/errors.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L26)
 
 ###### Inherited from
 
@@ -2334,7 +2334,7 @@ not capture any frames.
 readonly optional status?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:24
+Defined in: [packages/zoho-billing/src/errors.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L24)
 
 ###### Inherited from
 
@@ -2493,7 +2493,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 ### ZohoBillingErrorContext
 
-Defined in: packages/zoho-billing/src/errors.ts:9
+Defined in: [packages/zoho-billing/src/errors.ts:9](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L9)
 
 Error types for the Zoho Billing client.
 
@@ -2509,7 +2509,7 @@ in an otherwise-200 JSON body. Both are normalised into a
 optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:15
+Defined in: [packages/zoho-billing/src/errors.ts:15](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L15)
 
 Raw parsed response body, for debugging or unmapped codes.
 
@@ -2519,7 +2519,7 @@ Raw parsed response body, for debugging or unmapped codes.
 optional cause?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:19
+Defined in: [packages/zoho-billing/src/errors.ts:19](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L19)
 
 Underlying cause for transport failures.
 
@@ -2529,7 +2529,7 @@ Underlying cause for transport failures.
 optional code?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:11
+Defined in: [packages/zoho-billing/src/errors.ts:11](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L11)
 
 Zoho's own numeric error code from the response body, when present.
 
@@ -2539,7 +2539,7 @@ Zoho's own numeric error code from the response body, when present.
 optional request?: string;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:17
+Defined in: [packages/zoho-billing/src/errors.ts:17](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L17)
 
 Method + path of the failing request, e.g. `GET /subscriptions`.
 
@@ -2549,7 +2549,7 @@ Method + path of the failing request, e.g. `GET /subscriptions`.
 optional status?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:13
+Defined in: [packages/zoho-billing/src/errors.ts:13](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L13)
 
 HTTP status, when the failure came from a non-2xx response.
 
@@ -2561,7 +2561,7 @@ HTTP status, when the failure came from a non-2xx response.
 function createZohoBillingError(message, context): ZohoBillingError;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:111
+Defined in: [packages/zoho-billing/src/errors.ts:111](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L111)
 
 Build the right error subclass for a failed response.
 
@@ -2588,7 +2588,7 @@ for callers that need to branch on a specific Zoho code.
 function isRetryableError(error): boolean;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:132
+Defined in: [packages/zoho-billing/src/errors.ts:132](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L132)
 
 True when retrying the same request could plausibly succeed.
 

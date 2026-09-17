@@ -4,7 +4,7 @@
 
 ### ZohoBillingHandlerOptions
 
-Defined in: packages/zoho-billing/src/handler.ts:58
+Defined in: [packages/zoho-billing/src/handler.ts:58](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/handler.ts#L58)
 
 #### Extends
 
@@ -18,7 +18,7 @@ Defined in: packages/zoho-billing/src/handler.ts:58
 optional allowedAddonCodes?: string[];
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:148
+Defined in: [packages/zoho-billing/src/security.ts:148](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L148)
 
 Addon codes a caller may select. Omit to allow all addons.
 
@@ -32,7 +32,7 @@ Addon codes a caller may select. Omit to allow all addons.
 optional allowedPlanCodes?: string[];
 ```
 
-Defined in: packages/zoho-billing/src/security.ts:146
+Defined in: [packages/zoho-billing/src/security.ts:146](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/security.ts#L146)
 
 Plan codes a caller may select. Omit to allow the whole catalogue.
 
@@ -46,7 +46,7 @@ Plan codes a caller may select. Omit to allow the whole catalogue.
 optional allowedRedirectOrigins?: string[];
 ```
 
-Defined in: packages/zoho-billing/src/handler.ts:78
+Defined in: [packages/zoho-billing/src/handler.ts:78](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/handler.ts#L78)
 
 Origins a post-checkout `redirect_url` may point at. Defaults to the
 origin the request arrived on, which is the safe choice for a same-origin
@@ -61,7 +61,7 @@ authorize: (request) =>
   | null;
 ```
 
-Defined in: packages/zoho-billing/src/handler.ts:70
+Defined in: [packages/zoho-billing/src/handler.ts:70](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/handler.ts#L70)
 
 Resolve the caller's Zoho customer from the request, or return `null` to
 reject with 401. Required - there is deliberately no permissive default,
@@ -85,7 +85,7 @@ because these routes expose billing data and billing mutations.
 basePath: string;
 ```
 
-Defined in: packages/zoho-billing/src/handler.ts:64
+Defined in: [packages/zoho-billing/src/handler.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/handler.ts#L64)
 
 Path this handler is mounted at, stripped before routing.
 e.g. `/api/billing`.
@@ -96,7 +96,7 @@ e.g. `/api/billing`.
 optional exposeUpstreamErrors?: boolean;
 ```
 
-Defined in: packages/zoho-billing/src/handler.ts:85
+Defined in: [packages/zoho-billing/src/handler.ts:85](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/handler.ts#L85)
 
 Forward Zoho's own error text to the client. Zoho's messages are written
 for the account holder and can name internal plan or org details, so this
@@ -109,7 +109,7 @@ code instead.
 optional onError?: (error, request) => void;
 ```
 
-Defined in: packages/zoho-billing/src/handler.ts:87
+Defined in: [packages/zoho-billing/src/handler.ts:87](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/handler.ts#L87)
 
 Called for unexpected failures. Defaults to `console.error`.
 
@@ -130,13 +130,13 @@ Called for unexpected failures. Defaults to `console.error`.
 zoho: ZohoBilling;
 ```
 
-Defined in: packages/zoho-billing/src/handler.ts:59
+Defined in: [packages/zoho-billing/src/handler.ts:59](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/handler.ts#L59)
 
 ***
 
 ### ZohoBillingSession
 
-Defined in: packages/zoho-billing/src/handler.ts:50
+Defined in: [packages/zoho-billing/src/handler.ts:50](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/handler.ts#L50)
 
 Identity of the caller, resolved from your own session.
 
@@ -148,7 +148,7 @@ Identity of the caller, resolved from your own session.
 customerId: string;
 ```
 
-Defined in: packages/zoho-billing/src/handler.ts:55
+Defined in: [packages/zoho-billing/src/handler.ts:55](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/handler.ts#L55)
 
 Zoho customer this caller is allowed to act on. Every route is scoped to
 it; there is no way for a caller to reach another customer's data.
@@ -161,7 +161,7 @@ it; there is no way for a caller to reach another customer's data.
 type ZohoBillingRequestHandler = (request) => Promise<Response>;
 ```
 
-Defined in: packages/zoho-billing/src/handler.ts:94
+Defined in: [packages/zoho-billing/src/handler.ts:94](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/handler.ts#L94)
 
 The mounted endpoint: a Web fetch handler. Exported so an app can name it in
 its own route signatures.
@@ -184,7 +184,7 @@ its own route signatures.
 function createZohoBillingHandler(options): ZohoBillingRequestHandler;
 ```
 
-Defined in: packages/zoho-billing/src/handler.ts:96
+Defined in: [packages/zoho-billing/src/handler.ts:96](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/handler.ts#L96)
 
 #### Parameters
 

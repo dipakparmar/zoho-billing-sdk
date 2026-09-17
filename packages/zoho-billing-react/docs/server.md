@@ -4,7 +4,7 @@
 
 ### ZohoBillingNotVisibleError
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:42
+Defined in: [packages/zoho-billing-react/src/server/data.ts:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L42)
 
 Thrown when a resource does not exist *or* belongs to someone else. The two
 cases are deliberately indistinguishable so the error cannot be used to
@@ -22,7 +22,7 @@ probe for valid IDs. Map to `notFound()`.
 new ZohoBillingNotVisibleError(): ZohoBillingNotVisibleError;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:43
+Defined in: [packages/zoho-billing-react/src/server/data.ts:43](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L43)
 
 ###### Returns
 
@@ -279,7 +279,7 @@ Error.prepareStackTrace
 
 ### ZohoBillingUnauthorizedError
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:30
+Defined in: [packages/zoho-billing-react/src/server/data.ts:30](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L30)
 
 Thrown when there is no signed-in customer. Map to a redirect.
 
@@ -295,7 +295,7 @@ Thrown when there is no signed-in customer. Map to a redirect.
 new ZohoBillingUnauthorizedError(): ZohoBillingUnauthorizedError;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:31
+Defined in: [packages/zoho-billing-react/src/server/data.ts:31](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L31)
 
 ###### Returns
 
@@ -552,7 +552,7 @@ Error.prepareStackTrace
 
 ### ZohoBillingActions
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:90
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:90](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L90)
 
 #### Properties
 
@@ -562,7 +562,7 @@ Defined in: packages/zoho-billing-react/src/server/actions.ts:90
 cancelSubscription: (previousState, formData) => Promise<ZohoBillingActionState<ZohoSubscription>>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:91
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:91](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L91)
 
 ###### Parameters
 
@@ -581,7 +581,7 @@ Defined in: packages/zoho-billing-react/src/server/actions.ts:91
 pauseSubscription: (previousState, formData) => Promise<ZohoBillingActionState<ZohoSubscription>>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:99
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:99](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L99)
 
 ###### Parameters
 
@@ -600,7 +600,7 @@ Defined in: packages/zoho-billing-react/src/server/actions.ts:99
 reactivateSubscription: (previousState, formData) => Promise<ZohoBillingActionState<ZohoSubscription>>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:95
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:95](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L95)
 
 ###### Parameters
 
@@ -619,7 +619,7 @@ Defined in: packages/zoho-billing-react/src/server/actions.ts:95
 resumeSubscription: (previousState, formData) => Promise<ZohoBillingActionState<ZohoSubscription>>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:103
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:103](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L103)
 
 ###### Parameters
 
@@ -638,7 +638,7 @@ Defined in: packages/zoho-billing-react/src/server/actions.ts:103
 updateSubscription: (previousState, formData) => Promise<ZohoBillingActionState<ZohoSubscription>>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:107
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:107](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L107)
 
 ###### Parameters
 
@@ -655,7 +655,7 @@ Defined in: packages/zoho-billing-react/src/server/actions.ts:107
 
 ### ZohoBillingActionsOptions
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:74
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:74](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L74)
 
 #### Extends
 
@@ -701,7 +701,7 @@ CatalogAllowlist.allowedPlanCodes
 optional onError?: (error) => void;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:87
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:87](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L87)
 
 Called for unexpected failures. Defaults to `console.error`.
 
@@ -724,7 +724,7 @@ resolveSession: () =>
   | null;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:76
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:76](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L76)
 
 ###### Returns
 
@@ -738,7 +738,7 @@ Defined in: packages/zoho-billing-react/src/server/actions.ts:76
 optional revalidate?: (tag) => void | Promise<void>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:85
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:85](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L85)
 
 Invalidate a cache tag after a successful write. In Next, pass
 `(tag) => revalidateTag(tag)`. Tags come from `./tags`, so they always
@@ -760,13 +760,13 @@ match what the read path applied.
 zoho: ZohoBilling;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:75
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:75](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L75)
 
 ***
 
 ### ZohoBillingCacheAdapter
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:59
+Defined in: [packages/zoho-billing-react/src/server/data.ts:59](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L59)
 
 Hooks into a framework's tag-based cache.
 
@@ -781,7 +781,7 @@ app, pass `cacheTag` from `next/cache` as `tag`.
 optional tag?: (...tags) => void;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:61
+Defined in: [packages/zoho-billing-react/src/server/data.ts:61](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L61)
 
 Tag the surrounding `use cache` scope.
 
@@ -799,7 +799,7 @@ Tag the surrounding `use cache` scope.
 
 ### ZohoBillingServer
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:79
+Defined in: [packages/zoho-billing-react/src/server/data.ts:79](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L79)
 
 Server-only entry: `@dipakparmar/zoho-billing-react/server`.
 
@@ -816,7 +816,7 @@ production build with an error that points somewhere unrelated.
 getCustomer: () => Promise<ZohoCustomer>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:84
+Defined in: [packages/zoho-billing-react/src/server/data.ts:84](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L84)
 
 ###### Returns
 
@@ -828,7 +828,7 @@ Defined in: packages/zoho-billing-react/src/server/data.ts:84
 getInvoices: (options?) => Promise<ZohoInvoice[]>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:88
+Defined in: [packages/zoho-billing-react/src/server/data.ts:88](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L88)
 
 ###### Parameters
 
@@ -847,7 +847,7 @@ Defined in: packages/zoho-billing-react/src/server/data.ts:88
 getPlans: (options?) => Promise<ZohoPlan[]>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:89
+Defined in: [packages/zoho-billing-react/src/server/data.ts:89](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L89)
 
 ###### Parameters
 
@@ -866,7 +866,7 @@ Defined in: packages/zoho-billing-react/src/server/data.ts:89
 getSession: () => Promise<ZohoBillingServerSession | null>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:81
+Defined in: [packages/zoho-billing-react/src/server/data.ts:81](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L81)
 
 The current session, or `null`. Deduped per request.
 
@@ -880,7 +880,7 @@ The current session, or `null`. Deduped per request.
 getSubscription: (subscriptionId) => Promise<ZohoSubscription>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:87
+Defined in: [packages/zoho-billing-react/src/server/data.ts:87](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L87)
 
 One subscription, or `ZohoBillingNotVisibleError` if not the caller's.
 
@@ -900,7 +900,7 @@ One subscription, or `ZohoBillingNotVisibleError` if not the caller's.
 getSubscriptions: () => Promise<ZohoSubscription[]>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:85
+Defined in: [packages/zoho-billing-react/src/server/data.ts:85](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L85)
 
 ###### Returns
 
@@ -912,7 +912,7 @@ Defined in: packages/zoho-billing-react/src/server/data.ts:85
 requireSession: () => Promise<ZohoBillingServerSession>;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:83
+Defined in: [packages/zoho-billing-react/src/server/data.ts:83](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L83)
 
 The current session, throwing `ZohoBillingUnauthorizedError` if absent.
 
@@ -924,7 +924,7 @@ The current session, throwing `ZohoBillingUnauthorizedError` if absent.
 
 ### ZohoBillingServerOptions
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:64
+Defined in: [packages/zoho-billing-react/src/server/data.ts:64](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L64)
 
 Server-only entry: `@dipakparmar/zoho-billing-react/server`.
 
@@ -941,7 +941,7 @@ production build with an error that points somewhere unrelated.
 optional allowedPlanCodes?: string[];
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:76
+Defined in: [packages/zoho-billing-react/src/server/data.ts:76](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L76)
 
 Restrict which plans are visible in server-rendered pricing tables.
 
@@ -951,7 +951,7 @@ Restrict which plans are visible in server-rendered pricing tables.
 optional cache?: ZohoBillingCacheAdapter;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:74
+Defined in: [packages/zoho-billing-react/src/server/data.ts:74](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L74)
 
 ##### resolveSession
 
@@ -962,7 +962,7 @@ resolveSession: () =>
   | null;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:70
+Defined in: [packages/zoho-billing-react/src/server/data.ts:70](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L70)
 
 Resolve the signed-in customer, e.g. from cookies. Return `null` when
 nobody is signed in. Required - identity is never taken from an argument.
@@ -979,13 +979,13 @@ nobody is signed in. Required - identity is never taken from an argument.
 zoho: ZohoBilling;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:65
+Defined in: [packages/zoho-billing-react/src/server/data.ts:65](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L65)
 
 ***
 
 ### ZohoBillingServerSession
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:49
+Defined in: [packages/zoho-billing-react/src/server/data.ts:49](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L49)
 
 Server-only entry: `@dipakparmar/zoho-billing-react/server`.
 
@@ -1002,7 +1002,7 @@ production build with an error that points somewhere unrelated.
 customerId: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:50
+Defined in: [packages/zoho-billing-react/src/server/data.ts:50](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L50)
 
 ## Type Aliases
 
@@ -1025,7 +1025,7 @@ type ZohoBillingActionState<T> =
 };
 ```
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:67
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:67](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L67)
 
 Result shape for `useActionState`.
 
@@ -1047,7 +1047,7 @@ Action becomes an opaque "an error occurred" in production.
 const IDLE_ACTION_STATE: ZohoBillingActionState;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:72
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:72](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L72)
 
 ***
 
@@ -1063,7 +1063,7 @@ const zohoBillingTags: {
 };
 ```
 
-Defined in: packages/zoho-billing-react/src/server/tags.ts:14
+Defined in: [packages/zoho-billing-react/src/server/tags.ts:14](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/tags.ts#L14)
 
 #### Type Declaration
 
@@ -1159,7 +1159,7 @@ A customer's subscription list.
 function createZohoBillingActions(options): ZohoBillingActions;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/actions.ts:113
+Defined in: [packages/zoho-billing-react/src/server/actions.ts:113](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/actions.ts#L113)
 
 #### Parameters
 
@@ -1179,7 +1179,7 @@ Defined in: packages/zoho-billing-react/src/server/actions.ts:113
 function createZohoBillingServer(options): ZohoBillingServer;
 ```
 
-Defined in: packages/zoho-billing-react/src/server/data.ts:100
+Defined in: [packages/zoho-billing-react/src/server/data.ts:100](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/data.ts#L100)
 
 Build the RSC data layer.
 
@@ -1206,7 +1206,7 @@ is 100 requests/minute for the whole organization, shared by every user.
 function subscriptionWriteTags(customerId, subscriptionId?): string[];
 ```
 
-Defined in: packages/zoho-billing-react/src/server/tags.ts:44
+Defined in: [packages/zoho-billing-react/src/server/tags.ts:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/server/tags.ts#L44)
 
 Every tag touched by a subscription write.
 

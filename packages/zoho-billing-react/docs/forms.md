@@ -4,7 +4,7 @@
 
 ### CancelSubscriptionFormProps
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:104
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:104](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L104)
 
 React 19 form bindings: `@dipakparmar/zoho-billing-react/forms`.
 
@@ -27,7 +27,7 @@ reach the browser bundle.
 action: ZohoBillingFormAction;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:39
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:39](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L39)
 
 A Server Action re-exported from your own `"use server"` module.
 
@@ -41,7 +41,7 @@ A Server Action re-exported from your own `"use server"` module.
 optional cancelAtEnd?: boolean;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:109
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:109](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L109)
 
 `true` (default) cancels at the end of the paid term. `false` cuts access
 off immediately - make that an explicit, confirmed choice in the UI.
@@ -52,7 +52,7 @@ off immediately - make that an explicit, confirmed choice in the UI.
 optional children?: ReactNode;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:41
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:41](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L41)
 
 ###### Inherited from
 
@@ -64,7 +64,7 @@ Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:41
 optional className?: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:42
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L42)
 
 ###### Inherited from
 
@@ -76,7 +76,7 @@ Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:42
 optional onSuccess?: () => void;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:44
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L44)
 
 Called once the action reports success.
 
@@ -94,7 +94,7 @@ Called once the action reports success.
 optional renderError?: (message) => ReactNode;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:46
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:46](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L46)
 
 Render your own error UI instead of the default paragraph.
 
@@ -118,7 +118,7 @@ Render your own error UI instead of the default paragraph.
 subscriptionId: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:40
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:40](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L40)
 
 ###### Inherited from
 
@@ -128,7 +128,7 @@ Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:40
 
 ### ChangePlanFormProps
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:146
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:146](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L146)
 
 React 19 form bindings: `@dipakparmar/zoho-billing-react/forms`.
 
@@ -151,7 +151,7 @@ reach the browser bundle.
 action: ZohoBillingFormAction;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:39
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:39](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L39)
 
 A Server Action re-exported from your own `"use server"` module.
 
@@ -165,7 +165,7 @@ A Server Action re-exported from your own `"use server"` module.
 optional children?: ReactNode;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:41
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:41](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L41)
 
 ###### Inherited from
 
@@ -177,7 +177,7 @@ Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:41
 optional className?: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:42
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L42)
 
 ###### Inherited from
 
@@ -189,7 +189,7 @@ Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:42
 optional endOfTerm?: boolean;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:153
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:153](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L153)
 
 `false` applies the change immediately with proration; `true` defers it to
 the next renewal. Set it deliberately - the default differs per Zoho org.
@@ -200,7 +200,7 @@ the next renewal. Set it deliberately - the default differs per Zoho org.
 optional onSuccess?: () => void;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:44
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L44)
 
 Called once the action reports success.
 
@@ -218,7 +218,7 @@ Called once the action reports success.
 planCode: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:147
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:147](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L147)
 
 ##### quantity?
 
@@ -226,7 +226,7 @@ Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:147
 optional quantity?: number;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:148
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:148](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L148)
 
 ##### renderError?
 
@@ -234,7 +234,7 @@ Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:148
 optional renderError?: (message) => ReactNode;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:46
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:46](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L46)
 
 Render your own error UI instead of the default paragraph.
 
@@ -258,7 +258,7 @@ Render your own error UI instead of the default paragraph.
 subscriptionId: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:40
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:40](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L40)
 
 ###### Inherited from
 
@@ -268,7 +268,7 @@ Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:40
 
 ### SubscriptionFormProps
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:37
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:37](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L37)
 
 React 19 form bindings: `@dipakparmar/zoho-billing-react/forms`.
 
@@ -292,7 +292,7 @@ reach the browser bundle.
 action: ZohoBillingFormAction;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:39
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:39](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L39)
 
 A Server Action re-exported from your own `"use server"` module.
 
@@ -302,7 +302,7 @@ A Server Action re-exported from your own `"use server"` module.
 optional children?: ReactNode;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:41
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:41](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L41)
 
 ##### className?
 
@@ -310,7 +310,7 @@ Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:41
 optional className?: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:42
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:42](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L42)
 
 ##### onSuccess?
 
@@ -318,7 +318,7 @@ Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:42
 optional onSuccess?: () => void;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:44
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:44](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L44)
 
 Called once the action reports success.
 
@@ -332,7 +332,7 @@ Called once the action reports success.
 optional renderError?: (message) => ReactNode;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:46
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:46](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L46)
 
 Render your own error UI instead of the default paragraph.
 
@@ -352,7 +352,7 @@ Render your own error UI instead of the default paragraph.
 subscriptionId: string;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:40
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:40](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L40)
 
 ## Type Aliases
 
@@ -362,7 +362,7 @@ Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:40
 type SubscriptionIntent = "cancel" | "cancel_now" | "reactivate" | "pause" | "resume";
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/useOptimisticSubscription.ts:10
+Defined in: [packages/zoho-billing-react/src/forms/useOptimisticSubscription.ts:10](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/useOptimisticSubscription.ts#L10)
 
 Intents a customer can express from the UI.
 
@@ -374,7 +374,7 @@ Intents a customer can express from the UI.
 type ZohoBillingFormAction<T> = (previousState, formData) => Promise<ZohoBillingFormState<T>>;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/types.ts:18
+Defined in: [packages/zoho-billing-react/src/forms/types.ts:18](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/types.ts#L18)
 
 Signature a Server Action must have to drive `useActionState`.
 
@@ -416,7 +416,7 @@ type ZohoBillingFormState<T> =
 };
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/types.ts:10
+Defined in: [packages/zoho-billing-react/src/forms/types.ts:10](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/types.ts#L10)
 
 Result shape returned by the Server Actions.
 
@@ -438,7 +438,7 @@ module - which would pull `node:crypto` into the browser bundle.
 const IDLE_FORM_STATE: ZohoBillingFormState;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/types.ts:15
+Defined in: [packages/zoho-billing-react/src/forms/types.ts:15](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/types.ts#L15)
 
 ***
 
@@ -448,7 +448,7 @@ Defined in: packages/zoho-billing-react/src/forms/types.ts:15
 const useBillingPromise: <T>(promise) => T = useSubscriptionPromise;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/useSubscriptionPromise.ts:41
+Defined in: [packages/zoho-billing-react/src/forms/useSubscriptionPromise.ts:41](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/useSubscriptionPromise.ts#L41)
 
 Alias for readability when the promise is not subscription-shaped.
 
@@ -506,7 +506,7 @@ to the nearest error boundary, so pair the Suspense boundary with one.
 function CancelSubscriptionForm(__namedParameters): Element;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:112
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:112](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L112)
 
 React 19 form bindings: `@dipakparmar/zoho-billing-react/forms`.
 
@@ -535,7 +535,7 @@ reach the browser bundle.
 function ChangePlanForm(__namedParameters): Element;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:156
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:156](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L156)
 
 React 19 form bindings: `@dipakparmar/zoho-billing-react/forms`.
 
@@ -564,7 +564,7 @@ reach the browser bundle.
 function formatActionError(error): string;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/types.ts:29
+Defined in: [packages/zoho-billing-react/src/forms/types.ts:29](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/types.ts#L29)
 
 Map an action's error slug to a message for the customer.
 
@@ -589,7 +589,7 @@ so this is the only place user-facing wording is decided.
 function ReactivateSubscriptionForm(__namedParameters): Element;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:131
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:131](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L131)
 
 React 19 form bindings: `@dipakparmar/zoho-billing-react/forms`.
 
@@ -618,7 +618,7 @@ reach the browser bundle.
 function SubscriptionSubmitButton(__namedParameters): Element;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:22
+Defined in: [packages/zoho-billing-react/src/forms/SubscriptionForms.tsx:22](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/SubscriptionForms.tsx#L22)
 
 Submit button that disables itself while its parent form is in flight.
 
@@ -645,7 +645,7 @@ double-submittable billing button.
 function useOptimisticSubscription(subscription): [ZohoSubscription | undefined, (intent) => void];
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/useOptimisticSubscription.ts:47
+Defined in: [packages/zoho-billing-react/src/forms/useOptimisticSubscription.ts:47](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/useOptimisticSubscription.ts#L47)
 
 Optimistically reflect a pending subscription change.
 
@@ -679,7 +679,7 @@ This is presentation only. Entitlement must still be decided server-side.
 function useSubscriptionPromise<T>(promise): T;
 ```
 
-Defined in: packages/zoho-billing-react/src/forms/useSubscriptionPromise.ts:36
+Defined in: [packages/zoho-billing-react/src/forms/useSubscriptionPromise.ts:36](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing-react/src/forms/useSubscriptionPromise.ts#L36)
 
 Unwrap a promise handed down from a Server Component.
 

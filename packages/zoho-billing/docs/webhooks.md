@@ -4,7 +4,7 @@
 
 ### ZohoWebhookVerificationError
 
-Defined in: packages/zoho-billing/src/webhooks.ts:32
+Defined in: [packages/zoho-billing/src/webhooks.ts:32](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L32)
 
 #### Extends
 
@@ -18,7 +18,7 @@ Defined in: packages/zoho-billing/src/webhooks.ts:32
 new ZohoWebhookVerificationError(message): ZohoWebhookVerificationError;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:33
+Defined in: [packages/zoho-billing/src/webhooks.ts:33](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L33)
 
 ###### Parameters
 
@@ -42,7 +42,7 @@ Defined in: packages/zoho-billing/src/webhooks.ts:33
 readonly optional body?: unknown;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:25
+Defined in: [packages/zoho-billing/src/errors.ts:25](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L25)
 
 ###### Inherited from
 
@@ -68,7 +68,7 @@ The cause of the error.
 readonly optional code?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:23
+Defined in: [packages/zoho-billing/src/errors.ts:23](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L23)
 
 ###### Inherited from
 
@@ -104,7 +104,7 @@ Defined in: node\_modules/.bun/typescript@5.9.3/node\_modules/typescript/lib/lib
 readonly optional request?: string;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:26
+Defined in: [packages/zoho-billing/src/errors.ts:26](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L26)
 
 ###### Inherited from
 
@@ -150,7 +150,7 @@ not capture any frames.
 readonly optional status?: number;
 ```
 
-Defined in: packages/zoho-billing/src/errors.ts:24
+Defined in: [packages/zoho-billing/src/errors.ts:24](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/errors.ts#L24)
 
 ###### Inherited from
 
@@ -309,7 +309,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 ### ConstructEventOptions
 
-Defined in: packages/zoho-billing/src/webhooks.ts:128
+Defined in: [packages/zoho-billing/src/webhooks.ts:128](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L128)
 
 #### Properties
 
@@ -319,7 +319,7 @@ Defined in: packages/zoho-billing/src/webhooks.ts:128
 payload: string | Buffer<ArrayBufferLike>;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:129
+Defined in: [packages/zoho-billing/src/webhooks.ts:129](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L129)
 
 ##### providedSecret?
 
@@ -327,7 +327,7 @@ Defined in: packages/zoho-billing/src/webhooks.ts:129
 optional providedSecret?: string | null;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:131
+Defined in: [packages/zoho-billing/src/webhooks.ts:131](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L131)
 
 Shared secret presented by the caller, if you configured one.
 
@@ -337,7 +337,7 @@ Shared secret presented by the caller, if you configured one.
 optional secret?: string;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:133
+Defined in: [packages/zoho-billing/src/webhooks.ts:133](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L133)
 
 Expected shared secret. When set, a mismatch throws.
 
@@ -347,7 +347,7 @@ Expected shared secret. When set, a mismatch throws.
 optional signature?: string | null;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:135
+Defined in: [packages/zoho-billing/src/webhooks.ts:135](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L135)
 
 HMAC from a signing proxy, if you have one in front.
 
@@ -355,7 +355,7 @@ HMAC from a signing proxy, if you have one in front.
 
 ### VerifyWebhookSecretOptions
 
-Defined in: packages/zoho-billing/src/webhooks.ts:52
+Defined in: [packages/zoho-billing/src/webhooks.ts:52](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L52)
 
 #### Properties
 
@@ -365,7 +365,7 @@ Defined in: packages/zoho-billing/src/webhooks.ts:52
 expected: string;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:59
+Defined in: [packages/zoho-billing/src/webhooks.ts:59](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L59)
 
 The secret you expect, from your environment.
 
@@ -375,7 +375,7 @@ The secret you expect, from your environment.
 provided: string | null | undefined;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:57
+Defined in: [packages/zoho-billing/src/webhooks.ts:57](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L57)
 
 The secret presented by the caller: read it from the header or query
 parameter you configured in Zoho's webhook settings.
@@ -384,7 +384,7 @@ parameter you configured in Zoho's webhook settings.
 
 ### VerifyWebhookSignatureOptions
 
-Defined in: packages/zoho-billing/src/webhooks.ts:76
+Defined in: [packages/zoho-billing/src/webhooks.ts:76](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L76)
 
 #### Properties
 
@@ -394,7 +394,7 @@ Defined in: packages/zoho-billing/src/webhooks.ts:76
 optional algorithm?: "sha256" | "sha512";
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:82
+Defined in: [packages/zoho-billing/src/webhooks.ts:82](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L82)
 
 ##### payload
 
@@ -402,7 +402,7 @@ Defined in: packages/zoho-billing/src/webhooks.ts:82
 payload: string;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:78
+Defined in: [packages/zoho-billing/src/webhooks.ts:78](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L78)
 
 Raw request body, exactly as received. Do not re-serialise it.
 
@@ -412,7 +412,7 @@ Raw request body, exactly as received. Do not re-serialise it.
 secret: string;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:81
+Defined in: [packages/zoho-billing/src/webhooks.ts:81](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L81)
 
 ##### signature
 
@@ -420,7 +420,7 @@ Defined in: packages/zoho-billing/src/webhooks.ts:81
 signature: string;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:80
+Defined in: [packages/zoho-billing/src/webhooks.ts:80](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L80)
 
 Hex-encoded HMAC from the request header.
 
@@ -432,7 +432,7 @@ Hex-encoded HMAC from the request header.
 function constructEvent(__namedParameters): ZohoEvent;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:145
+Defined in: [packages/zoho-billing/src/webhooks.ts:145](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L145)
 
 Verify and parse a webhook in one step - the rough equivalent of Stripe's
 `constructEvent`.
@@ -458,7 +458,7 @@ or a matching `signature`) or this throws.
 function getEventResource<K>(event, key): ZohoEventPayload[K] | undefined;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:175
+Defined in: [packages/zoho-billing/src/webhooks.ts:175](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L175)
 
 Pull the resource an event carries, e.g. `getEventResource(e, "subscription")`.
 
@@ -487,7 +487,7 @@ Pull the resource an event carries, e.g. `getEventResource(e, "subscription")`.
 function isEventType<T>(event, type): event is ZohoEvent & { event_type: T };
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:167
+Defined in: [packages/zoho-billing/src/webhooks.ts:167](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L167)
 
 Narrow an event to a specific type, for exhaustive switch handling.
 
@@ -516,7 +516,7 @@ Narrow an event to a specific type, for exhaustive switch handling.
 function parseWebhookEvent(payload): ZohoEvent;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:110
+Defined in: [packages/zoho-billing/src/webhooks.ts:110](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L110)
 
 Parse a raw webhook body into a typed event.
 
@@ -541,7 +541,7 @@ undefined field somewhere downstream.
 function safeCompare(a, b): boolean;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:46
+Defined in: [packages/zoho-billing/src/webhooks.ts:46](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L46)
 
 Compare two secrets without leaking their contents through timing.
 
@@ -568,7 +568,7 @@ channel.
 function verifyWebhookSecret(__namedParameters): boolean;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:68
+Defined in: [packages/zoho-billing/src/webhooks.ts:68](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L68)
 
 Check a shared secret sent by Zoho against the one you configured.
 
@@ -593,7 +593,7 @@ can respond 401 uniformly.
 function verifyWebhookSignature(__namedParameters): boolean;
 ```
 
-Defined in: packages/zoho-billing/src/webhooks.ts:91
+Defined in: [packages/zoho-billing/src/webhooks.ts:91](https://github.com/dipakparmar/zoho-billing-sdk/blob/main/packages/zoho-billing/src/webhooks.ts#L91)
 
 Verify an HMAC over the raw body.
 

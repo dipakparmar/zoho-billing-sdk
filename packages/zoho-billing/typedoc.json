@@ -1,8 +1,6 @@
 {
   "$schema": "https://typedoc.org/schema.json",
-  "plugin": [
-    "typedoc-plugin-markdown"
-  ],
+  "plugin": ["typedoc-plugin-markdown"],
   "entryPoints": [
     "src/index.ts",
     "src/errors.ts",
@@ -22,9 +20,7 @@
   "parametersFormat": "table",
   "excludePrivate": true,
   "excludeInternal": true,
-  "sort": [
-    "alphabetical"
-  ],
+  "sort": ["alphabetical"],
   "categorizeByGroup": true,
   "gitRevision": "main",
   "outputFileStrategy": "modules",

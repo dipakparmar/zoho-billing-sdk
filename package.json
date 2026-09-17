@@ -12,7 +12,7 @@
     "format:check": "oxfmt --check",
     "docs": "bun run --filter='*' docs",
     "docs:check": "bun run --filter='*' docs:check",
-    "verify": "bun run lint && bun run typecheck && bun run test && bun run build && bun run docs:check"
+    "verify": "bun run lint && bun run build && bun run typecheck && bun run test && bun run docs:check"
   },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",

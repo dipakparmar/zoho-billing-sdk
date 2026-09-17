@@ -34,31 +34,26 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "source": "./src/index.ts",
       "import": "./dist/index.js",
       "default": "./dist/index.js"
     },
     "./hooks": {
       "types": "./dist/hooks/index.d.ts",
-      "source": "./src/hooks/index.ts",
       "import": "./dist/hooks/index.js",
       "default": "./dist/hooks/index.js"
     },
     "./components": {
       "types": "./dist/components/index.d.ts",
-      "source": "./src/components/index.ts",
       "import": "./dist/components/index.js",
       "default": "./dist/components/index.js"
     },
     "./forms": {
       "types": "./dist/forms/index.d.ts",
-      "source": "./src/forms/index.ts",
       "import": "./dist/forms/index.js",
       "default": "./dist/forms/index.js"
     },
     "./server": {
       "types": "./dist/server/index.d.ts",
-      "source": "./src/server/index.ts",
       "import": "./dist/server/index.js",
       "default": "./dist/server/index.js"
     }

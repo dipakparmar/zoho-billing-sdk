@@ -1,0 +1,104 @@
+{
+  "name": "@dipakparmar/zoho-billing-react",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "description": "React hooks, Server Components, and Server Actions for Zoho Billing subscriptions",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint .",
+    "format": "oxfmt",
+    "docs": "typedoc",
+    "docs:check": "typedoc && git diff --exit-code --stat -- docs",
+    "prepublishOnly": "bun run build"
+  },
+  "dependencies": {
+    "@dipakparmar/zoho-billing": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.21",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "typescript": "^5.9.3",
+    "tsdown": "^0.15.6"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "source": "./src/index.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./hooks": {
+      "types": "./dist/hooks/index.d.ts",
+      "source": "./src/hooks/index.ts",
+      "import": "./dist/hooks/index.js",
+      "default": "./dist/hooks/index.js"
+    },
+    "./components": {
+      "types": "./dist/components/index.d.ts",
+      "source": "./src/components/index.ts",
+      "import": "./dist/components/index.js",
+      "default": "./dist/components/index.js"
+    },
+    "./forms": {
+      "types": "./dist/forms/index.d.ts",
+      "source": "./src/forms/index.ts",
+      "import": "./dist/forms/index.js",
+      "default": "./dist/forms/index.js"
+    },
+    "./server": {
+      "types": "./dist/server/index.d.ts",
+      "source": "./src/server/index.ts",
+      "import": "./dist/server/index.js",
+      "default": "./dist/server/index.js"
+    }
+  },
+  "license": "MIT",
+  "author": "Dipak Parmar",
+  "homepage": "https://github.com/dipakparmar/zoho-billing-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipakparmar/zoho-billing-sdk.git",
+    "directory": "packages/zoho-billing-react"
+  },
+  "bugs": {
+    "url": "https://github.com/dipakparmar/zoho-billing-sdk/issues"
+  },
+  "keywords": [
+    "zoho",
+    "zoho-billing",
+    "react",
+    "hooks",
+    "server-components",
+    "server-actions",
+    "subscriptions",
+    "billing",
+    "nextjs"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

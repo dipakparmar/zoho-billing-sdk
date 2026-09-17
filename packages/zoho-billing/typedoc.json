@@ -1,0 +1,28 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "plugin": ["typedoc-plugin-markdown"],
+  "entryPoints": [
+    "src/index.ts",
+    "src/errors.ts",
+    "src/webhooks.ts",
+    "src/handler.ts",
+    "src/security.ts",
+    "src/types/index.ts"
+  ],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "readme": "none",
+  "githubPages": false,
+  "hidePageHeader": true,
+  "hideBreadcrumbs": true,
+  "useCodeBlocks": true,
+  "expandObjects": true,
+  "parametersFormat": "table",
+  "excludePrivate": true,
+  "excludeInternal": true,
+  "sort": ["alphabetical"],
+  "categorizeByGroup": true,
+  "gitRevision": "main",
+  "outputFileStrategy": "modules",
+  "mergeReadme": false
+}

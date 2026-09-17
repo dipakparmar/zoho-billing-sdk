@@ -1,0 +1,19 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@3.0.0/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    {
+      "repo": "dipakparmar/zoho-billing-sdk"
+    }
+  ],
+  "commit": false,
+  "access": "public",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "linked": [
+    [
+      "@dipakparmar/zoho-billing",
+      "@dipakparmar/zoho-billing-react"
+    ]
+  ]
+}

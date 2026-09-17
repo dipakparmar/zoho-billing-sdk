@@ -1,0 +1,80 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "ignorePatterns": [
+    ".next/**",
+    "out/**",
+    "build/**",
+    "dist/**",
+    "coverage/**",
+    ".turbo/**",
+    ".expo/**",
+    "docs/**",
+    "**/*.d.ts",
+    "**/*.ipa"
+  ],
+  "env": {
+    "es2024": true
+  },
+  "globals": {
+    "React": "readonly"
+  },
+  "settings": {
+    "next": {
+      "rootDir": "apps/dashboard"
+    }
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.config.js",
+        "*.config.cjs",
+        "*.config.mjs",
+        "eslint.config.mjs",
+        "drizzle.config.ts",
+        "playwright.config.ts",
+        "apps/mobile/scripts/**/*.js",
+        "packages/**/postcss.config.mjs"
+      ],
+      "env": {
+        "node": true
+      }
+    },
+    {
+      "files": ["apps/dashboard/**/*.{js,jsx,ts,tsx}"],
+      "plugins": [
+        "eslint",
+        "typescript",
+        "unicorn",
+        "oxc",
+        "react",
+        "nextjs",
+        "import"
+      ],
+      "env": {
+        "browser": true,
+        "node": true
+      }
+    },
+    {
+      "files": ["apps/mobile/**/*.{js,jsx,ts,tsx}"],
+      "plugins": ["eslint", "typescript", "unicorn", "oxc", "react", "import"],
+      "env": {
+        "browser": true
+      },
+      "globals": {
+        "__DEV__": "readonly"
+      }
+    },
+    {
+      "files": ["packages/ui/**/*.{js,jsx,ts,tsx}"],
+      "plugins": ["eslint", "typescript", "unicorn", "oxc", "react", "import"],
+      "env": {
+        "browser": true
+      }
+    },
+    {
+      "files": ["packages/shared/**/*.{js,jsx,ts,tsx}"],
+      "plugins": ["eslint", "typescript", "unicorn", "oxc", "import"]
+    }
+  ]
+}

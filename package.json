@@ -1,0 +1,40 @@
+{
+  "name": "zoho-billing-sdk",
+  "private": true,
+  "type": "module",
+  "description": "Zoho Billing SDK and React bindings - a Stripe-style developer experience for Zoho Billing subscriptions",
+  "scripts": {
+    "build": "bun run --filter='*' build",
+    "test": "bun run --filter='*' test",
+    "typecheck": "bun run --filter='*' typecheck",
+    "lint": "bun run --filter='*' lint",
+    "format": "bun run --filter='*' format",
+    "docs": "bun run --filter='*' docs",
+    "docs:check": "bun run --filter='*' docs:check",
+    "verify": "bun run lint && bun run typecheck && bun run test && bun run build && bun run docs:check",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "bun run build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.8",
+    "@types/bun": "^1.2.21",
+    "oxfmt": "^0.51.0",
+    "oxlint": "^1.26.0",
+    "typedoc": "^0.28.20",
+    "typedoc-plugin-markdown": "^4.12.0",
+    "typescript": "^5.9.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "bun@1.3.11",
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipakparmar/zoho-billing-sdk.git"
+  }
+}

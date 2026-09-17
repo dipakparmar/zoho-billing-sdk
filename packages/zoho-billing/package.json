@@ -1,0 +1,98 @@
+{
+  "name": "@dipakparmar/zoho-billing",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "description": "Zoho Billing (Subscriptions) API client for Node - a Stripe-style SDK",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint .",
+    "format": "oxfmt",
+    "docs": "typedoc",
+    "docs:check": "typedoc && git diff --exit-code --stat -- docs",
+    "prepublishOnly": "bun run build"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.21",
+    "typescript": "^5.9.3",
+    "tsdown": "^0.15.6"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "source": "./src/index.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./errors": {
+      "types": "./dist/errors.d.ts",
+      "source": "./src/errors.ts",
+      "import": "./dist/errors.js",
+      "default": "./dist/errors.js"
+    },
+    "./webhooks": {
+      "types": "./dist/webhooks.d.ts",
+      "source": "./src/webhooks.ts",
+      "import": "./dist/webhooks.js",
+      "default": "./dist/webhooks.js"
+    },
+    "./handler": {
+      "types": "./dist/handler.d.ts",
+      "source": "./src/handler.ts",
+      "import": "./dist/handler.js",
+      "default": "./dist/handler.js"
+    },
+    "./security": {
+      "types": "./dist/security.d.ts",
+      "source": "./src/security.ts",
+      "import": "./dist/security.js",
+      "default": "./dist/security.js"
+    },
+    "./types": {
+      "types": "./dist/types/index.d.ts",
+      "source": "./src/types/index.ts",
+      "import": "./dist/types/index.js",
+      "default": "./dist/types/index.js"
+    }
+  },
+  "license": "MIT",
+  "author": "Dipak Parmar",
+  "homepage": "https://github.com/dipakparmar/zoho-billing-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipakparmar/zoho-billing-sdk.git",
+    "directory": "packages/zoho-billing"
+  },
+  "bugs": {
+    "url": "https://github.com/dipakparmar/zoho-billing-sdk/issues"
+  },
+  "keywords": [
+    "zoho",
+    "zoho-billing",
+    "zoho-subscriptions",
+    "billing",
+    "subscriptions",
+    "sdk",
+    "api-client",
+    "stripe-alternative"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

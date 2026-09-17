@@ -13,8 +13,8 @@ are easy to get wrong in an integration.
 
 ### 1. Much of the request body is pricing input
 
-Zoho's subscription API does not just select *what* to buy - it also accepts
-*what it costs*. Per Zoho's own specification:
+Zoho's subscription API does not just select _what_ to buy - it also accepts
+_what it costs_. Per Zoho's own specification:
 
 - `plan.price` - "If a value is provided here, the plan's price for this
   subscription will be changed to the given value."
@@ -47,7 +47,7 @@ body is unmodified.
 Consequences:
 
 - Serve the endpoint over HTTPS only; the secret travels in clear text.
-- Treat payloads as *notifications*, not truth. For anything that grants access
+- Treat payloads as _notifications_, not truth. For anything that grants access
   or moves money, re-fetch the resource from the API by ID.
 - Delivery is best-effort with no replay. Poll `events.list()` to backfill.
 

@@ -4,8 +4,8 @@ React hooks and headless components for Zoho Billing subscriptions.
 
 Four entry points:
 
-| Entry                                      | Environment     | Needs                                               |
-| ------------------------------------------ | --------------- | --------------------------------------------------- |
+| Entry                                        | Environment     | Needs                                               |
+| -------------------------------------------- | --------------- | --------------------------------------------------- |
 | `@dipakparmar/zoho-billing-react`            | Client          | React 18+                                           |
 | `@dipakparmar/zoho-billing-react/forms`      | Client          | React 19 (`useActionState`, `useOptimistic`, `use`) |
 | `@dipakparmar/zoho-billing-react/server`     | **Server only** | React 19, Zoho credentials                          |

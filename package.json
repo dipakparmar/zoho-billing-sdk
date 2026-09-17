@@ -9,18 +9,18 @@
     "typecheck": "bun run --filter='*' typecheck",
     "lint": "bun run --filter='*' lint",
     "format": "bun run --filter='*' format",
+    "format:check": "oxfmt --check",
     "docs": "bun run --filter='*' docs",
     "docs:check": "bun run --filter='*' docs:check",
-    "verify": "bun run lint && bun run typecheck && bun run test && bun run build && bun run docs:check",
-    "changeset": "changeset",
-    "version": "changeset version",
-    "release": "bun run build && changeset publish"
+    "verify": "bun run lint && bun run typecheck && bun run test && bun run build && bun run docs:check"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.29.8",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
     "@types/bun": "^1.2.21",
     "oxfmt": "^0.51.0",
     "oxlint": "^1.26.0",
+    "semantic-release": "25.0.5",
     "typedoc": "^0.28.20",
     "typedoc-plugin-markdown": "^4.12.0",
     "typescript": "^5.9.3"

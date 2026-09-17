@@ -14,7 +14,9 @@ generated-docs drift check.
 
 ## Before opening a pull request
 
-1. Add a changeset describing the change: `bun run changeset`
+1. Use a [Conventional Commit](https://www.conventionalcommits.org/) message
+   (`feat:`, `fix:`, `docs:`, etc). Releases are cut automatically by
+   semantic-release from these messages on `main`.
 2. Regenerate reference docs if you changed a public signature or doc comment:
    `bun run docs`
 3. Make sure `bun run verify` passes.

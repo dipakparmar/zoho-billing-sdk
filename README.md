@@ -7,10 +7,10 @@ bindings with Server Component and Server Action support.
 Built from Zoho's official OpenAPI documents, so paths, parameters, and the
 39 webhook event types match the published spec.
 
-| Package | Description |
-| --- | --- |
-| [`@dipakparmar/zoho-billing`](packages/zoho-billing) | Node SDK: subscriptions, customers, catalogue, invoices, payments, hosted pages, webhooks |
-| [`@dipakparmar/zoho-billing-react`](packages/zoho-billing-react) | React hooks, RSC readers, Server Action factories, React 19 forms |
+| Package                                                          | Description                                                                               |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| [`@dipakparmar/zoho-billing`](packages/zoho-billing)             | Node SDK: subscriptions, customers, catalogue, invoices, payments, hosted pages, webhooks |
+| [`@dipakparmar/zoho-billing-react`](packages/zoho-billing-react) | React hooks, RSC readers, Server Action factories, React 19 forms                         |
 
 ## Install
 
@@ -42,7 +42,7 @@ const subscription = await zoho.subscriptions.create({
 
 See each package's README for full documentation, and [`SECURITY.md`](SECURITY.md)
 for the threat model - which matters more than usual here, because a large part
-of Zoho's subscription request body is *pricing input*.
+of Zoho's subscription request body is _pricing input_.
 
 ## Development
 
@@ -53,12 +53,8 @@ bun run verify   # lint, typecheck, test, build, docs drift check
 
 ## Releasing
 
-Versioning is handled by [changesets](https://github.com/changesets/changesets):
-
-```bash
-bun run changeset   # describe the change
-git push            # CI opens a release PR; merging it publishes
-```
+Releases are cut automatically by semantic-release from Conventional Commit
+messages on `main`.
 
 ## License
 

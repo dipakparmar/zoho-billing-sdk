@@ -13,7 +13,9 @@
     "format": "oxfmt",
     "docs": "typedoc",
     "docs:check": "typedoc && git diff --exit-code --stat -- docs",
-    "prepublishOnly": "bun run build"
+    "prepublishOnly": "bun run build",
+    "prepack": "bun scripts/prepublish.ts",
+    "postpack": "bun scripts/prepublish.ts restore"
   },
   "dependencies": {
     "@dipakparmar/zoho-billing": "workspace:*"

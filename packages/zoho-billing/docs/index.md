@@ -981,7 +981,8 @@ Defined in: packages/zoho-billing/src/resources/customers.ts:44
 updateContactPerson(
    customerId, 
    contactPersonId, 
-params): Promise<ZohoContactPerson>;
+   params
+): Promise<ZohoContactPerson>;
 ```
 
 Defined in: packages/zoho-billing/src/resources/customers.ts:145
@@ -3419,7 +3420,8 @@ Defined in: packages/zoho-billing/src/resources/subscriptions.ts:350
 updateLineItemDescription(
    subscriptionId, 
    planOrAddonCode, 
-description): Promise<ZohoSubscription>;
+   description
+): Promise<ZohoSubscription>;
 ```
 
 Defined in: packages/zoho-billing/src/resources/subscriptions.ts:314
@@ -3678,7 +3680,8 @@ Defined in: packages/zoho-billing/src/client.ts:108
 listAll<T>(
    path, 
    key, 
-options?): Promise<T[]>;
+   options?
+): Promise<T[]>;
 ```
 
 Defined in: packages/zoho-billing/src/client.ts:270
@@ -3709,7 +3712,8 @@ Collect every page of a list endpoint into a single array.
 paginate<T>(
    path, 
    key, 
-options?): AsyncGenerator<T, void, undefined>;
+   options?
+): AsyncGenerator<T, void, undefined>;
 ```
 
 Defined in: packages/zoho-billing/src/client.ts:242

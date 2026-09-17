@@ -6,7 +6,7 @@ export default defineConfig({
     "./src/hooks/index.ts",
     "./src/components/index.ts",
     "./src/forms/index.ts",
-    "./src/server/index.ts"
+    "./src/server/index.ts",
   ],
   format: ["esm"],
   dts: true,

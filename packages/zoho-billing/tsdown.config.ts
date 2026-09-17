@@ -7,7 +7,7 @@ export default defineConfig({
     "./src/webhooks.ts",
     "./src/handler.ts",
     "./src/security.ts",
-    "./src/types/index.ts"
+    "./src/types/index.ts",
   ],
   format: ["esm"],
   dts: true,

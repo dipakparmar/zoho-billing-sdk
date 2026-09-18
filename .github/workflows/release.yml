@@ -52,9 +52,11 @@ jobs:
         uses: actions/setup-node@v7.0.0
         with:
           node-version: 24
-          registry-url: https://registry.npmjs.org
 
-      # npm auth via OIDC trusted publishing (id-token: write above). No NPM_TOKEN.
+      # No registry-url here: it would write an .npmrc with an
+      # ${NODE_AUTH_TOKEN} placeholder that can interfere with OIDC when no
+      # token is set. npm >= 11.5 performs the OIDC trusted-publishing
+      # exchange itself under id-token: write, no .npmrc auth needed.
       # Requires a trusted publisher configured for each package on npmjs.com:
       # repo dipakparmar/zoho-billing-sdk, workflow release.yml.
       - name: Release

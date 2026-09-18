@@ -13,19 +13,8 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "bun scripts/sync-internal-deps.ts ${nextRelease.version}"
-      }
-    ],
-    [
-      "@semantic-release/npm",
-      {
-        "pkgRoot": "packages/zoho-billing"
-      }
-    ],
-    [
-      "@semantic-release/npm",
-      {
-        "pkgRoot": "packages/zoho-billing-react"
+        "prepareCmd": "bun scripts/set-release-version.ts ${nextRelease.version}",
+        "publishCmd": "bun scripts/publish-packages.ts"
       }
     ],
     [

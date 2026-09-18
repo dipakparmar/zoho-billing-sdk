@@ -1,6 +1,6 @@
 {
   "name": "@dipakparmar/zoho-billing",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "private": false,
   "description": "Zoho Billing (Subscriptions) API client for Node - a Stripe-style SDK",

@@ -15,7 +15,7 @@
     "verify": "bun run lint && bun run build && bun run typecheck && bun run test && bun run docs:check"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/changelog": "7.0.0",
     "@semantic-release/exec": "7.1.0",
     "@semantic-release/git": "10.0.1",
     "@types/bun": "^1.2.21",
